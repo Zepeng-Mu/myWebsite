@@ -6,7 +6,7 @@ lastmod = 2018-01-13
 draft = false
 
 tags = ["academic"]
-summary = "Create a beautifully simple website or blog in under 10 minutes."
+summary = ""
 
 [header]
 image = "headers/getting-started.png"
@@ -44,6 +44,31 @@ caption = "1950s"
 +++
 
 
-## Education
+## EDUCATION
+---
+* **Bachelar of Science**  
+	*Sept., 2014 - Jul., 2018*, University of Chinese Academy of Sciences
+* **Ph.D**  
+	*In Progress*, Genetics, Genomics, and Systems Biology, The University of Chicago
 
-Hi,.
+## PUBLICATIONS
+---
+
+## RESEARCH SKILLS
+---
+* **Dry Lab**: R, UNIX, Python, LaTex, Perl
+* **Wet Lab**: Molecular cloning, Luciferase reporter assay, Cell culturing
+
+## RESEARCH EXPERIENCE
+---
+* **Advisor: Dr. M. Eileen Dolan**, Department of Medicine, The University of Chicago  
+	Oct., 2017 - Mar., 2018
+
+* **Advisor: Prof. Changqing Zeng**, Beijing Institute of Genomics, Chinese Academy of Sciences  
+	Aug., 2017 - Jul., 2018
+
+
+## AWARDS
+---
+
+

@@ -6,7 +6,7 @@ lastmod = 2018-01-13
 draft = false
 
 tags = ["academic"]
-summary = "Create a beautifully simple website or blog in under 10 minutes."
+summary = "A list of the projects I have participated in."
 
 [header]
 image = "headers/getting-started.png"

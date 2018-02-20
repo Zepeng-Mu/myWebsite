@@ -1,9 +1,9 @@
 +++
-title = "A Person Re-Identification System For Mobile Devices"
+title = "An Engineered E. coli that senses and degrades antibiotic residues"
 date = "2015-09-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["GA Cushen"]
+authors = ["Zepeng Mu", "et. al"]
 
 # Publication type.
 # Legend:
@@ -17,7 +17,7 @@ authors = ["GA Cushen"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In *Signal Image Technology & Internet Systems (SITIS)*, IEEE."
+publication = "In *Synthetic and Systems Biology*."
 publication_short = "In *SITIS*"
 
 # Abstract and optional shortened version.
@@ -33,7 +33,7 @@ selected = false
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-projects = ["deep-learning"]
+projects = ["iGEM"]
 
 # Links (optional).
 url_pdf = "http://arxiv.org/pdf/1512.04133v1"
