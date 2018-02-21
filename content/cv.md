@@ -9,8 +9,8 @@ tags = ["academic"]
 summary = ""
 
 [header]
-image = "headers/getting-started.png"
-caption = "Image credit: [**Academic**](https://github.com/gcushen/hugo-academic/)"
+image = "headers/cv_header_unsplash.jpg"
+caption = "Image credit: Kelli Tungay on Unsplash"
 
 [[gallery_item]]
 album = "1"
