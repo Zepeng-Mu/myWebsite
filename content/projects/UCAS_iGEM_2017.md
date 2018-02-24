@@ -1,5 +1,5 @@
 +++
-title = "Projects"
+title = "UCAS iGEM 2017"
 
 date = 2016-04-20
 lastmod = 2018-01-13
