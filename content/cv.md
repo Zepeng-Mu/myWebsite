@@ -5,6 +5,8 @@ date = 2016-04-20
 lastmod = 2018-01-13
 draft = false
 
+math = true
+
 tags = ["academic"]
 summary = ""
 
@@ -56,19 +58,40 @@ caption = "1950s"
 
 ## RESEARCH SKILLS
 ---
-* **Dry Lab**: R, UNIX, Python, LaTex, Perl
+* **Dry Lab**: R, UNIX, Python, LaTex, Perl, GWAS
 * **Wet Lab**: Molecular cloning, Luciferase reporter assay, Cell culturing
 
 ## RESEARCH EXPERIENCE
 ---
-* **Advisor: Dr. M. Eileen Dolan**, Department of Medicine, The University of Chicago  
-	Oct., 2017 - Mar., 2018
+* **Advisor: Dr. M. Eileen Dolan**, Department of Medicine, The University of Chicago. *Oct. 2017 - Mar. 2018*  
+**Topic:** Pharmacokinetics of cisplatin-based chemotherapy drugs  
+**Procedure:**
+	* Built mathematical model that best reveal patients’ differences in their ability to clear away cisplatin
+	* Will investigate the association between residues and traits including BMI and hearing loss, and patients’ genotype to test any SNP that leads to difference in ability to eliminate cisplatin drugs
 
-* **Advisor: Prof. Changqing Zeng**, Beijing Institute of Genomics, Chinese Academy of Sciences  
-	Aug., 2017 - Jul., 2018
+* **Advisor: Prof. Changqing Zeng**, Beijing Institute of Genomics, Chinese Academy of Sciences. *Aug. 2017 - Jul. 2018*  
+**Topic:** Biological characterization of putative enhancers in type 2 diabetes  
+**Procedure:**
+	* Cloned putative enhancer segments into pGL4.23 vector in both orientations
+	* Performed site mutagenesis for different SNP alleles
+	* Tested enhancer activities in several cell-lines by Luciferase Reporter Assay  
+	**Results:**  
+	* Found two enhancers that are only active in one orientation
+	* Proved that different alleles in SNPs do not affect enhancer activities
+	* Plan to identify the sequence that contributes to the orientation of enhancers
 
 
 ## AWARDS
 ---
+**Nov. 2016**, Silver Medal, international Genetically Engineered Machine (iGEM) Competition First-Class Scholarship, University of Chinese Academy of Sciences
+
+**Nov. 2015**, Second-Class Scholarship, University of Chinese Academy of Sciences
+
+**May. 2016**, Third Prize, the $19^{th}$ FLTRP Cup National English Debating Competition Nationals
+
+**May. 2016**, Second Prize, the $19^{th}$ FLTRP Cup National English Debating Competition (the North of China)
+
+**Jan. 2016**, Outstanding Winner, the preliminary campus-wide contest at University of Chinese Academy of Sciences in the $19^{th}$ FLTRP Cup National English Debating Competition
+
 
 
