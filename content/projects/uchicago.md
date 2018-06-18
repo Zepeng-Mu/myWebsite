@@ -44,7 +44,7 @@ caption = "1950s"
 +++
 
 
-## UCAS iGEM 2017
+## Introduction
 ---
 The international Genetically Engineered Machine (iGEM) Competition is the world's most renowned biological competition for undergraduates, high school students and even graduate schools, attracting more than 300 teams world-wide each year. To participate, each team is required to come up with a certain problem, and try to adress that using synthetic biology methods during the summer, and to present it to all the iGEMers and judges in an oral presentation and a poster at the *Giant Jamboree* in Boston.
 

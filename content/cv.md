@@ -7,7 +7,7 @@ draft = false
 
 math = true
 
-tags = ["academic"]
+# tags = ["academic"]
 summary = ""
 
 [header]
@@ -50,35 +50,45 @@ caption = "1950s"
 ---
 * **Bachelar of Science**  
 	*Sept., 2014 - Jul., 2018*, University of Chinese Academy of Sciences
-* **Ph.D**  
-	*In Progress*, Genetics, Genomics, and Systems Biology, The University of Chicago
 
 ## PUBLICATIONS
 ---
+**Zepeng Mu**, Zhuoning Zou, Ye Yang *et. al.* **A genetically engineered Escherichia coli that senses and degrades tetracycline antibiotic residue**  
+*Synthetic and Systems Biotechnology* In press
+
 
 ## RESEARCH SKILLS
 ---
-* **Dry Lab**: R, UNIX, Python, LaTex, Perl, GWAS
+* **Dry Lab**: R, UNIX, Python, LaTex, Perl, GWAS, RNA-seq analysis, 4C-seq data analysis
+
 * **Wet Lab**: Molecular cloning, Luciferase reporter assay, Cell culturing
 
 ## RESEARCH EXPERIENCE
 ---
-* **Advisor: Dr. M. Eileen Dolan**, Department of Medicine, The University of Chicago. *Oct. 2017 - Mar. 2018*  
-**Topic:** Pharmacokinetics of cisplatin-based chemotherapy drugs  
-**Procedure:**
-	* Built mathematical model that best reveal patients’ differences in their ability to clear away cisplatin
-	* Will investigate the association between residues and traits including BMI and hearing loss, and patients’ genotype to test any SNP that leads to difference in ability to eliminate cisplatin drugs
+### Pharmacokinetics of cisplatin-based chemotherapy drugs
 
-* **Advisor: Prof. Changqing Zeng**, Beijing Institute of Genomics, Chinese Academy of Sciences. *Aug. 2017 - Jul. 2018*  
-**Topic:** Biological characterization of putative enhancers in type 2 diabetes  
+**Advisor: Dr. M. Eileen Dolan**, Department of Medicine, The University of Chicago. *Oct. 2017 - Mar. 2018*
+
 **Procedure:**
-	* Cloned putative enhancer segments into pGL4.23 vector in both orientations
-	* Performed site mutagenesis for different SNP alleles
-	* Tested enhancer activities in several cell-lines by Luciferase Reporter Assay  
-	**Results:**  
-	* Found two enhancers that are only active in one orientation
-	* Proved that different alleles in SNPs do not affect enhancer activities
-	* Plan to identify the sequence that contributes to the orientation of enhancers
+
+- Built mathematical model that best reveal patients’ differences in their ability to clear away cisplatin
+- Will investigate the association between residues and traits including BMI and hearing loss, and patients’ genotype to test any SNP that leads to difference in ability to eliminate cisplatin drugs
+
+### Biological characterization of putative enhancers in type 2 diabetes
+
+**Advisor: Prof. Changqing Zeng**, Beijing Institute of Genomics, Chinese Academy of Sciences. *Aug. 2017 - Jul. 2018*
+
+**Procedure:**
+
+- Cloned putative enhancer segments into pGL4.23 vector in both orientations
+- Performed site mutagenesis for different SNP alleles
+- Tested enhancer activities in several cell-lines by Luciferase Reporter Assay
+
+**Results:**
+
+- Found two enhancers that are only active in one orientation
+- Proved that different alleles in SNPs do not affect enhancer activities
+- Plan to identify the sequence that contributes to the orientation of enhancers
 
 
 ## AWARDS

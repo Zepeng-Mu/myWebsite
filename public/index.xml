@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zepeng Mu on Zepeng Mu</title>
+    <title>HOME on HOME</title>
     <link>/</link>
-    <description>Recent content in Zepeng Mu on Zepeng Mu</description>
+    <description>Recent content in HOME on HOME</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Example Talk</title>
       <link>/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
       
       <guid>/talk/example-talk/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
@@ -21,36 +21,9 @@
     </item>
     
     <item>
-      <title>Deep Learning</title>
-      <link>/project/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/deep-learning/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>/project/example-external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/example-external-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Academic: the website designer for Hugo</title>
       <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>/post/getting-started/</guid>
       <description>
@@ -236,35 +209,158 @@ git submodule update --init --recursive
     </item>
     
     <item>
+      <title>Bacteriorhodopsin NdR2</title>
+      <link>/projects/ndr2/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/projects/ndr2/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The international Genetically Engineered Machine (iGEM) Competition is the world&amp;rsquo;s most renowned biological competition for undergraduates, high school students and even graduate schools, attracting more than 300 teams world-wide each year. To participate, each team is required to come up with a certain problem, and try to adress that using synthetic biology methods during the summer, and to present it to all the iGEMers and judges in an oral presentation and a poster at the &lt;em&gt;Giant Jamboree&lt;/em&gt; in Boston.&lt;/p&gt;
+
+&lt;p&gt;In 2016, I teamed up with my classmates and friends from University of Chinese Academy of Sciences (UCAS) to participate in the competition. In our project, we used an engineered &lt;em&gt;E. coli&lt;/em&gt; to degrade antibiotic residues, that is, antibiotics found in natural environment that comes from factories and hospitals.&lt;/p&gt;
+
+&lt;p&gt;In the project, we also want to raise the public awareness of the urgent problem of antibiotic residues. For more details on the project, please visit our &lt;a href=&#34;http://2016.igem.org/Team:UCAS&#34; target=&#34;_blank&#34;&gt;official wiki&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>CV</title>
       <link>/cv/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>/cv/</guid>
       <description>
 
-&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;h2 id=&#34;education&#34;&gt;EDUCATION&lt;/h2&gt;
 
-&lt;p&gt;Hi,.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Bachelar of Science&lt;/strong&gt;&lt;br /&gt;
+&lt;em&gt;Sept., 2014 - Jul., 2018&lt;/em&gt;, University of Chinese Academy of Sciences&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ph.D&lt;/strong&gt;&lt;br /&gt;
+&lt;em&gt;In Progress&lt;/em&gt;, Genetics, Genomics, and Systems Biology, The University of Chicago&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;publications&#34;&gt;PUBLICATIONS&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;research-skills&#34;&gt;RESEARCH SKILLS&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dry Lab&lt;/strong&gt;: R, UNIX, Python, LaTex, Perl, GWAS&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wet Lab&lt;/strong&gt;: Molecular cloning, Luciferase reporter assay, Cell culturing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;research-experience&#34;&gt;RESEARCH EXPERIENCE&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Advisor: Dr. M. Eileen Dolan&lt;/strong&gt;, Department of Medicine, The University of Chicago. &lt;em&gt;Oct. 2017 - Mar. 2018&lt;/em&gt;&lt;br /&gt;
+&lt;strong&gt;Topic:&lt;/strong&gt; Pharmacokinetics of cisplatin-based chemotherapy drugs&lt;br /&gt;
+&lt;strong&gt;Procedure:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Built mathematical model that best reveal patients’ differences in their ability to clear away cisplatin&lt;/li&gt;
+&lt;li&gt;Will investigate the association between residues and traits including BMI and hearing loss, and patients’ genotype to test any SNP that leads to difference in ability to eliminate cisplatin drugs&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Advisor: Prof. Changqing Zeng&lt;/strong&gt;, Beijing Institute of Genomics, Chinese Academy of Sciences. &lt;em&gt;Aug. 2017 - Jul. 2018&lt;/em&gt;&lt;br /&gt;
+&lt;strong&gt;Topic:&lt;/strong&gt; Biological characterization of putative enhancers in type 2 diabetes&lt;br /&gt;
+&lt;strong&gt;Procedure:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cloned putative enhancer segments into pGL4.23 vector in both orientations&lt;/li&gt;
+&lt;li&gt;Performed site mutagenesis for different SNP alleles&lt;/li&gt;
+&lt;li&gt;Tested enhancer activities in several cell-lines by Luciferase Reporter Assay&lt;br /&gt;
+&lt;strong&gt;Results:&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Found two enhancers that are only active in one orientation&lt;/li&gt;
+&lt;li&gt;Proved that different alleles in SNPs do not affect enhancer activities&lt;/li&gt;
+&lt;li&gt;Plan to identify the sequence that contributes to the orientation of enhancers&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;awards&#34;&gt;AWARDS&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Nov. 2016&lt;/strong&gt;, Silver Medal, international Genetically Engineered Machine (iGEM) Competition First-Class Scholarship, University of Chinese Academy of Sciences&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nov. 2015&lt;/strong&gt;, Second-Class Scholarship, University of Chinese Academy of Sciences&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;May. 2016&lt;/strong&gt;, Third Prize, the $19^{th}$ FLTRP Cup National English Debating Competition Nationals&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;May. 2016&lt;/strong&gt;, Second Prize, the $19^{th}$ FLTRP Cup National English Debating Competition (the North of China)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Jan. 2016&lt;/strong&gt;, Outstanding Winner, the preliminary campus-wide contest at University of Chinese Academy of Sciences in the $19^{th}$ FLTRP Cup National English Debating Competition&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>CV</title>
+      <title>Publications</title>
       <link>/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>/publications/</guid>
-      <description>
-
-&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
-
-&lt;p&gt;Hi,.&lt;/p&gt;
+      <description>&lt;ol&gt;
+&lt;li&gt;Under Review&lt;br /&gt;
+&lt;strong&gt;Zepeng Mu&lt;/strong&gt; &lt;em&gt;et. al&lt;/em&gt;. A Genetically Engineered &lt;em&gt;E. coli&lt;/em&gt; that Senses and Degrades Antibiotic Residues. &lt;strong&gt;&lt;em&gt;Synthetic and Systems Biology&lt;/em&gt;&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
+      <title>UCAS iGEM 2017</title>
+      <link>/projects/ucas_igem_2017/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/projects/ucas_igem_2017/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The international Genetically Engineered Machine (iGEM) Competition is the world&amp;rsquo;s most renowned biological competition for undergraduates, high school students and even graduate schools, attracting more than 300 teams world-wide each year. To participate, each team is required to come up with a certain problem, and try to adress that using synthetic biology methods during the summer, and to present it to all the iGEMers and judges in an oral presentation and a poster at the &lt;em&gt;Giant Jamboree&lt;/em&gt; in Boston.&lt;/p&gt;
+
+&lt;p&gt;In 2016, I teamed up with my classmates and friends from University of Chinese Academy of Sciences (UCAS) to participate in the competition. In our project, we used an engineered &lt;em&gt;E. coli&lt;/em&gt; to degrade antibiotic residues, that is, antibiotics found in natural environment that comes from factories and hospitals.&lt;/p&gt;
+
+&lt;p&gt;In the project, we also want to raise the public awareness of the urgent problem of antibiotic residues. For more details on the project, please visit our &lt;a href=&#34;http://2016.igem.org/Team:UCAS&#34; target=&#34;_blank&#34;&gt;official wiki&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>UChicago</title>
+      <link>/projects/uchicago/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/projects/uchicago/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The international Genetically Engineered Machine (iGEM) Competition is the world&amp;rsquo;s most renowned biological competition for undergraduates, high school students and even graduate schools, attracting more than 300 teams world-wide each year. To participate, each team is required to come up with a certain problem, and try to adress that using synthetic biology methods during the summer, and to present it to all the iGEMers and judges in an oral presentation and a poster at the &lt;em&gt;Giant Jamboree&lt;/em&gt; in Boston.&lt;/p&gt;
+
+&lt;p&gt;In 2016, I teamed up with my classmates and friends from University of Chinese Academy of Sciences (UCAS) to participate in the competition. In our project, we used an engineered &lt;em&gt;E. coli&lt;/em&gt; to degrade antibiotic residues, that is, antibiotics found in natural environment that comes from factories and hospitals.&lt;/p&gt;
+
+&lt;p&gt;In the project, we also want to raise the public awareness of the urgent problem of antibiotic residues. For more details on the project, please visit our &lt;a href=&#34;http://2016.igem.org/Team:UCAS&#34; target=&#34;_blank&#34;&gt;official wiki&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Engineered E. coli that senses and degrades antibiotic residues</title>
       <link>/publication/person-re-identification/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       

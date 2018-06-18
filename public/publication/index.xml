@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Zepeng Mu</title>
+    <title>Publications on HOME</title>
     <link>/publication/</link>
-    <description>Recent content in Publications on Zepeng Mu</description>
+    <description>Recent content in Publications on HOME</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -13,7 +13,7 @@
     
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
+      <title>An Engineered E. coli that senses and degrades antibiotic residues</title>
       <link>/publication/person-re-identification/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
