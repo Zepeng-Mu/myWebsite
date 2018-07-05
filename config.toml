@@ -3,7 +3,7 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://zepengmu.netlify.com/"
 
 # Title of your site
 # I changed this to the home buttle
@@ -56,11 +56,11 @@ defaultContentLanguageInSubdir = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "University of Chinese Academy of Sciences", url = "" }, { name = "The University of Chicago", url = "" } ]
+  organizations = [ { name = "The University of Chicago", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "muzepeng@gmail.com"
+  avatar = "portrait.jpeg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  email = "zepengmu@uchicago.edu"
   address = "19A Yuquan Road, Shijingshan District, Beijing 100049, P. R. China"
   office_hours = ""
   phone = "(773) 219 8961"
@@ -218,7 +218,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:muzepeng@gmail.com"
+    link = "mailto:zepengmu@uchicago.edu"
 
   [[params.social]]
     icon = "github"
@@ -256,25 +256,25 @@ defaultContentLanguageInSubdir = false
   url = "/publications"
   weight = 2
 
-[[menu.main]]
-  name = "Projects"
-  url = "/projects"
-  weight = 3
+# [[menu.main]]
+#   name = "Projects"
+#   url = "/projects"
+#   weight = 3
   
 [[menu.main]]
   name = "CV"
   url = "/cv"
-  weight = 4
+  weight = 3
 
-[[menu.main]]
-  name = "Posts"
-  url = "/post"
-  weight = 5
+# [[menu.main]]
+#  name = "Posts"
+#  url = "/post"
+#  weight = 4
 
 [[menu.main]]
   name = "Fun"
   url = "/fun"
-  weight = 6
+  weight = 4
 
 # Taxonomies.
 [taxonomies]

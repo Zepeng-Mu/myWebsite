@@ -17,11 +17,6 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Genetics, Genomics, and Systems Biology"
-  institution = "The University of Chicago"
-  year = "To be metriculated"
-
-[[education.courses]]
   course = "International Student-At-Large (ISAL)"
   institution = "The University of Chicago"
   year = "2017-2018"
@@ -31,9 +26,6 @@ weight = 5
   institution = "University of Chinese Academy of Sciences"
   year = 2018
 
- 
 +++
 
-This is the personal website of Zepeng Mu (call me Phoenix). I am a fourth year undergraduate student from University of Chinese Academy of Sciences (UCAS), and I major in Biological Sciences. I will become a PhD student in Genetics, Genomcis, and Systems Biology at The University of Chicago in fall, 2018. My major interests are using genomics knowledge and technologies, together with proper statistical methods to investigate genetic architecture that is related to human diseases, particularlly cancer. See my CV please.
-
-
+This is the personal website of Zepeng Mu. My English nickname is Phoenix. I took my undergraduate education at University of Chinese Academy of Sciences (UCAS), and I majored in Biological Sciences. I am now a Ph.D. student in Committee of Genetics, Genomcis, and Systems Biology (GGSB) at The University of Chicago. My major interest is to use genomics technologies with proper statistical methods to investigate genetic architecture of human complex diseases, including cancer.
