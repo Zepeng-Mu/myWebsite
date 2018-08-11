@@ -5,7 +5,7 @@ date = 2016-04-20
 lastmod = 2018-01-13
 draft = false
 
-tags = ["academic"]
+# tags = ["academic"]
 summary = "A list of my publications."
 
 [header]
@@ -43,6 +43,6 @@ image = "https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/t
 caption = "1950s"
 +++
 
-1. Under Review  
-**Zepeng Mu** *et. al*. A Genetically Engineered *E. coli* that Senses and Degrades Antibiotic Residues. ***Synthetic and Systems Biology***.
-2. 
+1. **Mu, Zepeng**, Zhuoning Zou, Ye Yang, Wenbo Wang, Yue Xu, Jianyi Huang, Ruiling Cai et al. "A genetically engineered Escherichia coli that senses and degrades tetracycline antibiotic residue." *Synthetic and Systems Biotechnology* (2018).
+
+2. El Charif, Omar, **Zepeng Mu**, Eric R. Gamazon, Paul C. Dinh, Shirin Ardeshirrouhanifard, Patrick O. Monahan, Darren R. Feldman et al. "Pharmacokinetic (PK) modeling of serum platinum to reveal extent of long-term exposure and associated comorbidities after cisplatin treatment." (2018): 10058-10058.
