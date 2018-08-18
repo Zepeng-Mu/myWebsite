@@ -63,7 +63,7 @@ defaultContentLanguageInSubdir = false
   email = "zepengmu@uchicago.edu"
   address = "19A Yuquan Road, Shijingshan District, Beijing 100049, P. R. China"
   office_hours = ""
-  phone = "(773) 219 8961"
+  phone = "(773)-219-8961"
   skype = ""
   telegram = ""
 
@@ -226,6 +226,11 @@ defaultContentLanguageInSubdir = false
     link = "//github.com/Zepeng-Mu"
 
   [[params.social]]
+    icon = "orcid"
+    icon_pack = "ai"
+    link = "https://orcid.org/0000-0002-7717-3247"
+
+  [[params.social]]
     icon = "facebook"
     icon_pack = "fa"
     link = "//facebook.com/zepeng.mu"
@@ -234,14 +239,6 @@ defaultContentLanguageInSubdir = false
     icon = "twitter"
     icon_pack = "fa"
     link = "//twitter.com/MZepeng"
-
-  # [[params.social]]
-  #  icon = "google-scholar"
-  #  icon_pack = "ai"
-  #  link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
-
-
-
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -253,7 +250,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Publications"
-  url = "/publications"
+  url = "/publication"
   weight = 2
 
 # [[menu.main]]
@@ -263,7 +260,7 @@ defaultContentLanguageInSubdir = false
   
 [[menu.main]]
   name = "CV"
-  url = "/cv"
+  url = "/cv/"
   weight = 3
 
 # [[menu.main]]

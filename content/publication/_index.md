@@ -1,8 +1,8 @@
 +++
 title = "Publications"
-date = "2017-01-01T00:00:00Z"
-math = false
-highlight = false
+date = "2018-08-18"
+math = true
+highlight = true
 
 # List format.
 #   0 = Simple
@@ -13,6 +13,6 @@ list_format = 3
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = ""
-caption = ""
+image = "headers/publication_header.jpg"
+caption = "Image credit: **Zepeng Mu**"
 +++
