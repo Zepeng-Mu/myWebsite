@@ -19,7 +19,7 @@ caption = "Image credit: **Zepeng Mu**"
 ---
 El Charif, Omar, **Zepeng Mu**, Eric R. Gamazon et al. "Pharmacokinetic (PK) modeling of serum platinum to reveal extent of long-term exposure and associated comorbidities after cisplatin treatment." (2018): 10058-10058.
 
-**Zepeng Mu**, Zhuoning Zou, Ye Yang et al. "A genetically engineered Escherichia coli that senses and degrades tetracycline antibiotic residue." *Synthetic and Systems Biotechnology* (2018). 
+**Zepeng Mu**, Zhuoning Zou, Ye Yang et al. "A genetically engineered Escherichia coli that senses and degrades tetracycline antibiotic residue." *Synthetic and Systems Biotechnology*. Accepted
 
 
 ## RESEARCH SKILLS
@@ -53,8 +53,9 @@ El Charif, Omar, **Zepeng Mu**, Eric R. Gamazon et al. "Pharmacokinetic (PK) mod
 
 ## AWARDS
 ---
-**Jul. 2018**, Honored Graduate of Beijing  
+**Jul. 2018**, Beijing Outstanding Graduates  
 **Nov. 2016**, Silver Medal, international Genetically Engineered Machine (iGEM) Competition First-Class Scholarship, University of Chinese Academy of Sciences  
+**Nov. 2016**, First-Class Scholarship, University of Chinese Academy of Sciences  
 **Nov. 2015**, Second-Class Scholarship, University of Chinese Academy of Sciences  
 **May. 2016**, Third Prize, the $19^{th}$ FLTRP Cup National English Debating Competition Nationals  
 **May. 2016**, Second Prize, the $19^{th}$ FLTRP Cup National English Debating Competition (the North of China)  

@@ -61,9 +61,9 @@ defaultContentLanguageInSubdir = false
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpeg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "zepengmu@uchicago.edu"
-  address = "19A Yuquan Road, Shijingshan District, Beijing 100049, P. R. China"
+  address = ""
   office_hours = ""
-  phone = "(773)-219-8961"
+  phone = ""
   skype = ""
   telegram = ""
 

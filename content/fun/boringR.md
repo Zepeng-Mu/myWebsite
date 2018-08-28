@@ -113,8 +113,33 @@ legend("bottomright", legend="© Phoenix", bty = "n", text.col="gray70")
 
 It is even more interesting to explore the shapes of various mathematics curves. These curves are usually symmetric and looks elaborate. But in fact, they can be plotted by a simple mathematic fomule.
 
-Below are some examples:
+#### Phyllotaxis
+
+According to Wikipedia, phycllotaxis "is the arrangement of leaves on a plant stem" in botany. The following code show how to draw phycllotaxis patterns using ggplot2. The code was modified from a Project called *PHYLLOTAXIS: DRAW FLOWERS USING MATHEMATICS* on **Datacamp**.
 
 ```{r}
+library(tidyverse)
+library(ggplot2)
 
+angle <- 31*pi/180
+points <- 900
+
+t <- (1:points)*angle
+x <- sin(t)
+y <- cos(t)
+
+df <- data.frame(t, x, y)
+
+options(repr.plot.width = 4, repr.plot.height = 4)
+p <- ggplot(df, aes(x*t, y*t))
+p + geom_point(alpha = 0.8, color = rainbow(points), shape = 16) +
+    theme(title = element_blank(),
+        panel.grid = element_blank(),
+        axis.ticks = element_blank(),
+        axis.text = element_blank(),
+        panel.background = element_rect(fill = "white"),
+        legend.position = "none")
 ```
+The resulting figure looks like:
+![phyllotaxis](/img/phyllotaxis.png)
+By changing the two parameters `angle` and `points` in the code above, one can get endless number of phyllotaxis patterns.
