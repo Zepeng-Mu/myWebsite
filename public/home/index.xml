@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Welcome!</title>
       <link>/home/hero/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0500</pubDate>
       
       <guid>/home/hero/</guid>
       <description></description>
@@ -27,13 +27,13 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/home/about/</guid>
-      <description>This is the personal website of Zepeng Mu (call me Phoenix). I am a fourth year undergraduate student from University of Chinese Academy of Sciences (UCAS), and I major in Biological Sciences. I will become a PhD student in Genetics, Genomcis, and Systems Biology at The University of Chicago in fall, 2018. My major interests are using genomics knowledge and technologies, together with proper statistical methods to investigate genetic architecture that is related to human diseases, particularlly cancer.</description>
+      <description>This is the personal website of Zepeng Mu. My English nickname is Phoenix. I took my undergraduate education at University of Chinese Academy of Sciences (UCAS), and I majored in Biological Sciences. I am now a Ph.D. student in Committee of Genetics, Genomcis, and Systems Biology (GGSB) at The University of Chicago. My major interest is to use genomics technologies with proper statistical methods to investigate genetic architecture of human complex diseases, including cancer.</description>
     </item>
     
     <item>
       <title>Selected Publications</title>
       <link>/home/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Fri, 31 Aug 2018 00:00:00 -0500</pubDate>
       
       <guid>/home/publications_selected/</guid>
       <description></description>

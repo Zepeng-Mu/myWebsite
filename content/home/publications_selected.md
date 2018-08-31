@@ -4,20 +4,20 @@
 # `selected = true` in their `+++` front matter.
 widget = "publications_selected"
 active = false
-date = 2016-04-20
+date = 2018-08-31
 
 title = "Selected Publications"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 10
+weight = 6
 
 # List format.
 #   0 = Simple
 #   1 = Detailed
 #   2 = APA
 #   3 = MLA
-list_format = 1
+list_format  = 0
 
 # Filter by publication type.
 # -1: Any

@@ -7,10 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
     
 	<atom:link href="/fun/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Phyllotaxis with R</title>
+      <link>/fun/phyllotaxis/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/fun/phyllotaxis/</guid>
+      <description>According to Wikipedia, phycllotaxis &amp;ldquo;is the arrangement of leaves on a plant stem&amp;rdquo; in botany. The following code show how to draw phycllotaxis patterns using ggplot2. The code was modified from a Project called PHYLLOTAXIS: DRAW FLOWERS USING MATHEMATICS on Datacamp.
+library(tidyverse) library(ggplot2) angle &amp;lt;- 31*pi/180 points &amp;lt;- 900 t &amp;lt;- (1:points)*angle x &amp;lt;- sin(t) y &amp;lt;- cos(t) df &amp;lt;- data.frame(t, x, y) options(repr.plot.width = 4, repr.plot.height = 4) p &amp;lt;- ggplot(df, aes(x*t, y*t)) p + geom_point(alpha = 0.</description>
+    </item>
+    
+    <item>
+      <title>boringR: drawing with R</title>
+      <link>/fun/boringr/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/fun/boringr/</guid>
+      <description>R provides us with a graphical tool that is precise, beautiful and easy to learn. Besides academic publishing, R can also be used to do arts. Inspired by some blogs, I also tried to creat something beautiful and interesting by R. I call this &amp;ldquo;boringR&amp;rdquo; and you can find all the code on my Github repo.
+Here I would to share with you some of my codes and my creations.</description>
+    </item>
     
   </channel>
 </rss>

@@ -5,8 +5,8 @@
     
     <url>
     
-      <loc>/tags/academic/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <loc>/cv/</loc>
+      <lastmod>2018-08-18T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -15,6 +15,87 @@
     <url>
     
       <loc>/publication/</loc>
+      <lastmod>2018-08-18T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/fun/phyllotaxis/</loc>
+      <lastmod>2018-08-10T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/fun/boringr/</loc>
+      <lastmod>2018-08-10T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/asco_dolan2018/</loc>
+      <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/igem2016/</loc>
+      <lastmod>2018-05-31T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/talk/example-talk/</loc>
+      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/fun/</loc>
+      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/</loc>
+      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/projects/</loc>
+      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,44 +113,8 @@
     
     <url>
     
-      <loc>/talk/example-talk/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/fun/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/projects/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/post/getting-started/</loc>
-      <lastmod>2018-01-13T00:00:00+08:00</lastmod>
+      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
     </url>
     
   
@@ -78,16 +123,7 @@
     <url>
     
       <loc>/projects/ndr2/</loc>
-      <lastmod>2018-01-13T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/cv/</loc>
-      <lastmod>2018-01-13T00:00:00+08:00</lastmod>
+      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
     </url>
     
   
@@ -96,7 +132,7 @@
     <url>
     
       <loc>/publications/</loc>
-      <lastmod>2018-01-13T00:00:00+08:00</lastmod>
+      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
     </url>
     
   
@@ -105,7 +141,7 @@
     <url>
     
       <loc>/projects/ucas_igem_2017/</loc>
-      <lastmod>2018-01-13T00:00:00+08:00</lastmod>
+      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
     </url>
     
   
@@ -114,25 +150,7 @@
     <url>
     
       <loc>/projects/uchicago/</loc>
-      <lastmod>2018-01-13T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/person-re-identification/</loc>
-      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/clothing-search/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
     </url>
     
   
@@ -141,7 +159,7 @@
     <url>
     
       <loc>/publication_types/1/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-07-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -151,7 +169,7 @@
     <url>
     
       <loc>/publication_types/2/</loc>
-      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-05-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -170,7 +188,7 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2017-10-15T00:00:00+08:00</lastmod>
+      <lastmod>2017-10-15T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -180,7 +198,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-07-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

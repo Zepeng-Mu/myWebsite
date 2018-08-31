@@ -1,6 +1,6 @@
 +++
 title = "Pharmacokinetic (PK) modeling of serum platinum to reveal extent of long-term exposure and associated comorbidities after cisplatin treatment"
-date = "2018-07-01"
+date = "2018-05-20"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["El Charif, Omar", "Mu, Zepeng", "Gamazon, Eric R", "et. al"]
