@@ -2,10 +2,10 @@
 title = "Phyllotaxis with R"
 
 date = 2018-08-10
-lastmod = 2018-08-10
+lastmod = 2018-09-04
 draft = true
 
-summary = "Using R to plot amazing artistic graphs."
+summary = "Using R to plot phyllotaxis patterns inspired by Datacamp."
 
 [[gallery_item]]
 album = "1"
@@ -38,7 +38,7 @@ image = "https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/t
 caption = "1950s"
 +++
 
-According to Wikipedia, phycllotaxis "is the arrangement of leaves on a plant stem" in botany. The following code show how to draw phycllotaxis patterns using ggplot2. The code was modified from a Project called *PHYLLOTAXIS: DRAW FLOWERS USING MATHEMATICS* on [Datacamp](www.datacamp.com).
+Phycllotaxis is a kind of 'seemingly' complex geometric pattern that looks complex but with very simple mathematics behind. It is not uncommon in nature. According to Wikipedia, phycllotaxis "is the arrangement of leaves on a plant stem" in botany. The following code show how to draw phycllotaxis patterns using ggplot2. The code was modified from a Project called *PHYLLOTAXIS: DRAW FLOWERS USING MATHEMATICS* on [Datacamp](www.datacamp.com).
 
 ```{r}
 library(tidyverse)
