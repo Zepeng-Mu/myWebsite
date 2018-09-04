@@ -10,6 +10,8 @@ image = "headers/cv_header_unsplash.jpg"
 caption = "Image credit: **Zepeng Mu**"
 +++
 
+[Download PDF](/files/cv.pdf)
+
 ## EDUCATION
 ---
 * **Bachelar of Science**  
@@ -30,7 +32,7 @@ El Charif, Omar, **Zepeng Mu**, Eric R. Gamazon et al. "Pharmacokinetic (PK) mod
 
 ## RESEARCH EXPERIENCE
 ---
-#### Genome-wide Association Study of cytotoxicity of cisplatin-related chemotherapy drugs
+#### Genome-wide Association Study of cytotoxicity of cisplatin-related chemotherapy agents
 
 **Advisor: Dr. M. Eileen Dolan**, Department of Medicine, The University of Chicago.  
 	*Oct. 2017 - Mar. 2018*
@@ -48,15 +50,12 @@ El Charif, Omar, **Zepeng Mu**, Eric R. Gamazon et al. "Pharmacokinetic (PK) mod
 
 #### Characterization of bacteria Toxin-Antitoxin (TA) systems for a kill-switch in engineered *E. coli*
 
-**Advisor: Prof. Chunbo Lou**, Institute of Mircobiology, Chinese Academy of Sciences.  
+**Advisor: Prof. Chunbo Lou**, Institute of Microbiology, Chinese Academy of Sciences.  
 	*Aug. 2016 - Nov. 2016*
 
 ## AWARDS
 ---
-**Jul. 2018**, Beijing Outstanding Graduates  
+**Jul. 2018**, Beijing Outstanding Graduate Thesis
+**Jul. 2018**, Beijing Honored College Graduates  
 **Nov. 2016**, Silver Medal, international Genetically Engineered Machine (iGEM) Competition First-Class Scholarship, University of Chinese Academy of Sciences  
-**Nov. 2016**, First-Class Scholarship, University of Chinese Academy of Sciences  
-**Nov. 2015**, Second-Class Scholarship, University of Chinese Academy of Sciences  
-**May. 2016**, Third Prize, the $19^{th}$ FLTRP Cup National English Debating Competition Nationals  
-**May. 2016**, Second Prize, the $19^{th}$ FLTRP Cup National English Debating Competition (the North of China)  
-**Jan. 2016**, Outstanding Winner, the preliminary campus-wide contest at University of Chinese Academy of Sciences in the $19^{th}$ FLTRP Cup National English Debating Competition
+**Nov. 2016**, First-Class Scholarship, University of Chinese Academy of Sciences   
