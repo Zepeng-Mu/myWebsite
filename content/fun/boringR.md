@@ -157,4 +157,4 @@ legend("bottomright", legend="© Phoenix", bty = "n", text.col="gray70")
 
 There is one more thing that I want say. One can always add randnomness into the graph to make them look better. The use of random colors is one of them. You can also set random line widths or line types to make the graph different.
 
-Last but not least, to learn more about R, I recommend [r-bloggers.com](www.r-bloggers.com).
+Last but not least, to learn more about R, I recommend [r-bloggers.com](https://www.r-bloggers.com).
