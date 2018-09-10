@@ -7,7 +7,7 @@ highlight = true
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "headers/cv_header_unsplash.jpg"
-caption = "Image credit: **Zepeng Mu**"
+caption = "Image credit: **Unsplash**"
 +++
 
 [Download PDF](/files/cv.pdf)
