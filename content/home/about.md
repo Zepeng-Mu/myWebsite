@@ -28,4 +28,4 @@ weight = 5
 
 +++
 
-This is the personal website of Zepeng Mu. My English nickname is Phoenix. I took my undergraduate education at University of Chinese Academy of Sciences (UCAS), and I majored in Biological Sciences. I am now a Ph.D. student in Committee of Genetics, Genomcis, and Systems Biology (GGSB) at The University of Chicago. My major interest is to use genomics technologies with proper statistical methods to investigate genetic architecture of human complex diseases, including cancer.
+This is the personal website of Zepeng Mu. My English nickname is Phoenix. I took my undergraduate education at University of Chinese Academy of Sciences (UCAS), and I majored in Biological Sciences. I am now a Ph.D. student in Committee of Genetics, Genomcis, and Systems Biology (GGSB) at The University of Chicago. My major interest is to use genomics technologies with proper statistical methods to investigate human genome.

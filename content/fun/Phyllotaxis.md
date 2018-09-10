@@ -3,7 +3,7 @@ title = "Phyllotaxis with R"
 
 date = 2018-08-10
 lastmod = 2018-09-04
-draft = true
+draft = false
 
 summary = "Using R to plot phyllotaxis patterns inspired by Datacamp."
 
@@ -65,4 +65,5 @@ p + geom_point(alpha = 0.8, color = rainbow(points), shape = 16) +
 ```
 The resulting figure looks like:
 ![phyllotaxis](/img/phyllotaxis.png)
+
 By changing the two parameters `angle` and `points` in the code above, one can get endless number of phyllotaxis patterns.
