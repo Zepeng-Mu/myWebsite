@@ -1,6 +1,6 @@
 +++
-title = "Fun"
-date = 2017-01-01
+title = "Blog"
+date = 2018-09-21
 math = false
 highlight = false
 

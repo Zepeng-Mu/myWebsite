@@ -269,8 +269,8 @@ defaultContentLanguageInSubdir = false
 #  weight = 4
 
 [[menu.main]]
-  name = "Fun"
-  url = "/fun"
+  name = "Blog"
+  url = "/blog"
   weight = 4
 
 # Taxonomies.
