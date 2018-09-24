@@ -1,11 +1,11 @@
 +++
-title = "Drawing chromCMM legend with ggplot2"
+title = "Drawing chromHMM legend with ggplot2"
 
 date = 2018-09-21
 lastmod = 2018-09-21
 draft = false
 
-summary = "Using geom_tile to plot chromCMM legend."
+summary = "Using geom_tile to plot chromHMM legend."
 
 [[gallery_item]]
 album = "1"
