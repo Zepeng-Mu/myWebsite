@@ -195,7 +195,7 @@ defaultContentLanguageInSubdir = false
     #   1 = Detailed
     #   2 = APA
     #   3 = MLA
-    publication_format = 0
+    # publication_format = 0
 
   # Social/Academic Networking
   #
@@ -250,7 +250,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Publications"
-  url = "/publication"
+  url = "/publications/"
   weight = 2
 
 # [[menu.main]]
