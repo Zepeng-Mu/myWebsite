@@ -55,7 +55,7 @@ El Charif, Omar, **Zepeng Mu**, Eric R. Gamazon et al. "Pharmacokinetic (PK) mod
 
 ## AWARDS
 ---
-**Jul. 2018**, Beijing Outstanding Graduate Thesis
+**Jul. 2018**, Beijing Outstanding Graduate Thesis  
 **Jul. 2018**, Beijing Honored College Graduates  
 **Nov. 2016**, Silver Medal, international Genetically Engineered Machine (iGEM) Competition First-Class Scholarship, University of Chinese Academy of Sciences  
 **Nov. 2016**, First-Class Scholarship, University of Chinese Academy of Sciences   
