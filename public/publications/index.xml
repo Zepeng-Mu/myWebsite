@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on HOME</title>
-    <link>https://zepengmu.netlify.com/publications/</link>
+    <link>/publications/</link>
     <description>Recent content in Publications on HOME</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sat, 18 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://zepengmu.netlify.com/publications/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/publications/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

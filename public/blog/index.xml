@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on HOME</title>
-    <link>https://zepengmu.netlify.com/blog/</link>
+    <link>/blog/</link>
     <description>Recent content in Blog on HOME</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Fri, 21 Sep 2018 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://zepengmu.netlify.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Drawing chromHMM legend with ggplot2</title>
-      <link>https://zepengmu.netlify.com/blog/chromhmmlegend/</link>
+      <link>/blog/chromhmmlegend/</link>
       <pubDate>Fri, 21 Sep 2018 00:00:00 -0500</pubDate>
       
-      <guid>https://zepengmu.netlify.com/blog/chromhmmlegend/</guid>
+      <guid>/blog/chromhmmlegend/</guid>
       <description>In this blog post, I use ggplot() to plot a legend for chromHMM annotation.
 chromHMM uses a Hidden Markov Model to integrate a range of epigenetic markers and predicts the chromatin states, like Transcription Start Sites or enhancers.
 The table I use here comes from website: ROADMAP epigenetics project web portal. I copied the table from the website and saved it in a file called &amp;ldquo;coreChromHMM.txt&amp;rdquo;. The headers of the table are &amp;ldquo;STATE.</description>
@@ -25,20 +25,20 @@ The table I use here comes from website: ROADMAP epigenetics project web portal.
     
     <item>
       <title>Phyllotaxis with R</title>
-      <link>https://zepengmu.netlify.com/blog/phyllotaxis/</link>
+      <link>/blog/phyllotaxis/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 -0500</pubDate>
       
-      <guid>https://zepengmu.netlify.com/blog/phyllotaxis/</guid>
+      <guid>/blog/phyllotaxis/</guid>
       <description>Phycllotaxis is a kind of &amp;lsquo;seemingly&amp;rsquo; complex geometric pattern that looks complex but with very simple mathematics behind. It is not uncommon in nature. According to Wikipedia, phycllotaxis &amp;ldquo;is the arrangement of leaves on a plant stem&amp;rdquo; in botany. The following code show how to draw phycllotaxis patterns using ggplot2. The code was modified from a Project called PHYLLOTAXIS: DRAW FLOWERS USING MATHEMATICS on Datacamp.
 library(tidyverse) library(ggplot2) angle &amp;lt;- 31*pi/180 points &amp;lt;- 900 t &amp;lt;- (1:points)*angle x &amp;lt;- sin(t) y &amp;lt;- cos(t) df &amp;lt;- data.</description>
     </item>
     
     <item>
       <title>boringR: drawing with R</title>
-      <link>https://zepengmu.netlify.com/blog/boringr/</link>
+      <link>/blog/boringr/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 -0500</pubDate>
       
-      <guid>https://zepengmu.netlify.com/blog/boringr/</guid>
+      <guid>/blog/boringr/</guid>
       <description>R provides us with a graphical tool that is precise, beautiful and easy to learn. Besides academic publishing, R can also be used to do arts. Inspired by some blogs, I also tried to creat something beautiful and interesting by R. I call this &amp;ldquo;boringR&amp;rdquo; and you can find all the code on my Github repo.
 Here I would to share with you some of my codes and my creations.</description>
     </item>
