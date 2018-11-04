@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HOME on HOME</title>
-    <link>/</link>
+    <link>https://zepengmu.netlify.com/</link>
     <description>Recent content in HOME on HOME</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,12 +11,55 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Drawing chromHMM legend with ggplot2</title>
+      <link>https://zepengmu.netlify.com/blog/chromhmmlegend/</link>
+      <pubDate>Fri, 21 Sep 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://zepengmu.netlify.com/blog/chromhmmlegend/</guid>
+      <description>&lt;p&gt;In this blog post, I use &lt;code&gt;ggplot()&lt;/code&gt; to plot a legend for chromHMM annotation.&lt;/p&gt;
+
+&lt;p&gt;chromHMM uses a Hidden Markov Model to integrate a range of epigenetic markers and predicts the chromatin states, like Transcription Start Sites or enhancers.&lt;/p&gt;
+
+&lt;p&gt;The table I use here comes from website: &lt;a href=&#34;https://egg2.wustl.edu/roadmap/web_portal/chr_state_learning.html&#34; target=&#34;_blank&#34;&gt;ROADMAP epigenetics project web portal&lt;/a&gt;. I copied the table from the website and saved it in a file called &amp;ldquo;coreChromHMM.txt&amp;rdquo;. The headers of the table are  &amp;ldquo;STATE.NO.&amp;rdquo;, &amp;ldquo;MNEMONIC&amp;rdquo;, &amp;ldquo;DESCRIPTION&amp;rdquo; , &amp;ldquo;COLOR.NAME&amp;rdquo;  &amp;ldquo;COLOR.CODE&amp;rdquo;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(tidyverse)
+
+core &amp;lt;- read.table(&amp;quot;coreChromHMM.txt&amp;quot;,
+                  header = T, stringsAsFactors = F, sep = &amp;quot;\t&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Taking a look at the table we see that the colors are coded in RGB format. I use &lt;code&gt;spread()&lt;/code&gt; function from &lt;code&gt;tidyverse&lt;/code&gt; package to spread the color column into 3 columns, for red, green, and blue respectively. Then I use &lt;code&gt;rgb()&lt;/code&gt; function to convert the colors into HEX format.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;core &amp;lt;- core %&amp;gt;% 
+  separate(COLOR.CODE, c(&amp;quot;Red&amp;quot;, &amp;quot;Green&amp;quot;, &amp;quot;Blue&amp;quot;), sep = &amp;quot;,&amp;quot;)
+
+hexCol = rgb(core$Red, core$Green, core$Blue, maxColorValue = 255)
+names(hexCol) = core$DESCRIPTION
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;geom_tile()&lt;/code&gt; is used to produce the &amp;ldquo;boxes&amp;rdquo;, and I use &lt;code&gt;geom_text()&lt;/code&gt; to add texts those boxes, or tiles.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;ggplot(core, aes(x = 1, y = max(STATE.NO.) - STATE.NO., fill = DESCRIPTION)) +
+  geom_tile() +
+  geom_text(aes(label = DESCRIPTION), size = 8) +
+  scale_fill_manual(values = hexCol) +
+  theme_void() +
+  theme(legend.position = &amp;quot;none&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The resulting graph looks like this and is readily available to use in a paper manuscript!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://zepengmu.netlify.com/img/chromHMMLegend.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Phyllotaxis with R</title>
-      <link>/fun/phyllotaxis/</link>
+      <link>https://zepengmu.netlify.com/blog/phyllotaxis/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 -0500</pubDate>
       
-      <guid>/fun/phyllotaxis/</guid>
-      <description>&lt;p&gt;According to Wikipedia, phycllotaxis &amp;ldquo;is the arrangement of leaves on a plant stem&amp;rdquo; in botany. The following code show how to draw phycllotaxis patterns using ggplot2. The code was modified from a Project called &lt;em&gt;PHYLLOTAXIS: DRAW FLOWERS USING MATHEMATICS&lt;/em&gt; on &lt;a href=&#34;www.datacamp.com&#34; target=&#34;_blank&#34;&gt;Datacamp&lt;/a&gt;.&lt;/p&gt;
+      <guid>https://zepengmu.netlify.com/blog/phyllotaxis/</guid>
+      <description>&lt;p&gt;Phycllotaxis is a kind of &amp;lsquo;seemingly&amp;rsquo; complex geometric pattern that looks complex but with very simple mathematics behind. It is not uncommon in nature. According to Wikipedia, phycllotaxis &amp;ldquo;is the arrangement of leaves on a plant stem&amp;rdquo; in botany. The following code show how to draw phycllotaxis patterns using ggplot2. The code was modified from a Project called &lt;em&gt;PHYLLOTAXIS: DRAW FLOWERS USING MATHEMATICS&lt;/em&gt; on &lt;a href=&#34;www.datacamp.com&#34; target=&#34;_blank&#34;&gt;Datacamp&lt;/a&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(tidyverse)
 library(ggplot2)
@@ -42,17 +85,18 @@ p + geom_point(alpha = 0.8, color = rainbow(points), shape = 16) +
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The resulting figure looks like:
-&lt;img src=&#34;/img/phyllotaxis.png&#34; alt=&#34;phyllotaxis&#34; /&gt;
-By changing the two parameters &lt;code&gt;angle&lt;/code&gt; and &lt;code&gt;points&lt;/code&gt; in the code above, one can get endless number of phyllotaxis patterns.&lt;/p&gt;
+&lt;img src=&#34;https://zepengmu.netlify.com/img/phyllotaxis.png&#34; alt=&#34;phyllotaxis&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;By changing the two parameters &lt;code&gt;angle&lt;/code&gt; and &lt;code&gt;points&lt;/code&gt; in the code above, one can get endless number of phyllotaxis patterns.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>boringR: drawing with R</title>
-      <link>/fun/boringr/</link>
+      <link>https://zepengmu.netlify.com/blog/boringr/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 -0500</pubDate>
       
-      <guid>/fun/boringr/</guid>
+      <guid>https://zepengmu.netlify.com/blog/boringr/</guid>
       <description>
 
 &lt;p&gt;R provides us with a graphical tool that is precise, beautiful and easy to learn. Besides academic publishing, R can also be used to do arts. Inspired by some blogs, I also tried to creat something beautiful and interesting by R. I call this &amp;ldquo;boringR&amp;rdquo; and you can find all the code on my &lt;a href=&#34;https://github.com/Zepeng-Mu/boringR&#34; target=&#34;_blank&#34;&gt;Github repo&lt;/a&gt;.&lt;/p&gt;
@@ -92,7 +136,7 @@ legend(&amp;quot;bottomright&amp;quot;, legend=&amp;quot;© Phoenix&amp;quot;, b
 
 &lt;p&gt;The graph generated by codes above look like:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/colorfulBars.png&#34; alt=&#34;colorfulBars&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zepengmu.netlify.com/img/colorfulBars.png&#34; alt=&#34;colorfulBars&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;colurful-beams&#34;&gt;Colurful Beams&lt;/h3&gt;
 
@@ -126,7 +170,7 @@ legend(&amp;quot;bottomright&amp;quot;, legend=&amp;quot;© Phoenix&amp;quot;, b
 
 &lt;p&gt;Here I used &lt;code&gt;rgb&lt;/code&gt; function to generate colors. Moreover, the values for &lt;em&gt;red&lt;/em&gt;, &lt;em&gt;green&lt;/em&gt; and &lt;em&gt;blue&lt;/em&gt; were sampled from a given range. For instance, &lt;em&gt;red&lt;/em&gt; can only range from 0.4 to 1. This makes the beams look &amp;ldquo;reddish&amp;rdquo;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/colorfulBeams.png&#34; alt=&#34;colorfulBeams&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zepengmu.netlify.com/img/colorfulBeams.png&#34; alt=&#34;colorfulBeams&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;colorful-curves&#34;&gt;Colorful Curves&lt;/h3&gt;
 
@@ -168,46 +212,30 @@ for (i in 1:number_of_curves) {
 legend(&amp;quot;bottomright&amp;quot;, legend=&amp;quot;© Phoenix&amp;quot;, bty = &amp;quot;n&amp;quot;, text.col=&amp;quot;gray70&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/colorfulCurves.png&#34; alt=&#34;colorfulCurves&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zepengmu.netlify.com/img/colorfulCurves.png&#34; alt=&#34;colorfulCurves&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;There is one more thing that I want say. One can always add randnomness into the graph to make them look better. The use of random colors is one of them. You can also set random line widths or line types to make the graph different.&lt;/p&gt;
+
+&lt;p&gt;Last but not least, to learn more about R, I recommend &lt;a href=&#34;https://www.r-bloggers.com&#34; target=&#34;_blank&#34;&gt;r-bloggers.com&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Pharmacokinetic (PK) modeling of serum platinum to reveal extent of long-term exposure and associated comorbidities after cisplatin treatment</title>
-      <link>/publication/asco_dolan2018/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/asco_dolan2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An Engineered E. coli that senses and degrades antibiotic residues</title>
-      <link>/publication/igem2016/</link>
-      <pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/igem2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Example Talk</title>
-      <link>/talk/example-talk/</link>
+      <link>https://zepengmu.netlify.com/talk/example-talk/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
       
-      <guid>/talk/example-talk/</guid>
+      <guid>https://zepengmu.netlify.com/talk/example-talk/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Academic: the website designer for Hugo</title>
-      <link>/post/getting-started/</link>
+      <link>https://zepengmu.netlify.com/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/post/getting-started/</guid>
+      <guid>https://zepengmu.netlify.com/post/getting-started/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;Academic&lt;/strong&gt; is a framework to help you create a beautiful website quickly. Perfect for personal sites, blogs, or business/project sites. &lt;a href=&#34;https://themes.gohugo.io/theme/academic/&#34; target=&#34;_blank&#34;&gt;Check out the latest demo&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes. Then head on over to the &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Quick Start guide&lt;/a&gt; or take a look at the &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34;&gt;Release Notes&lt;/a&gt;.&lt;/p&gt;
@@ -392,10 +420,10 @@ git submodule update --init --recursive
     
     <item>
       <title>Bacteriorhodopsin NdR2</title>
-      <link>/projects/ndr2/</link>
+      <link>https://zepengmu.netlify.com/projects/ndr2/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/projects/ndr2/</guid>
+      <guid>https://zepengmu.netlify.com/projects/ndr2/</guid>
       <description>
 
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
@@ -411,25 +439,11 @@ git submodule update --init --recursive
     </item>
     
     <item>
-      <title>Publications</title>
-      <link>/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
-      
-      <guid>/publications/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Zepeng Mu&lt;/strong&gt;, Zhuoning Zou, Ye Yang, Wenbo Wang, Yue Xu, Jianyi Huang, Ruiling Cai et al. &amp;ldquo;A genetically engineered Escherichia coli that senses and degrades tetracycline antibiotic residue.&amp;rdquo; &lt;em&gt;Synthetic and Systems Biotechnology&lt;/em&gt; (2018).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;El Charif, Omar, &lt;strong&gt;Zepeng Mu&lt;/strong&gt;, Eric R. Gamazon, Paul C. Dinh, Shirin Ardeshirrouhanifard, Patrick O. Monahan, Darren R. Feldman et al. &amp;ldquo;Pharmacokinetic (PK) modeling of serum platinum to reveal extent of long-term exposure and associated comorbidities after cisplatin treatment.&amp;rdquo; (2018): 10058-10058.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
       <title>UCAS iGEM 2017</title>
-      <link>/projects/ucas_igem_2017/</link>
+      <link>https://zepengmu.netlify.com/projects/ucas_igem_2017/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/projects/ucas_igem_2017/</guid>
+      <guid>https://zepengmu.netlify.com/projects/ucas_igem_2017/</guid>
       <description>
 
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
@@ -446,10 +460,10 @@ git submodule update --init --recursive
     
     <item>
       <title>UChicago</title>
-      <link>/projects/uchicago/</link>
+      <link>https://zepengmu.netlify.com/projects/uchicago/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/projects/uchicago/</guid>
+      <guid>https://zepengmu.netlify.com/projects/uchicago/</guid>
       <description>
 
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
@@ -462,6 +476,15 @@ git submodule update --init --recursive
 
 &lt;p&gt;In the project, we also want to raise the public awareness of the urgent problem of antibiotic residues. For more details on the project, please visit our &lt;a href=&#34;http://2016.igem.org/Team:UCAS&#34; target=&#34;_blank&#34;&gt;official wiki&lt;/a&gt;.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://zepengmu.netlify.com/google6b3ce40aa47a7f94/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zepengmu.netlify.com/google6b3ce40aa47a7f94/</guid>
+      <description>google-site-verification: google6b3ce40aa47a7f94.html</description>
     </item>
     
   </channel>
