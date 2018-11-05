@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CV on HOME</title>
-    <link>/cv/</link>
+    <link>https://zepengmu.netlify.com/cv/</link>
     <description>Recent content in CV on HOME</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sat, 18 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/cv/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zepengmu.netlify.com/cv/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
