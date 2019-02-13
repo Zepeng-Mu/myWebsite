@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on HOME</title>
-    <link>https://zepengmu.netlify.com/home/</link>
+    <link>/home/</link>
     <description>Recent content in Homes on HOME</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://zepengmu.netlify.com/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Welcome!</title>
-      <link>https://zepengmu.netlify.com/home/hero/</link>
+      <link>/home/hero/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 -0500</pubDate>
       
-      <guid>https://zepengmu.netlify.com/home/hero/</guid>
+      <guid>/home/hero/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://zepengmu.netlify.com/home/about/</link>
+      <link>/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://zepengmu.netlify.com/home/about/</guid>
+      <guid>/home/about/</guid>
       <description>This is the personal website of Zepeng Mu. My English nickname is Phoenix. I took my undergraduate education at University of Chinese Academy of Sciences (UCAS), and I majored in Biological Sciences. I am now a Ph.D. student in Committee of Genetics, Genomcis, and Systems Biology (GGSB) at The University of Chicago. My major interest is to use genomics technologies with proper statistical methods to investigate human genome.</description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>https://zepengmu.netlify.com/home/publications_selected/</link>
+      <link>/home/publications_selected/</link>
       <pubDate>Fri, 31 Aug 2018 00:00:00 -0500</pubDate>
       
-      <guid>https://zepengmu.netlify.com/home/publications_selected/</guid>
+      <guid>/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://zepengmu.netlify.com/home/contact/</link>
+      <link>/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://zepengmu.netlify.com/home/contact/</guid>
+      <guid>/home/contact/</guid>
       <description></description>
     </item>
     

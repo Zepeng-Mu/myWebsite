@@ -5,7 +5,25 @@
     
     <url>
     
-      <loc>https://zepengmu.netlify.com/blog/</loc>
+      <loc>/blog/test/</loc>
+      <lastmod>2019-02-13T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/blog/sleepdata/</loc>
+      <lastmod>2018-11-24T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/blog/</loc>
       <lastmod>2018-09-21T00:00:00-05:00</lastmod>
     </url>
     
@@ -14,7 +32,7 @@
     
     <url>
     
-      <loc>https://zepengmu.netlify.com/blog/chromhmmlegend/</loc>
+      <loc>/blog/chromhmmlegend/</loc>
       <lastmod>2018-09-21T00:00:00-05:00</lastmod>
     </url>
     
@@ -23,7 +41,7 @@
     
     <url>
     
-      <loc>https://zepengmu.netlify.com/cv/</loc>
+      <loc>/cv/</loc>
       <lastmod>2018-08-18T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,7 +50,7 @@
     
     <url>
     
-      <loc>https://zepengmu.netlify.com/publications/</loc>
+      <loc>/publications/</loc>
       <lastmod>2018-08-18T00:00:00+00:00</lastmod>
     </url>
     
@@ -41,7 +59,7 @@
     
     <url>
     
-      <loc>https://zepengmu.netlify.com/blog/phyllotaxis/</loc>
+      <loc>/blog/phyllotaxis/</loc>
       <lastmod>2018-09-04T00:00:00-05:00</lastmod>
     </url>
     
@@ -50,7 +68,7 @@
     
     <url>
     
-      <loc>https://zepengmu.netlify.com/blog/boringr/</loc>
+      <loc>/blog/boringr/</loc>
       <lastmod>2018-08-10T00:00:00-05:00</lastmod>
     </url>
     
@@ -59,7 +77,7 @@
     
     <url>
     
-      <loc>https://zepengmu.netlify.com/talk/example-talk/</loc>
+      <loc>/projects/</loc>
       <lastmod>2017-01-01T00:00:00-06:00</lastmod>
     </url>
     
@@ -68,25 +86,7 @@
     
     <url>
     
-      <loc>https://zepengmu.netlify.com/post/</loc>
-      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://zepengmu.netlify.com/projects/</loc>
-      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://zepengmu.netlify.com/tags/academic/</loc>
+      <loc>/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -95,16 +95,7 @@
     
     <url>
     
-      <loc>https://zepengmu.netlify.com/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://zepengmu.netlify.com/post/getting-started/</loc>
+      <loc>/projects/ndr2/</loc>
       <lastmod>2018-01-13T00:00:00-06:00</lastmod>
     </url>
     
@@ -113,7 +104,7 @@
     
     <url>
     
-      <loc>https://zepengmu.netlify.com/projects/ndr2/</loc>
+      <loc>/projects/ucas_igem_2017/</loc>
       <lastmod>2018-01-13T00:00:00-06:00</lastmod>
     </url>
     
@@ -122,7 +113,7 @@
     
     <url>
     
-      <loc>https://zepengmu.netlify.com/projects/ucas_igem_2017/</loc>
+      <loc>/projects/uchicago/</loc>
       <lastmod>2018-01-13T00:00:00-06:00</lastmod>
     </url>
     
@@ -131,8 +122,7 @@
     
     <url>
     
-      <loc>https://zepengmu.netlify.com/projects/uchicago/</loc>
-      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
+      <loc>/google6b3ce40aa47a7f94/</loc>
     </url>
     
   
@@ -140,15 +130,7 @@
     
     <url>
     
-      <loc>https://zepengmu.netlify.com/google6b3ce40aa47a7f94/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://zepengmu.netlify.com/categories/</loc>
+      <loc>/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -157,7 +139,7 @@
     
     <url>
     
-      <loc>https://zepengmu.netlify.com/</loc>
+      <loc>/</loc>
       <lastmod>2017-10-15T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -167,7 +149,7 @@
     
     <url>
     
-      <loc>https://zepengmu.netlify.com/publication_types/</loc>
+      <loc>/publication_types/</loc>
       <priority>0</priority>
     </url>
     
@@ -176,7 +158,7 @@
     
     <url>
     
-      <loc>https://zepengmu.netlify.com/tags/</loc>
+      <loc>/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
