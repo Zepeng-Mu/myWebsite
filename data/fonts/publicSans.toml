@@ -1,0 +1,15 @@
+# Font style metadata
+name = "publicSans"
+
+# Optional Google font URL
+google_fonts = ""
+
+# Font families
+heading_font = "Public Sans"
+body_font = "Public Sans"
+nav_font = "Public Sans"
+mono_font = "Public Sans"
+
+# Font size
+font_size = "18"
+font_size_small = "18"
