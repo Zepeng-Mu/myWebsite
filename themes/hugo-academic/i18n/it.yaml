@@ -3,16 +3,45 @@
 - id: toggle_navigation
   translation: Attiva la navigazione
 
+- id: table_of_contents
+  translation: Indice dei Contenuti
+
+- id: on_this_page
+  translation: In questa pagina
+
+- id: back_to_top
+  translation: Torna su
+
+# General
+
+- id: related
+  translation: Correlato
+
+- id: minute_read
+  translation: minuti
+
+- id: previous
+  translation: Precedente
+
+- id: next
+  translation: Prossimo
+
+- id: figure
+  translation: "Immagine %d:"
+
 # Buttons
 
-- id: btn_details
-  translation: Dettagli
+- id: btn_preprint
+  translation: Preprint
 
 - id: btn_pdf
   translation: PDF
 
+- id: btn_cite
+  translation: Citazione
+
 - id: btn_slides
-  translation: Slide
+  translation: Slides
 
 - id: btn_video
   translation: Video
@@ -26,6 +55,18 @@
 - id: btn_project
   translation: Progetti
 
+- id: btn_poster
+  translation: Poster
+
+- id: btn_source
+  translation: Sorgente
+
+- id: btn_copy
+  translation: Copia
+
+- id: btn_download
+  translation: Download
+
 # About widget
 
 - id: interests
@@ -33,6 +74,16 @@
 
 - id: education
   translation: Formazione
+
+# Accomplishments widget
+
+- id: see_certificate
+  translation: Guarda il certificato
+
+# Experience widget
+
+- id: present
+  translation: Present
 
 # Publications widget
 
@@ -52,6 +103,23 @@
 - id: more_talks
   translation: Altre Conferenze
 
+# Contact widget
+
+- id: contact_name
+  translation: Nome
+
+- id: contact_email
+  translation: Email
+
+- id: contact_message
+  translation: Messaggio
+
+- id: contact_send
+  translation: Invio
+
+- id: book_appointment
+  translation: Richiedi un appuntamento
+
 # Publication/Talk details
 
 - id: abstract
@@ -66,14 +134,35 @@
 - id: date
   translation: Data
 
-- id: links
-  translation: Link
+- id: last_updated
+  translation: Aggiornato il
 
 - id: event
   translation: Evento
 
 - id: location
   translation: Luogo
+
+- id: pub_uncat
+  translation: Uncategorized
+
+- id: pub_conf
+  translation: Conference paper
+
+- id: pub_journal
+  translation: Journal article
+
+- id: pub_manuscript
+  translation: Manoscritto
+
+- id: pub_report
+  translation: Report
+
+- id: pub_book
+  translation: Libro
+
+- id: pub_book_section
+  translation: Sezione Libro
 
 # Filtering
 
@@ -98,3 +187,39 @@
 
 - id: talks
   translation: Conferenze
+
+- id: projects
+  translation: Progetti
+
+# Search
+
+- id: search
+  translation: Cerca
+
+- id: search_placeholder
+  translation: Cerca...
+
+- id: search_results
+  translation: Risultati della ricerca
+
+- id: search_no_results
+  translation: Nessun risultato
+
+# Error 404
+
+- id: page_not_found
+  translation: Pagina non trovata
+
+- id: 404_recommendations
+  translation: Forse stavate carcando uno di questi?
+
+# Cookie consent
+
+- id: cookie_message
+  translation: Questo sito usa i cookies per garantire la migliore esperienza di navigazione.
+
+- id: cookie_dismiss
+  translation: Ok!
+
+- id: cookie_learn
+  translation: Leggi i dettagli
