@@ -48,7 +48,7 @@ defaultContentLanguageInSubdir = false
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
-  font = ""
+  font = "publicSans"
 
   # Your details.
   name = "Zepeng (Phoenix) Mu"
