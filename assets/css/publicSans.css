@@ -2,5 +2,5 @@
   font-family: 'Public Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Public Sans'), url('fonts/PublicSans-Regular.ttf');
+  src: local('Public Sans Regular'), url('fonts/PublicSans-Regular.ttf');
 }
