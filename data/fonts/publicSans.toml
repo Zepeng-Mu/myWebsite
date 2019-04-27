@@ -8,7 +8,7 @@ google_fonts = ""
 heading_font = "Public Sans"
 body_font = "Public Sans"
 nav_font = "Public Sans"
-mono_font = "Public Sans"
+mono_font = "monospace"
 
 # Font size
 font_size = "18"
