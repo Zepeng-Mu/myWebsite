@@ -1,167 +1,90 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-    
-    <url>
-    
-      <loc>/blog/test/</loc>
-      <lastmod>2019-02-13T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://zepengmu.netlify.com/publications/</loc>
+    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/blog/sleepdata/</loc>
-      <lastmod>2018-11-24T00:00:00-06:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://zepengmu.netlify.com/blog/test/</loc>
+    <lastmod>2019-02-13T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/blog/</loc>
-      <lastmod>2018-09-21T00:00:00-05:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://zepengmu.netlify.com/</loc>
+    <lastmod>2019-02-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/blog/chromhmmlegend/</loc>
-      <lastmod>2018-09-21T00:00:00-05:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://zepengmu.netlify.com/blog/</loc>
+    <lastmod>2018-09-21T00:00:00-05:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/cv/</loc>
-      <lastmod>2018-08-18T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://zepengmu.netlify.com/cv/</loc>
+    <lastmod>2018-08-18T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publications/</loc>
-      <lastmod>2018-08-18T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://zepengmu.netlify.com/blog/phyllotaxis/</loc>
+    <lastmod>2018-09-04T00:00:00-05:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/blog/phyllotaxis/</loc>
-      <lastmod>2018-09-04T00:00:00-05:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://zepengmu.netlify.com/blog/boringr/</loc>
+    <lastmod>2018-08-10T00:00:00-05:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/blog/boringr/</loc>
-      <lastmod>2018-08-10T00:00:00-05:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://zepengmu.netlify.com/projects/</loc>
+    <lastmod>2017-01-01T00:00:00-06:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/projects/</loc>
-      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://zepengmu.netlify.com/tags/academic/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/academic/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://zepengmu.netlify.com/author/admin/</loc>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/projects/ndr2/</loc>
-      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://zepengmu.netlify.com/google6b3ce40aa47a7f94/</loc>
+    <priority>0</priority>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/projects/ucas_igem_2017/</loc>
-      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://zepengmu.netlify.com/authors/</loc>
+    <priority>0</priority>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/projects/uchicago/</loc>
-      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://zepengmu.netlify.com/author/</loc>
+    <priority>0</priority>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/google6b3ce40aa47a7f94/</loc>
-    </url>
-    
+  <url>
+    <loc>https://zepengmu.netlify.com/categories/</loc>
+    <priority>0</priority>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://zepengmu.netlify.com/publication_types/</loc>
+    <priority>0</priority>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2017-10-15T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://zepengmu.netlify.com/tags/</loc>
+    <priority>0</priority>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication_types/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://zepengmu.netlify.com/authors/admin/</loc>
+    <priority>0</priority>
+  </url>
   
 </urlset>

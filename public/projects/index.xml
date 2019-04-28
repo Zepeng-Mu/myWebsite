@@ -1,43 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on HOME</title>
-    <link>/projects/</link>
-    <description>Recent content in Projects on HOME</description>
+    <title>Projects on Home</title>
+    <link>https://zepengmu.netlify.com/projects/</link>
+    <description>Recent content in Projects on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>&amp;copy</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zepengmu.netlify.com/projects/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Bacteriorhodopsin NdR2</title>
-      <link>/projects/ndr2/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
-      
-      <guid>/projects/ndr2/</guid>
-      <description>Introduction The international Genetically Engineered Machine (iGEM) Competition is the world&amp;rsquo;s most renowned biological competition for undergraduates, high school students and even graduate schools, attracting more than 300 teams world-wide each year. To participate, each team is required to come up with a certain problem, and try to adress that using synthetic biology methods during the summer, and to present it to all the iGEMers and judges in an oral presentation and a poster at the Giant Jamboree in Boston.</description>
-    </item>
-    
-    <item>
-      <title>UCAS iGEM 2017</title>
-      <link>/projects/ucas_igem_2017/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
-      
-      <guid>/projects/ucas_igem_2017/</guid>
-      <description>Introduction The international Genetically Engineered Machine (iGEM) Competition is the world&amp;rsquo;s most renowned biological competition for undergraduates, high school students and even graduate schools, attracting more than 300 teams world-wide each year. To participate, each team is required to come up with a certain problem, and try to adress that using synthetic biology methods during the summer, and to present it to all the iGEMers and judges in an oral presentation and a poster at the Giant Jamboree in Boston.</description>
-    </item>
-    
-    <item>
-      <title>UChicago</title>
-      <link>/projects/uchicago/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
-      
-      <guid>/projects/uchicago/</guid>
-      <description>Introduction The international Genetically Engineered Machine (iGEM) Competition is the world&amp;rsquo;s most renowned biological competition for undergraduates, high school students and even graduate schools, attracting more than 300 teams world-wide each year. To participate, each team is required to come up with a certain problem, and try to adress that using synthetic biology methods during the summer, and to present it to all the iGEMers and judges in an oral presentation and a poster at the Giant Jamboree in Boston.</description>
-    </item>
     
   </channel>
 </rss>

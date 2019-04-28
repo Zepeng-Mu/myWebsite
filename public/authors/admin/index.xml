@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>admin on Home</title>
+    <link>https://zepengmu.netlify.com/authors/admin/</link>
+    <description>Recent content in admin on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy</copyright>
+    
+	<atom:link href="https://zepengmu.netlify.com/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://zepengmu.netlify.com/author/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zepengmu.netlify.com/author/admin/</guid>
+      <description>This is the personal website of Zepeng Mu. My English nickname is Phoenix. I took my undergraduate education at University of Chinese Academy of Sciences (UCAS), and I majored in Biological Sciences. I am now a Ph.D. student in Committee of Genetics, Genomcis, and Systems Biology (GGSB) at The University of Chicago. My major interest is to use genomics technologies with proper statistical methods to investigate human genome.</description>
+    </item>
+    
+  </channel>
+</rss>

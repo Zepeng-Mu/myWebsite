@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on HOME</title>
-    <link>/publications/</link>
-    <description>Recent content in Publications on HOME</description>
+    <title>Publications on Home</title>
+    <link>https://zepengmu.netlify.com/publications/</link>
+    <description>Recent content in Publications on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sat, 18 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy</copyright>
+    <lastBuildDate>Fri, 29 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/publications/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zepengmu.netlify.com/publications/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
