@@ -7,6 +7,5 @@ highlight = false
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "headers/projects_header_unsplash.jpg"
-caption = ""
-
+caption = "Photo Credit: Unsplash"
 +++
