@@ -16,7 +16,7 @@ role = "Ph.D. Student"
 organizations = [ { name = "University of Chicago", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include distributed robotics, mobile computing and programmable matter."
+bio = "My research interests include Genomics and human complex diseases."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
