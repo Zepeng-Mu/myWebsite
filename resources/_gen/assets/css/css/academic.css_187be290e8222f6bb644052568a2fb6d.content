@@ -1,2 +1,2 @@
 /* Source Themes Academic v4.2.5 | https://sourcethemes.com/academic/ */
-@font-face{font-family:public sans;font-style:normal;font-weight:400;src:local('Public Sans Regular'),url(fonts/PublicSans-Regular.ttf)}
+@font-face{font-family:public sans;font-style:normal;font-weight:400;src:local('Public Sans Regular'),url(../../static/fonts/PublicSans-Regular.ttf)}
