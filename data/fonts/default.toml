@@ -1,14 +1,15 @@
 # Font style metadata
+# Google PT Sans
 name = "myDefault"
 
 # Optional Google font URL
-google_fonts = ""
+google_fonts = "https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
 
 # Font families
-heading_font = "Montserrat"
-body_font = "Roboto"
-nav_font = "Roboto"
-mono_font = "Roboto Mono"
+heading_font = ""
+body_font = ""
+nav_font = ""
+mono_font = ""
 
 # Font size
 font_size = "17"
