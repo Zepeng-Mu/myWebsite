@@ -1,9 +1,9 @@
 # Font style metadata
 # Google PT Sans
-name = "default"
+name = "ptsans"
 
 # Optional Google font URL
-google_fonts = "Open+Sans"
+google_fonts = "PT+Sans"
 
 # Font families
 heading_font = ""
