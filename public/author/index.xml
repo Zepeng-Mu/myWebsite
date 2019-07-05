@@ -6,7 +6,7 @@
     <description>Recent content in Authors on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy</copyright>
+    <copyright>&amp;copy {year}</copyright>
     
 	<atom:link href="https://zepengmu.netlify.com/author/index.xml" rel="self" type="application/rss+xml" />
     
