@@ -35,7 +35,7 @@ interests = [
 [[education.courses]]
   course = "BS in Life Science"
   institution = "University of Chinese Academy of Sciences"
-  year = 2012
+  year = 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
