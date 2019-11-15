@@ -16,7 +16,7 @@ role = "Ph.D. Student"
 organizations = [ { name = "University of Chicago", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include Genomics and human complex diseases."
+bio = "Ph.D. student studying genomics and human diseases at the University of Chicago"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
@@ -24,7 +24,8 @@ email = ""
 # List (academic) interests or hobbies
 interests = [
   "Genetics and Genomics",
-  "Human Diseases"
+  "Human Diseases",
+  "Immunogenetics"
 ]
 
 # Organizational groups that you belong to (for People widget)
@@ -71,4 +72,4 @@ interests = [
 
 +++
 
-This is the personal website of Zepeng Mu. My English nickname is Phoenix. I took my undergraduate education at [University of Chinese Academy of Sciences (UCAS)](http://english.ucas.ac.cn/), and I majored in Biological Sciences. I am now a Ph.D. student in [Committee of Genetics, Genomcis, and Systems Biology (GGSB)](https://ggsb.uchicago.edu/) at [The University of Chicago](https://www.uchicago.edu/). My major interest is to use genomics technologies with proper statistical methods to investigate human genome.
+This is the personal website of Zepeng Mu. My English nickname is Phoenix. I took my undergraduate education at [University of Chinese Academy of Sciences (UCAS)](http://english.ucas.ac.cn/), and I majored in Biological Sciences. I am now a Ph.D. student in [Committee of Genetics, Genomcis, and Systems Biology (GGSB)](https://ggsb.uchicago.edu/) at [The University of Chicago](https://www.uchicago.edu/). My major interest is to use genomics technologies with proper statistical methods to understand how genetics variants affect human complex traits, including autoimmune diseases.
