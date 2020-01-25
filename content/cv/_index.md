@@ -44,17 +44,17 @@ Matthew R Trendowski, Omar El-Charif, **Zepeng Mu** et al. Pharmacokinetic model
 
 #### Pathogenesis of risk loci associated with type 2 diabetes
 
-**Advisor: Prof. Changqing Zeng**, Beijing Institute of Genomics, Chinese Academy of Sciences.  
+**Advisor: Dr. Changqing Zeng**, Beijing Institute of Genomics, Chinese Academy of Sciences.  
 	*Aug. 2017 - Jul. 2018*
 
 #### Biophysics of bacteriorhodopsin NdR2 as a novel sodium ion pump
 
-**Advisor: Prof. Deliang Chen**, College of Life Sciences, University of Chinese Academy of Sciences.  
+**Advisor: Dr. Deliang Chen**, College of Life Sciences, University of Chinese Academy of Sciences.  
 	*Nov. 2016 - Jul. 2017*
 
 #### Characterization of bacteria Toxin-Antitoxin (TA) systems for a kill-switch in engineered *E. coli*
 
-**Advisor: Prof. Chunbo Lou**, Institute of Microbiology, Chinese Academy of Sciences.  
+**Advisor: Dr. Chunbo Lou**, Institute of Microbiology, Chinese Academy of Sciences.  
 	*Aug. 2016 - Nov. 2016*
 
 ## AWARDS
