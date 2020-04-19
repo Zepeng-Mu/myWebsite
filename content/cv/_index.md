@@ -33,7 +33,7 @@ Matthew R Trendowski, Omar El-Charif, **Zepeng Mu** et al. Pharmacokinetic model
 ---
 * **Dry Lab**: R, UNIX, Python, LaTex
 
-* **Wet Lab**: Molecular cloning, Luciferase reporter assay, Cell culturing, qRT-PCR
+* **Wet Lab**: CUT&Tag, Molecular cloning, Luciferase reporter assay, Cell culturing, qRT-PCR
 
 ## RESEARCH EXPERIENCE
 ---
