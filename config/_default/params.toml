@@ -3,13 +3,13 @@
 
 # Color theme.
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-color_theme = "uchicago"
+theme = "uchicago"
 # Enable users to switch between day and night mode?
 day_night = true
 
 # Font style.
 #   Choose from `default`, `classic`, or `playfair`.
-font = "default"
+font = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = "Personal website for Zepeng (Phoenix) Mu"
@@ -52,7 +52,7 @@ time_format = "3:04 PM"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "zepengmu@uchicago.edu"
 phone = ""
-address = ""
+# address = {street = "450 Serra Mall", city = "Stanford", region = "CA", postcode = "94305", country = "United States", country_code = "US"}
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ""
@@ -158,3 +158,20 @@ sharing = true
     api_key = ""
     index_name = ""
     show_logo = false
+
+# Comments.
+[comments]
+  # Comment provider:
+  #   0: Disabled
+  #   1: Disqus (https://disqus.com)
+  #   2: Commento (https://commento.io)
+  engine = 0
+
+  # Which page types are commentable?
+  commentable = {page = true, post = true, docs = true}
+
+  # Configuration of Disqus.
+  [comments.disqus]
+    shortname = ""  # Paste the shortname from your Disqus dashboard.
+    show_count = true  # Show comment count in page header? (true/false)
+

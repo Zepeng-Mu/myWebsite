@@ -1,14 +1,21 @@
-+++
-title = "Slides"
+---
+title: Slides
+summary: An introduction to using Academic's Slides feature.
+authors: []
+tags: []
+categories: []
+date: "2019-02-05T00:00:00Z"
+slides:
+  # Choose a theme from https://github.com/hakimel/reveal.js#theming
+  theme: black
+  # Choose a code highlighting style (if highlighting enabled in `params.toml`)
+  #   Light style: github. Dark style: dracula (default).
+  highlight_style: dracula
+---
 
-[slides]
-# Choose a theme from https://github.com/hakimel/reveal.js#theming
-theme = "black"
-+++
+# Create slides in Markdown with Academic
 
-# Welcome to Slides
-
-[Academic](https://sourcethemes.com/academic/)
+[Academic](https://sourcethemes.com/academic/) | [Documentation](https://sourcethemes.com/academic/docs/managing-content/#create-slides)
 
 ---
 
@@ -154,6 +161,6 @@ Create `assets/css/reveal_custom.css` with:
 
 # Questions?
 
-[Ask](https://discourse.gohugo.io)
+[Ask](https://spectrum.chat/academic)
 
-[Documentation](https://sourcethemes.com/academic/docs/)
+[Documentation](https://sourcethemes.com/academic/docs/managing-content/#create-slides)
