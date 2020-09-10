@@ -1,7 +1,7 @@
 ---
 title: "A genetically engineered Escherichia coli that senses and degrades tetracycline antibiotic residue"
 authors:
-- Zepeng Mu
+- admin
 - Zhuoning Zou
 - Ye Yang
 - Wenbo Wang
@@ -24,9 +24,11 @@ authors:
 - Yang Yu
 - Jiangyun Wang
 author_notes:
-- "First"
+- "Equal contribution"
+- "Equal contribution"
+- "Equal contribution"
 date: "2018-09-01"
-doi: "https://doi.org/10.1016/j.synbio.2018.05.001"
+doi: "10.1016/j.synbio.2018.05.001"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2020-01-01T00:00:00Z"
@@ -50,9 +52,6 @@ tags:
 featured: false
 
 links:
-- name: Web
-  url: https://www.sciencedirect.com/science/article/pii/S2405805X17301151
-
 url_pdf: ''
 url_code: ''
 url_dataset: ''
@@ -63,7 +62,7 @@ url_source: ''
 url_video: ''
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
   caption: ""
   focal_point: ""
