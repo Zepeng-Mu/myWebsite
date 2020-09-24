@@ -44,4 +44,5 @@ subtitle = ""
  css_class = ""
 +++
 
+{{< cite page="/publication/mu-2020-impact" view="1" >}}
 {{< cite page="/publication/chen-2020-alignment" view="1" >}}
