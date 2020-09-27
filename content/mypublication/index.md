@@ -5,9 +5,4 @@ math: true
 highlight: true
 type: "widget_page"
 headerless: true
-
-# Optional featured image (relative to `static/img/` folder).
-header:
-    image: "headers/publication_header.jpg"
-    caption: "Image credit: **Zepeng Mu**"
 ---
