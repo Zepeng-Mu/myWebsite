@@ -2,22 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home</title>
-    <link>https://zepengmu.netlify.com/</link>
-    <description>Recent content on Home</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy {year}</copyright>
-    <lastBuildDate>Wed, 13 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <link>https://zepengmu.netlify.app/</link>
+      <atom:link href="https://zepengmu.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <description>Home</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zepengmu.netlify.app/images/icon_hude38de91a1485bdac948e809c4e8e825_60537_512x512_fill_lanczos_center_2.png</url>
+      <title>Home</title>
+      <link>https://zepengmu.netlify.app/</link>
+    </image>
     
-	    <atom:link href="https://zepengmu.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Impact of cell-type and context-dependent regulatory variants on human immune traits</title>
+      <link>https://zepengmu.netlify.app/publication/mu-2020-impact/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://zepengmu.netlify.app/publication/mu-2020-impact/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>Alternative polyadenylation mediates genetic regulation of gene expression</title>
+      <link>https://zepengmu.netlify.app/publication/apaqtl/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://zepengmu.netlify.app/publication/apaqtl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alignment of single-cell RNA-seq samples without over-correction using kernel density matching</title>
+      <link>https://zepengmu.netlify.app/publication/chen-2020-alignment/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://zepengmu.netlify.app/publication/chen-2020-alignment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://zepengmu.netlify.app/mypublication/</link>
+      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://zepengmu.netlify.app/mypublication/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Drawing chromHMM legend with ggplot2</title>
-      <link>https://zepengmu.netlify.com/blog/test/</link>
+      <link>https://zepengmu.netlify.app/blog/test/</link>
       <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zepengmu.netlify.com/blog/test/</guid>
+      <guid>https://zepengmu.netlify.app/blog/test/</guid>
       <description>
 
 
@@ -42,65 +73,37 @@ names(hexCol) = core$DESCRIPTION&lt;/code&gt;&lt;/pre&gt;
   theme_void() +
   theme(legend.position = &amp;quot;none&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The resulting graph looks like this and is readily available to use in a paper manuscript!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://zepengmu.netlify.com/img/chromHMMLegend.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zepengmu.netlify.app/img/chromHMMLegend.png&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Phyllotaxis with R</title>
-      <link>https://zepengmu.netlify.com/blog/phyllotaxis/</link>
-      <pubDate>Fri, 10 Aug 2018 00:00:00 -0500</pubDate>
-      
-      <guid>https://zepengmu.netlify.com/blog/phyllotaxis/</guid>
-      <description>&lt;p&gt;Phycllotaxis is a kind of &amp;lsquo;seemingly&amp;rsquo; complex geometric pattern that looks complex but with very simple mathematics behind. It is not uncommon in nature. According to Wikipedia, phycllotaxis &amp;ldquo;is the arrangement of leaves on a plant stem&amp;rdquo; in botany. The following code show how to draw phycllotaxis patterns using ggplot2. The code was modified from a Project called &lt;em&gt;PHYLLOTAXIS: DRAW FLOWERS USING MATHEMATICS&lt;/em&gt; on &lt;a href=&#34;www.datacamp.com&#34; target=&#34;_blank&#34;&gt;Datacamp&lt;/a&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(tidyverse)
-library(ggplot2)
-
-angle &amp;lt;- 31*pi/180
-points &amp;lt;- 900
-
-t &amp;lt;- (1:points)*angle
-x &amp;lt;- sin(t)
-y &amp;lt;- cos(t)
-
-df &amp;lt;- data.frame(t, x, y)
-
-options(repr.plot.width = 4, repr.plot.height = 4)
-p &amp;lt;- ggplot(df, aes(x*t, y*t))
-p + geom_point(alpha = 0.8, color = rainbow(points), shape = 16) +
-    theme(title = element_blank(),
-        panel.grid = element_blank(),
-        axis.ticks = element_blank(),
-        axis.text = element_blank(),
-        panel.background = element_rect(fill = &amp;quot;white&amp;quot;),
-        legend.position = &amp;quot;none&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The resulting figure looks like:
-&lt;img src=&#34;https://zepengmu.netlify.com/img/phyllotaxis.png&#34; alt=&#34;phyllotaxis&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;By changing the two parameters &lt;code&gt;angle&lt;/code&gt; and &lt;code&gt;points&lt;/code&gt; in the code above, one can get endless number of phyllotaxis patterns.&lt;/p&gt;
-</description>
+      <title>Clinical and genome-wide analysis of serum platinum levels after cisplatin-based chemotherapy</title>
+      <link>https://zepengmu.netlify.app/publication/trendowski-2019-clinical/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://zepengmu.netlify.app/publication/trendowski-2019-clinical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A genetically engineered Escherichia coli that senses and degrades tetracycline antibiotic residue</title>
+      <link>https://zepengmu.netlify.app/publication/igem-2016/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://zepengmu.netlify.app/publication/igem-2016/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>boringR: drawing with R</title>
-      <link>https://zepengmu.netlify.com/blog/boringr/</link>
+      <link>https://zepengmu.netlify.app/blog/boringr/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 -0500</pubDate>
-      
-      <guid>https://zepengmu.netlify.com/blog/boringr/</guid>
-      <description>
-
-&lt;p&gt;R provides us with a graphical tool that is precise, beautiful and easy to learn. Besides academic publishing, R can also be used to do arts. Inspired by some blogs, I also tried to creat something beautiful and interesting by R. I call this &amp;ldquo;boringR&amp;rdquo; and you can find all the code on my &lt;a href=&#34;https://github.com/Zepeng-Mu/boringR&#34; target=&#34;_blank&#34;&gt;Github repo&lt;/a&gt;.&lt;/p&gt;
-
+      <guid>https://zepengmu.netlify.app/blog/boringr/</guid>
+      <description>&lt;p&gt;R provides us with a graphical tool that is precise, beautiful and easy to learn. Besides academic publishing, R can also be used to do arts. Inspired by some blogs, I also tried to creat something beautiful and interesting by R. I call this &amp;ldquo;boringR&amp;rdquo; and you can find all the code on my 
+&lt;a href=&#34;https://github.com/Zepeng-Mu/boringR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repo&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Here I would to share with you some of my codes and my creations.&lt;/p&gt;
-
 &lt;h3 id=&#34;colorful-bars&#34;&gt;Colorful Bars&lt;/h3&gt;
-
 &lt;p&gt;In the first example, I use the &lt;code&gt;segments&lt;/code&gt; function to draw some colorful bars. The &lt;code&gt;sample&lt;/code&gt; function is used to generate random heights of bars.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;myWidth = 10
+&lt;pre&gt;&lt;code class=&#34;language-{r}&#34;&gt;myWidth = 10
 myheight = 6
 number_of_bars = 30
 
@@ -124,16 +127,11 @@ segments(xStart, yStartNeg, xStart, yEndNeg, col = myColNeg, lwd = 12)
 # signature
 legend(&amp;quot;bottomright&amp;quot;, legend=&amp;quot;© Phoenix&amp;quot;, bty = &amp;quot;n&amp;quot;, text.col=&amp;quot;gray70&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Here, I used &lt;code&gt;rainbow&lt;/code&gt; function to generate color for bars, and I used different &lt;code&gt;alpha&lt;/code&gt; values in the function to get &lt;em&gt;shadow&lt;/em&gt; like effects of the bars.&lt;/p&gt;
-
 &lt;p&gt;The graph generated by codes above look like:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://zepengmu.netlify.com/img/colorfulBars.png&#34; alt=&#34;colorfulBars&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://zepengmu.netlify.app/img/colorfulBars.png&#34; alt=&#34;colorfulBars&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;colurful-beams&#34;&gt;Colurful Beams&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;myWidth = 5
+&lt;pre&gt;&lt;code class=&#34;language-{r}&#34;&gt;myWidth = 5
 number_of_points = 50
 
 x0 = rep(-2, number_of_points)
@@ -160,26 +158,18 @@ segments(x0, y0, xRandom, yRandom,
 
 legend(&amp;quot;bottomright&amp;quot;, legend=&amp;quot;© Phoenix&amp;quot;, bty = &amp;quot;n&amp;quot;, text.col=&amp;quot;gray70&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Here I used &lt;code&gt;rgb&lt;/code&gt; function to generate colors. Moreover, the values for &lt;em&gt;red&lt;/em&gt;, &lt;em&gt;green&lt;/em&gt; and &lt;em&gt;blue&lt;/em&gt; were sampled from a given range. For instance, &lt;em&gt;red&lt;/em&gt; can only range from 0.4 to 1. This makes the beams look &amp;ldquo;reddish&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://zepengmu.netlify.com/img/colorfulBeams.png&#34; alt=&#34;colorfulBeams&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://zepengmu.netlify.app/img/colorfulBeams.png&#34; alt=&#34;colorfulBeams&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;colorful-curves&#34;&gt;Colorful Curves&lt;/h3&gt;
-
 &lt;p&gt;Curves with surprsing shapes can be created by several variables and trigonometric functions.&lt;/p&gt;
-
 &lt;p&gt;For instance:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;theta = seq(-pi, pi, length = 80)
 a = sin(theta)
 
 x = scale(a ^ 2, center = 0, scale = F)
 y = cos(theta) - 0.8*sin(theta)
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;This code chunk is the most important since it determine the overall shape of our curve. By changing how &lt;code&gt;x&lt;/code&gt; and &lt;code&gt;y&lt;/code&gt; are calculated from &lt;code&gt;theta&lt;/code&gt;, we can change the shape of the curve quite dramatically.&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;number_of_curves = 20
 red = sample(seq(0.5, 1, 0.1), number_of_curves, replace = T)
 green = sample(seq(0, 0.5, 0.1), number_of_curves, replace = T)
@@ -204,21 +194,53 @@ for (i in 1:number_of_curves) {
 
 legend(&amp;quot;bottomright&amp;quot;, legend=&amp;quot;© Phoenix&amp;quot;, bty = &amp;quot;n&amp;quot;, text.col=&amp;quot;gray70&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://zepengmu.netlify.com/img/colorfulCurves.png&#34; alt=&#34;colorfulCurves&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://zepengmu.netlify.app/img/colorfulCurves.png&#34; alt=&#34;colorfulCurves&#34;&gt;&lt;/p&gt;
 &lt;p&gt;There is one more thing that I want say. One can always add randnomness into the graph to make them look better. The use of random colors is one of them. You can also set random line widths or line types to make the graph different.&lt;/p&gt;
+&lt;p&gt;Last but not least, to learn more about R, I recommend 
+&lt;a href=&#34;https://www.r-bloggers.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;r-bloggers.com&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Phyllotaxis with R</title>
+      <link>https://zepengmu.netlify.app/blog/phyllotaxis/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 -0500</pubDate>
+      <guid>https://zepengmu.netlify.app/blog/phyllotaxis/</guid>
+      <description>&lt;p&gt;Phycllotaxis is a kind of &amp;lsquo;seemingly&amp;rsquo; complex geometric pattern that looks complex but with very simple mathematics behind. It is not uncommon in nature. According to Wikipedia, phycllotaxis &amp;ldquo;is the arrangement of leaves on a plant stem&amp;rdquo; in botany. The following code show how to draw phycllotaxis patterns using ggplot2. The code was modified from a Project called &lt;em&gt;PHYLLOTAXIS: DRAW FLOWERS USING MATHEMATICS&lt;/em&gt; on 
+&lt;a href=&#34;www.datacamp.com&#34;&gt;Datacamp&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r}&#34;&gt;library(tidyverse)
+library(ggplot2)
 
-&lt;p&gt;Last but not least, to learn more about R, I recommend &lt;a href=&#34;https://www.r-bloggers.com&#34; target=&#34;_blank&#34;&gt;r-bloggers.com&lt;/a&gt;.&lt;/p&gt;
+angle &amp;lt;- 31*pi/180
+points &amp;lt;- 900
+
+t &amp;lt;- (1:points)*angle
+x &amp;lt;- sin(t)
+y &amp;lt;- cos(t)
+
+df &amp;lt;- data.frame(t, x, y)
+
+options(repr.plot.width = 4, repr.plot.height = 4)
+p &amp;lt;- ggplot(df, aes(x*t, y*t))
+p + geom_point(alpha = 0.8, color = rainbow(points), shape = 16) +
+    theme(title = element_blank(),
+        panel.grid = element_blank(),
+        axis.ticks = element_blank(),
+        axis.text = element_blank(),
+        panel.background = element_rect(fill = &amp;quot;white&amp;quot;),
+        legend.position = &amp;quot;none&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The resulting figure looks like:
+&lt;img src=&#34;https://zepengmu.netlify.app/img/phyllotaxis.png&#34; alt=&#34;phyllotaxis&#34;&gt;&lt;/p&gt;
+&lt;p&gt;By changing the two parameters &lt;code&gt;angle&lt;/code&gt; and &lt;code&gt;points&lt;/code&gt; in the code above, one can get endless number of phyllotaxis patterns.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://zepengmu.netlify.com/google6b3ce40aa47a7f94/</link>
+      <link>https://zepengmu.netlify.app/google6b3ce40aa47a7f94/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zepengmu.netlify.com/google6b3ce40aa47a7f94/</guid>
+      <guid>https://zepengmu.netlify.app/google6b3ce40aa47a7f94/</guid>
       <description>google-site-verification: google6b3ce40aa47a7f94.html</description>
     </item>
     

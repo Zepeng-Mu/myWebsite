@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yang Li | Home</title>
+    <link>https://zepengmu.netlify.app/author/yang-li/</link>
+      <atom:link href="https://zepengmu.netlify.app/author/yang-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yang Li</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 25 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zepengmu.netlify.app/images/icon_hude38de91a1485bdac948e809c4e8e825_60537_512x512_fill_lanczos_center_2.png</url>
+      <title>Yang Li</title>
+      <link>https://zepengmu.netlify.app/author/yang-li/</link>
+    </image>
+    
+    <item>
+      <title>Alternative polyadenylation mediates genetic regulation of gene expression</title>
+      <link>https://zepengmu.netlify.app/publication/apaqtl/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://zepengmu.netlify.app/publication/apaqtl/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Home</title>
-    <link>https://zepengmu.netlify.com/categories/</link>
-    <description>Recent content in Categories on Home</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy {year}</copyright>
-    
-	<atom:link href="https://zepengmu.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Categories | Home</title>
+    <link>https://zepengmu.netlify.app/categories/</link>
+      <atom:link href="https://zepengmu.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright>
+    <image>
+      <url>https://zepengmu.netlify.app/images/icon_hude38de91a1485bdac948e809c4e8e825_60537_512x512_fill_lanczos_center_2.png</url>
+      <title>Categories</title>
+      <link>https://zepengmu.netlify.app/categories/</link>
+    </image>
     
   </channel>
 </rss>

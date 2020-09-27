@@ -1,85 +1,398 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://zepengmu.netlify.com/publications/</loc>
+    <loc>https://zepengmu.netlify.app/publication-type/2/</loc>
+    <lastmod>2020-09-24T13:53:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/authors/</loc>
+    <lastmod>2020-09-24T13:53:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/benjamin-jung-fair/</loc>
+    <lastmod>2020-09-24T13:53:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/</loc>
+    <lastmod>2020-09-24T13:53:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/publication/mu-2020-impact/</loc>
+    <lastmod>2020-09-24T13:53:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/jinlin-miao/</loc>
+    <lastmod>2020-09-24T13:53:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/ping-zhu/</loc>
+    <lastmod>2020-09-24T13:53:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/publication_types/</loc>
+    <lastmod>2020-09-24T13:53:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/publication/</loc>
+    <lastmod>2020-09-24T13:53:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/wei-wei/</loc>
+    <lastmod>2020-09-24T13:53:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/yang-i-li/</loc>
+    <lastmod>2020-09-24T13:53:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/zepeng-mu/</loc>
+    <lastmod>2020-09-24T13:53:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/publication/apaqtl/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/briana-e-mittleman/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/mayher-kaur/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/sebastian-pott/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/shane-warland/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/tony-zeng/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/yang-li/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/yoav-gilad/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/zepeng-mu/</loc>
+    <lastmod>2020-09-16T09:59:29-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/publication/chen-2020-alignment/</loc>
+    <lastmod>2020-09-16T09:59:29-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/lili-wang/</loc>
+    <lastmod>2020-09-16T09:59:29-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/mengjie-chen/</loc>
+    <lastmod>2020-09-16T09:59:29-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/qi-zhan/</loc>
+    <lastmod>2020-09-16T09:59:29-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/zhaohui-zheng/</loc>
+    <lastmod>2020-09-16T09:59:29-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/mypublication/</loc>
     <lastmod>2019-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zepengmu.netlify.com/blog/test/</loc>
+    <loc>https://zepengmu.netlify.app/blog/test/</loc>
     <lastmod>2019-02-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zepengmu.netlify.com/</loc>
-    <lastmod>2019-02-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://zepengmu.netlify.app/author/christian-kollmannsberger/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zepengmu.netlify.com/blog/</loc>
+    <loc>https://zepengmu.netlify.app/author/chunkit-fung/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/publication/trendowski-2019-clinical/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/darren-r-feldman/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/david-j.-vaughn/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/eileen-m.-dolan/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/frederick-strathmann/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/heather-e-wheeler/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/lawrence-h.-einhorn/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/lois-b.-travis/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/mark-j-ratain/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/matthew-r-trendowski/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/michiaki-kubo/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/omar-el-charif/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/patrick-monahan/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/paul-c-dinh/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/robert-j-hamilton/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/robyn-hannigan/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/shirin-ardeshir-rouhani-fard/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/sophie-d.-fossa/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/taisei-mushiroda/</loc>
+    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/blog/</loc>
     <lastmod>2018-09-21T00:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zepengmu.netlify.com/cv/</loc>
+    <loc>https://zepengmu.netlify.app/publication/igem-2016/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/boyi-wang/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/cheng-hu/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/chunbo-lou/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/hua-li/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/jiangyun-wang/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/jianyi-huang/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/qingyang-tan/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/ruiling-cai/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/sha-wei/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/wenbo-wang/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/xiaohong-liu/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/yajin-mo/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/yang-yu/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/ye-liu/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/ye-yang/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/yiqun-dang/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/yongming-li/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/yue-xu/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/yueren-jiang/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/yushan-liu/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/author/zhuoning-zou/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/cv/</loc>
     <lastmod>2018-08-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zepengmu.netlify.com/blog/phyllotaxis/</loc>
-    <lastmod>2018-09-04T00:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zepengmu.netlify.com/blog/boringr/</loc>
+    <loc>https://zepengmu.netlify.app/blog/boringr/</loc>
     <lastmod>2018-08-10T00:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zepengmu.netlify.com/projects/</loc>
+    <loc>https://zepengmu.netlify.app/blog/phyllotaxis/</loc>
+    <lastmod>2018-09-04T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/projects/</loc>
     <lastmod>2017-01-01T00:00:00-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zepengmu.netlify.com/author/admin/</loc>
-  </url>
-  
-  <url>
-    <loc>https://zepengmu.netlify.com/google6b3ce40aa47a7f94/</loc>
+    <loc>https://zepengmu.netlify.app/google6b3ce40aa47a7f94/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zepengmu.netlify.com/authors/</loc>
-    <priority>0</priority>
+    <loc>https://zepengmu.netlify.app/categories/</loc>
   </url>
   
   <url>
-    <loc>https://zepengmu.netlify.com/author/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zepengmu.netlify.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zepengmu.netlify.com/publication_types/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zepengmu.netlify.com/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zepengmu.netlify.com/authors/admin/</loc>
-    <priority>0</priority>
+    <loc>https://zepengmu.netlify.app/tags/</loc>
   </url>
   
 </urlset>

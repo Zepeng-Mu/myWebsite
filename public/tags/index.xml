@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Home</title>
-    <link>https://zepengmu.netlify.com/tags/</link>
-    <description>Recent content in Tags on Home</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy {year}</copyright>
-    
-	<atom:link href="https://zepengmu.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Tags | Home</title>
+    <link>https://zepengmu.netlify.app/tags/</link>
+      <atom:link href="https://zepengmu.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright>
+    <image>
+      <url>https://zepengmu.netlify.app/images/icon_hude38de91a1485bdac948e809c4e8e825_60537_512x512_fill_lanczos_center_2.png</url>
+      <title>Tags</title>
+      <link>https://zepengmu.netlify.app/tags/</link>
+    </image>
     
   </channel>
 </rss>

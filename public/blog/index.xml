@@ -1,42 +1,191 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Home</title>
-    <link>https://zepengmu.netlify.com/blog/</link>
-    <description>Recent content in Blog on Home</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy {year}</copyright>
-    <lastBuildDate>Fri, 21 Sep 2018 00:00:00 -0500</lastBuildDate>
-    
-	<atom:link href="https://zepengmu.netlify.com/blog/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Blog | Home</title>
+    <link>https://zepengmu.netlify.app/blog/</link>
+      <atom:link href="https://zepengmu.netlify.app/blog/index.xml" rel="self" type="application/rss+xml" />
+    <description>Blog</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 21 Sep 2018 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>https://zepengmu.netlify.app/img/headers/projects_header_unsplash.jpg</url>
+      <title>Blog</title>
+      <link>https://zepengmu.netlify.app/blog/</link>
+    </image>
     
     <item>
       <title>Drawing chromHMM legend with ggplot2</title>
-      <link>https://zepengmu.netlify.com/blog/test/</link>
+      <link>https://zepengmu.netlify.app/blog/test/</link>
       <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zepengmu.netlify.com/blog/test/</guid>
-      <description>Using geom_tile to plot chromHMM legend.</description>
-    </item>
-    
-    <item>
-      <title>Phyllotaxis with R</title>
-      <link>https://zepengmu.netlify.com/blog/phyllotaxis/</link>
-      <pubDate>Fri, 10 Aug 2018 00:00:00 -0500</pubDate>
-      
-      <guid>https://zepengmu.netlify.com/blog/phyllotaxis/</guid>
-      <description>Using R to plot phyllotaxis patterns inspired by Datacamp.</description>
+      <guid>https://zepengmu.netlify.app/blog/test/</guid>
+      <description>
+
+
+&lt;p&gt;In this blog post, I use &lt;code&gt;ggplot()&lt;/code&gt; to plot a legend for chromHMM annotation.&lt;/p&gt;
+&lt;p&gt;chromHMM uses a Hidden Markov Model to integrate a range of epigenetic markers and predicts the chromatin states, like Transcription Start Sites or enhancers.&lt;/p&gt;
+&lt;p&gt;The table I use here comes from website: &lt;a href=&#34;https://egg2.wustl.edu/roadmap/web_portal/chr_state_learning.html&#34;&gt;ROADMAP epigenetics project web portal&lt;/a&gt;. I copied the table from the website and saved it in a file called “coreChromHMM.txt”. The headers of the table are “STATE.NO.”, “MNEMONIC”, “DESCRIPTION” , “COLOR.NAME” “COLOR.CODE”.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse)
+
+core &amp;lt;- read.table(&amp;quot;coreChromHMM.txt&amp;quot;,
+                   header = T, stringsAsFactors = F, sep = &amp;quot;\t&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Taking a look at the table we see that the colors are coded in RGB format. I use &lt;code&gt;spread()&lt;/code&gt; function from &lt;code&gt;tidyverse&lt;/code&gt; package to spread the color column into 3 columns, for red, green, and blue respectively. Then I use &lt;code&gt;rgb()&lt;/code&gt; function to convert the colors into HEX format.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;core &amp;lt;- core %&amp;gt;% 
+  separate(COLOR.CODE, c(&amp;quot;Red&amp;quot;, &amp;quot;Green&amp;quot;, &amp;quot;Blue&amp;quot;), sep = &amp;quot;,&amp;quot;)
+
+hexCol = rgb(core$Red, core$Green, core$Blue, maxColorValue = 255)
+names(hexCol) = core$DESCRIPTION&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;geom_tile()&lt;/code&gt; is used to produce the “boxes”, and I use &lt;code&gt;geom_text()&lt;/code&gt; to add texts those boxes, or tiles.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(core, aes(x = 1, y = max(STATE.NO.) - STATE.NO., fill = DESCRIPTION)) +
+  geom_tile() +
+  geom_text(aes(label = DESCRIPTION), size = 8) +
+  scale_fill_manual(values = hexCol) +
+  theme_void() +
+  theme(legend.position = &amp;quot;none&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The resulting graph looks like this and is readily available to use in a paper manuscript!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zepengmu.netlify.app/img/chromHMMLegend.png&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>boringR: drawing with R</title>
-      <link>https://zepengmu.netlify.com/blog/boringr/</link>
+      <link>https://zepengmu.netlify.app/blog/boringr/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 -0500</pubDate>
-      
-      <guid>https://zepengmu.netlify.com/blog/boringr/</guid>
-      <description>Using R to plot amazing artistic graphs.</description>
+      <guid>https://zepengmu.netlify.app/blog/boringr/</guid>
+      <description>&lt;p&gt;R provides us with a graphical tool that is precise, beautiful and easy to learn. Besides academic publishing, R can also be used to do arts. Inspired by some blogs, I also tried to creat something beautiful and interesting by R. I call this &amp;ldquo;boringR&amp;rdquo; and you can find all the code on my 
+&lt;a href=&#34;https://github.com/Zepeng-Mu/boringR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here I would to share with you some of my codes and my creations.&lt;/p&gt;
+&lt;h3 id=&#34;colorful-bars&#34;&gt;Colorful Bars&lt;/h3&gt;
+&lt;p&gt;In the first example, I use the &lt;code&gt;segments&lt;/code&gt; function to draw some colorful bars. The &lt;code&gt;sample&lt;/code&gt; function is used to generate random heights of bars.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r}&#34;&gt;myWidth = 10
+myheight = 6
+number_of_bars = 30
+
+xStart = seq(-myWidth, myWidth, length.out = number_of_bars)
+yStartPos = rep(0.5, number_of_bars)
+yStartNeg = -yStartPos
+
+yEndPos = sample(1:myheight, size = number_of_bars, replace = T)
+yEndNeg = -yEndPos
+
+myColPos = rainbow(number_of_bars, alpha = 0.8)
+myColNeg = rainbow(number_of_bars, alpha = 0.4)
+
+# Plot
+mypar = par(bg = &#39;black&#39;, mar = rep(0.5, 4))
+plot.new()
+plot.window(xlim = c(-myWidth, myWidth), ylim = c(-myWidth, myWidth))
+segments(xStart, yStartPos, xStart, yEndPos, col = myColPos, lwd = 12)
+segments(xStart, yStartNeg, xStart, yEndNeg, col = myColNeg, lwd = 12)
+
+# signature
+legend(&amp;quot;bottomright&amp;quot;, legend=&amp;quot;© Phoenix&amp;quot;, bty = &amp;quot;n&amp;quot;, text.col=&amp;quot;gray70&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here, I used &lt;code&gt;rainbow&lt;/code&gt; function to generate color for bars, and I used different &lt;code&gt;alpha&lt;/code&gt; values in the function to get &lt;em&gt;shadow&lt;/em&gt; like effects of the bars.&lt;/p&gt;
+&lt;p&gt;The graph generated by codes above look like:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zepengmu.netlify.app/img/colorfulBars.png&#34; alt=&#34;colorfulBars&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;colurful-beams&#34;&gt;Colurful Beams&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r}&#34;&gt;myWidth = 5
+number_of_points = 50
+
+x0 = rep(-2, number_of_points)
+y0 = rep(0, number_of_points)
+
+xFixed = sin(seq(-myWidth, myWidth, length.out = number_of_points))
+yFixed = cos(seq(-myWidth, myWidth, length.out = number_of_points))
+
+xRandom = xFixed + rnorm(number_of_points, mean = 0.6, sd = 2)
+yRandom = yFixed + rnorm(number_of_points, mean = 0, sd = 2)
+myLwd = rnorm(number_of_points, mean = 1.3, sd = 0.3)
+myLty = sample(c(1, 2, 3), number_of_points, replace = T)
+
+red = sample(seq(0.4, 1, 0.1), number_of_points, replace = T)
+green = sample(seq(0, 0.5, 0.1), number_of_points, replace = T)
+blue = sample(seq(0, 1, 0.1), number_of_points, replace = T)
+
+mypar = par(bg = &#39;black&#39;, mar = rep(0.5, 4))
+plot.new()
+plot.window(xlim = c(-myWidth, myWidth), ylim = c(-myWidth, myWidth), asp = 1)
+segments(x0, y0, xRandom, yRandom,
+         lwd = myLwd,
+         col = rgb(red, green, blue))
+
+legend(&amp;quot;bottomright&amp;quot;, legend=&amp;quot;© Phoenix&amp;quot;, bty = &amp;quot;n&amp;quot;, text.col=&amp;quot;gray70&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here I used &lt;code&gt;rgb&lt;/code&gt; function to generate colors. Moreover, the values for &lt;em&gt;red&lt;/em&gt;, &lt;em&gt;green&lt;/em&gt; and &lt;em&gt;blue&lt;/em&gt; were sampled from a given range. For instance, &lt;em&gt;red&lt;/em&gt; can only range from 0.4 to 1. This makes the beams look &amp;ldquo;reddish&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zepengmu.netlify.app/img/colorfulBeams.png&#34; alt=&#34;colorfulBeams&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;colorful-curves&#34;&gt;Colorful Curves&lt;/h3&gt;
+&lt;p&gt;Curves with surprsing shapes can be created by several variables and trigonometric functions.&lt;/p&gt;
+&lt;p&gt;For instance:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;theta = seq(-pi, pi, length = 80)
+a = sin(theta)
+
+x = scale(a ^ 2, center = 0, scale = F)
+y = cos(theta) - 0.8*sin(theta)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This code chunk is the most important since it determine the overall shape of our curve. By changing how &lt;code&gt;x&lt;/code&gt; and &lt;code&gt;y&lt;/code&gt; are calculated from &lt;code&gt;theta&lt;/code&gt;, we can change the shape of the curve quite dramatically.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;number_of_curves = 20
+red = sample(seq(0.5, 1, 0.1), number_of_curves, replace = T)
+green = sample(seq(0, 0.5, 0.1), number_of_curves, replace = T)
+blue = sample(seq(0.5, 1, 0.1), number_of_curves, replace = T)
+myCol = rgb(red, green, blue, alpha = 0.5)
+
+shrink = seq(0.1, 1, length.out = number_of_curves)
+
+mypar = par(bg = &#39;black&#39;, mar = rep(0.5, 4))
+plot.new()
+plot.window(xlim = range(c(-x, x)), ylim = range(y))
+for (i in 1:number_of_curves) {
+  lines(x * shrink[i],y * shrink[i],
+        col = myCol[i],
+        lwd = 2)
+}
+for (i in 1:number_of_curves) {
+  lines(-x * shrink[i], y * shrink[i],
+        col = myCol[i],
+        lwd = 2)
+}
+
+legend(&amp;quot;bottomright&amp;quot;, legend=&amp;quot;© Phoenix&amp;quot;, bty = &amp;quot;n&amp;quot;, text.col=&amp;quot;gray70&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://zepengmu.netlify.app/img/colorfulCurves.png&#34; alt=&#34;colorfulCurves&#34;&gt;&lt;/p&gt;
+&lt;p&gt;There is one more thing that I want say. One can always add randnomness into the graph to make them look better. The use of random colors is one of them. You can also set random line widths or line types to make the graph different.&lt;/p&gt;
+&lt;p&gt;Last but not least, to learn more about R, I recommend 
+&lt;a href=&#34;https://www.r-bloggers.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;r-bloggers.com&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Phyllotaxis with R</title>
+      <link>https://zepengmu.netlify.app/blog/phyllotaxis/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 -0500</pubDate>
+      <guid>https://zepengmu.netlify.app/blog/phyllotaxis/</guid>
+      <description>&lt;p&gt;Phycllotaxis is a kind of &amp;lsquo;seemingly&amp;rsquo; complex geometric pattern that looks complex but with very simple mathematics behind. It is not uncommon in nature. According to Wikipedia, phycllotaxis &amp;ldquo;is the arrangement of leaves on a plant stem&amp;rdquo; in botany. The following code show how to draw phycllotaxis patterns using ggplot2. The code was modified from a Project called &lt;em&gt;PHYLLOTAXIS: DRAW FLOWERS USING MATHEMATICS&lt;/em&gt; on 
+&lt;a href=&#34;www.datacamp.com&#34;&gt;Datacamp&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r}&#34;&gt;library(tidyverse)
+library(ggplot2)
+
+angle &amp;lt;- 31*pi/180
+points &amp;lt;- 900
+
+t &amp;lt;- (1:points)*angle
+x &amp;lt;- sin(t)
+y &amp;lt;- cos(t)
+
+df &amp;lt;- data.frame(t, x, y)
+
+options(repr.plot.width = 4, repr.plot.height = 4)
+p &amp;lt;- ggplot(df, aes(x*t, y*t))
+p + geom_point(alpha = 0.8, color = rainbow(points), shape = 16) +
+    theme(title = element_blank(),
+        panel.grid = element_blank(),
+        axis.ticks = element_blank(),
+        axis.text = element_blank(),
+        panel.background = element_rect(fill = &amp;quot;white&amp;quot;),
+        legend.position = &amp;quot;none&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The resulting figure looks like:
+&lt;img src=&#34;https://zepengmu.netlify.app/img/phyllotaxis.png&#34; alt=&#34;phyllotaxis&#34;&gt;&lt;/p&gt;
+&lt;p&gt;By changing the two parameters &lt;code&gt;angle&lt;/code&gt; and &lt;code&gt;points&lt;/code&gt; in the code above, one can get endless number of phyllotaxis patterns.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

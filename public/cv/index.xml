@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CV on Home</title>
-    <link>https://zepengmu.netlify.com/cv/</link>
-    <description>Recent content in CV on Home</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy {year}</copyright>
-    <lastBuildDate>Sat, 18 Aug 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://zepengmu.netlify.com/cv/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>CV | Home</title>
+    <link>https://zepengmu.netlify.app/cv/</link>
+      <atom:link href="https://zepengmu.netlify.app/cv/index.xml" rel="self" type="application/rss+xml" />
+    <description>CV</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sat, 18 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zepengmu.netlify.app/img/headers/cv_header_unsplash.jpg</url>
+      <title>CV</title>
+      <link>https://zepengmu.netlify.app/cv/</link>
+    </image>
     
   </channel>
 </rss>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Home</title>
-    <link>https://zepengmu.netlify.com/projects/</link>
-    <description>Recent content in Projects on Home</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy {year}</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
-    
-	<atom:link href="https://zepengmu.netlify.com/projects/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Projects | Home</title>
+    <link>https://zepengmu.netlify.app/projects/</link>
+      <atom:link href="https://zepengmu.netlify.app/projects/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
+    <image>
+      <url>https://zepengmu.netlify.app/img/projects_header_unsplash.jpg</url>
+      <title>Projects</title>
+      <link>https://zepengmu.netlify.app/projects/</link>
+    </image>
     
   </channel>
 </rss>

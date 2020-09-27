@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>David J. Vaughn | Home</title>
+    <link>https://zepengmu.netlify.app/author/david-j.-vaughn/</link>
+      <atom:link href="https://zepengmu.netlify.app/author/david-j.-vaughn/index.xml" rel="self" type="application/rss+xml" />
+    <description>David J. Vaughn</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zepengmu.netlify.app/images/icon_hude38de91a1485bdac948e809c4e8e825_60537_512x512_fill_lanczos_center_2.png</url>
+      <title>David J. Vaughn</title>
+      <link>https://zepengmu.netlify.app/author/david-j.-vaughn/</link>
+    </image>
+    
+    <item>
+      <title>Clinical and genome-wide analysis of serum platinum levels after cisplatin-based chemotherapy</title>
+      <link>https://zepengmu.netlify.app/publication/trendowski-2019-clinical/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://zepengmu.netlify.app/publication/trendowski-2019-clinical/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
