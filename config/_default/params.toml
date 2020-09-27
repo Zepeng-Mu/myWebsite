@@ -10,7 +10,7 @@ day_night = true
 # Font style.
 #   Choose from `default`, `classic`, or `playfair`.
 font = "default"
-font_size = "m"
+font_size = ""
 
 # Legacy location for img
 media_dir = "img"
