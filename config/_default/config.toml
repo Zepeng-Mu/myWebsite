@@ -9,7 +9,7 @@ title = "Home"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://zepengmu.netlify.com/"
+baseurl = "https://zepengmu.netlify.app/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
@@ -25,9 +25,6 @@ disqusShortname = ""
 ## Advanced options below ##
 ############################
 
-# Name of Academic theme folder in `themes/`.
-theme = "hugo-academic"
-
 # Get last modified date for content from Git?
 enableGitInfo = false
 
@@ -42,16 +39,26 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [outputs]
-  home = [ "HTML", "RSS", "JSON" ]
+  home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
   section = [ "HTML", "RSS" ]
 
-# Configure BlackFriday Markdown rendering.
-#   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
-[blackfriday]
-  hrefTargetBlank = true  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
-	angledQuotes = false
-	latexDashes = true
-  extensions = ["backslashLineBreak"]
+[mediaTypes."application/manifest+json"]
+  suffixes = ["webmanifest"]
+
+[outputFormats.WebAppManifest]
+  mediaType = "application/manifest+json"
+  rel = "manifest"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Enable user to embed HTML snippets in Markdown content.
+  [markup.highlight]
+    codeFences = false  # Disable Hugo's code highlighter as it conflicts with Academic's highligher.
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
 
 [imaging]
   resampleFilter = "lanczos"
@@ -64,3 +71,14 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+
+# Workaround Hugo publishing taxonomy URLs as plurals - consistently use singular across Academic.
+[permalinks]
+  authors = "/author/:slug/"
+  tags = "/tag/:slug/"
+  categories = "/category/:slug/"
+  publication_types = "/publication-type/:slug/"
+
+[module]
+  [[module.imports]]
+    path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy"
