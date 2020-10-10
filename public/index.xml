@@ -5,7 +5,7 @@
     <link>https://zepengmu.netlify.app/</link>
       <atom:link href="https://zepengmu.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <description>Home</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zepengmu.netlify.app/images/icon_hude38de91a1485bdac948e809c4e8e825_60537_512x512_fill_lanczos_center_2.png</url>
       <title>Home</title>
@@ -17,7 +17,9 @@
       <link>https://zepengmu.netlify.app/publication/mu-2020-impact/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://zepengmu.netlify.app/publication/mu-2020-impact/</guid>
-      <description></description>
+      <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+&lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;medium-donut&#39; data-badge-details=&#39;right&#39; data-doi=&#39;10.1101/2020.07.20.212753&#39;&gt;&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -25,7 +27,8 @@
       <link>https://zepengmu.netlify.app/publication/apaqtl/</link>
       <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://zepengmu.netlify.app/publication/apaqtl/</guid>
-      <description></description>
+      <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+&lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;medium-donut&#39; data-badge-details=&#39;right&#39; data-doi=&#39;10.7554/eLife.57492&#39;&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -33,7 +36,9 @@
       <link>https://zepengmu.netlify.app/publication/chen-2020-alignment/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://zepengmu.netlify.app/publication/chen-2020-alignment/</guid>
-      <description></description>
+      <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+&lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;medium-donut&#39; data-badge-details=&#39;right&#39; data-doi=&#39;10.1101/2020.01.05.895136&#39;&gt;&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -82,7 +87,9 @@ names(hexCol) = core$DESCRIPTION&lt;/code&gt;&lt;/pre&gt;
       <link>https://zepengmu.netlify.app/publication/trendowski-2019-clinical/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://zepengmu.netlify.app/publication/trendowski-2019-clinical/</guid>
-      <description></description>
+      <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+&lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;medium-donut&#39; data-badge-details=&#39;right&#39; data-doi=&#39;10.1158/1078-0432.CCR-19-0113&#39;&gt;&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -90,7 +97,10 @@ names(hexCol) = core$DESCRIPTION&lt;/code&gt;&lt;/pre&gt;
       <link>https://zepengmu.netlify.app/publication/igem-2016/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       <guid>https://zepengmu.netlify.app/publication/igem-2016/</guid>
-      <description></description>
+      <description>&lt;!-- &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+&lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;medium-donut&#39; data-badge-details=&#39;right&#39; data-doi=&#39;10.1016/j.synbio.2018.05.001&#39;&gt;&lt;/div&gt; --&gt;&lt;blockquote&gt;
+&lt;/blockquote&gt;
+</description>
     </item>
     
     <item>
@@ -98,8 +108,7 @@ names(hexCol) = core$DESCRIPTION&lt;/code&gt;&lt;/pre&gt;
       <link>https://zepengmu.netlify.app/blog/boringr/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 -0500</pubDate>
       <guid>https://zepengmu.netlify.app/blog/boringr/</guid>
-      <description>&lt;p&gt;R provides us with a graphical tool that is precise, beautiful and easy to learn. Besides academic publishing, R can also be used to do arts. Inspired by some blogs, I also tried to creat something beautiful and interesting by R. I call this &amp;ldquo;boringR&amp;rdquo; and you can find all the code on my 
-&lt;a href=&#34;https://github.com/Zepeng-Mu/boringR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repo&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;R provides us with a graphical tool that is precise, beautiful and easy to learn. Besides academic publishing, R can also be used to do arts. Inspired by some blogs, I also tried to creat something beautiful and interesting by R. I call this &amp;ldquo;boringR&amp;rdquo; and you can find all the code on my &lt;a href=&#34;https://github.com/Zepeng-Mu/boringR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repo&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Here I would to share with you some of my codes and my creations.&lt;/p&gt;
 &lt;h3 id=&#34;colorful-bars&#34;&gt;Colorful Bars&lt;/h3&gt;
 &lt;p&gt;In the first example, I use the &lt;code&gt;segments&lt;/code&gt; function to draw some colorful bars. The &lt;code&gt;sample&lt;/code&gt; function is used to generate random heights of bars.&lt;/p&gt;
@@ -196,8 +205,7 @@ legend(&amp;quot;bottomright&amp;quot;, legend=&amp;quot;© Phoenix&amp;quot;, b
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;https://zepengmu.netlify.app/img/colorfulCurves.png&#34; alt=&#34;colorfulCurves&#34;&gt;&lt;/p&gt;
 &lt;p&gt;There is one more thing that I want say. One can always add randnomness into the graph to make them look better. The use of random colors is one of them. You can also set random line widths or line types to make the graph different.&lt;/p&gt;
-&lt;p&gt;Last but not least, to learn more about R, I recommend 
-&lt;a href=&#34;https://www.r-bloggers.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;r-bloggers.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Last but not least, to learn more about R, I recommend &lt;a href=&#34;https://www.r-bloggers.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;r-bloggers.com&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -206,8 +214,7 @@ legend(&amp;quot;bottomright&amp;quot;, legend=&amp;quot;© Phoenix&amp;quot;, b
       <link>https://zepengmu.netlify.app/blog/phyllotaxis/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 -0500</pubDate>
       <guid>https://zepengmu.netlify.app/blog/phyllotaxis/</guid>
-      <description>&lt;p&gt;Phycllotaxis is a kind of &amp;lsquo;seemingly&amp;rsquo; complex geometric pattern that looks complex but with very simple mathematics behind. It is not uncommon in nature. According to Wikipedia, phycllotaxis &amp;ldquo;is the arrangement of leaves on a plant stem&amp;rdquo; in botany. The following code show how to draw phycllotaxis patterns using ggplot2. The code was modified from a Project called &lt;em&gt;PHYLLOTAXIS: DRAW FLOWERS USING MATHEMATICS&lt;/em&gt; on 
-&lt;a href=&#34;www.datacamp.com&#34;&gt;Datacamp&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;Phycllotaxis is a kind of &amp;lsquo;seemingly&amp;rsquo; complex geometric pattern that looks complex but with very simple mathematics behind. It is not uncommon in nature. According to Wikipedia, phycllotaxis &amp;ldquo;is the arrangement of leaves on a plant stem&amp;rdquo; in botany. The following code show how to draw phycllotaxis patterns using ggplot2. The code was modified from a Project called &lt;em&gt;PHYLLOTAXIS: DRAW FLOWERS USING MATHEMATICS&lt;/em&gt; on &lt;a href=&#34;www.datacamp.com&#34;&gt;Datacamp&lt;/a&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-{r}&#34;&gt;library(tidyverse)
 library(ggplot2)
 
