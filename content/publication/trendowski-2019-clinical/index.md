@@ -10,7 +10,7 @@ authors:
 - Omar El-Charif
 - Mark J Ratain
 - Patrick Monahan
-- Zepeng Mu
+- admin
 - Heather E Wheeler
 - Paul C Dinh
 - Darren R Feldman
@@ -63,3 +63,6 @@ abstract: '**Purpose**: Serum platinum is measurable for years after completion 
 **Conclusions**: This study indicates that residual platinum values are correlated with several cisplatin-related toxicities. One genetic variant is associated with these levels.'
 publication: '*Clinical Cancer Research*'
 ---
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<div class='altmetric-embed' data-badge-type='medium-donut' data-badge-details='right' data-doi='10.1158/1078-0432.CCR-19-0113'></div>

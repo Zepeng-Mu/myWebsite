@@ -19,9 +19,9 @@ caption = "Image credit: **Unsplash**"
 
 ## PUBLICATIONS
 ---
-Mittleman, Briana E., Sebastian Pott, Shane Warland, Tony Zeng, **Zepeng Mu**, Mayher Kaur, Yoav Gilad, and Yang Li. "Alternative polyadenylation mediates genetic regulation of gene expression." Elife 9 (2020): e57492.
+Briana E. Mittleman, Sebastian Pott, Shane Warland, Tony Zeng, **Zepeng Mu**, Mayher Kaur, Yoav Gilad, and Yang Li. "Alternative polyadenylation mediates genetic regulation of gene expression." *Elife* 9 (2020): e57492.
 
-Matthew R. Trendowski, Omar El-Charif, Mark J. Ratain, Patrick Monahan, **Zepeng Mu** et al. Clinical and Genome-Wide Analysis of Serum Platinum Levels after Cisplatin-Based Chemotherapy. Clinical Cancer Research July 11 (2019).
+Matthew R. Trendowski, Omar El-Charif, Mark J. Ratain, Patrick Monahan, **Zepeng Mu** et al. Clinical and Genome-Wide Analysis of Serum Platinum Levels after Cisplatin-Based Chemotherapy. *Clinical Cancer Research* July 11 (2019).
 
 **Zepeng Mu**, Zhuoning Zou, Ye Yang et al. "A genetically engineered Escherichia coli that senses and degrades tetracycline antibiotic residue." *Synthetic and Systems Biotechnology* (2018).
 

@@ -7,7 +7,7 @@ authors = ["admin"]
 
 # Is this the primary user of the site?
 superuser = true
-
+highlight_name = true
 # Role/position
 role = "Ph.D. Candidate"
 
