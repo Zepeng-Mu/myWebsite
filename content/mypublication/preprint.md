@@ -14,7 +14,7 @@ subtitle = ""
   columns = "1"
 
 [design.spacing]
-  padding = ["20px", "0", "20px", "0"]
+  padding = ["20px", "0", "10px", "0"]
 
 [design.background]
   # Apply a background color, gradient, or image.

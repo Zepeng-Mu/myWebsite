@@ -106,7 +106,7 @@ names(hexCol) = core$DESCRIPTION&lt;/code&gt;&lt;/pre&gt;
     <item>
       <title>boringR: drawing with R</title>
       <link>https://zepengmu.netlify.app/blog/boringr/</link>
-      <pubDate>Fri, 10 Aug 2018 00:00:00 -0500</pubDate>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 -0400</pubDate>
       <guid>https://zepengmu.netlify.app/blog/boringr/</guid>
       <description>&lt;p&gt;R provides us with a graphical tool that is precise, beautiful and easy to learn. Besides academic publishing, R can also be used to do arts. Inspired by some blogs, I also tried to creat something beautiful and interesting by R. I call this &amp;ldquo;boringR&amp;rdquo; and you can find all the code on my &lt;a href=&#34;https://github.com/Zepeng-Mu/boringR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repo&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Here I would to share with you some of my codes and my creations.&lt;/p&gt;
@@ -212,7 +212,7 @@ legend(&amp;quot;bottomright&amp;quot;, legend=&amp;quot;© Phoenix&amp;quot;, b
     <item>
       <title>Phyllotaxis with R</title>
       <link>https://zepengmu.netlify.app/blog/phyllotaxis/</link>
-      <pubDate>Fri, 10 Aug 2018 00:00:00 -0500</pubDate>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 -0400</pubDate>
       <guid>https://zepengmu.netlify.app/blog/phyllotaxis/</guid>
       <description>&lt;p&gt;Phycllotaxis is a kind of &amp;lsquo;seemingly&amp;rsquo; complex geometric pattern that looks complex but with very simple mathematics behind. It is not uncommon in nature. According to Wikipedia, phycllotaxis &amp;ldquo;is the arrangement of leaves on a plant stem&amp;rdquo; in botany. The following code show how to draw phycllotaxis patterns using ggplot2. The code was modified from a Project called &lt;em&gt;PHYLLOTAXIS: DRAW FLOWERS USING MATHEMATICS&lt;/em&gt; on &lt;a href=&#34;www.datacamp.com&#34;&gt;Datacamp&lt;/a&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-{r}&#34;&gt;library(tidyverse)
