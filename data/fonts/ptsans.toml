@@ -6,10 +6,10 @@ name = "ptsans"
 google_fonts = "family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700"
 
 # Font families
-heading_font = ""
-body_font = ""
+heading_font = "PT Sans"
+body_font = "PT Sans"
 nav_font = "PT Sans"
-mono_font = ""
+mono_font = "PT Sans"
 
 # Font size
 font_size = "17"
