@@ -3,14 +3,10 @@
 name = "ptsans"
 
 # Optional Google font URL
-google_fonts = "family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700"
+google_fonts = "PT+Sans:ital,wght@0,400;0,700;1,400;1,700"
 
 # Font families
 heading_font = "PT Sans"
 body_font = "PT Sans"
 nav_font = "PT Sans"
 mono_font = "PT Sans"
-
-# Font size
-font_size = "17"
-font_size_small = "18"
