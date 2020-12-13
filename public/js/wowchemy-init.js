@@ -1,5 +1,5 @@
 (() => {
-  // ns-hugo:/var/folders/ry/3zy66sdj2x788ph9nxtpzy140000gn/T/hugo_cache/modules/filecache/modules/pkg/mod/github.com/wowchemy/wowchemy-hugo-modules/wowchemy@v0.0.0-20201127232226-e0d593e68892/assets/js/wowchemy-theming.js
+  // ns-hugo:/var/folders/ry/3zy66sdj2x788ph9nxtpzy140000gn/T/hugo_cache/modules/filecache/modules/pkg/mod/github.com/wowchemy/wowchemy-hugo-modules/wowchemy@v0.0.0-20201204174723-5fa9412f9e76/assets/js/wowchemy-theming.js
   function getThemeMode() {
     return parseInt(localStorage.getItem("dark_mode") || 2);
   }
