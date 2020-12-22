@@ -9296,7 +9296,14 @@ html[dir="rtl"] body {
 
 .section-heading h1 {
   text-align: left;
-  font-size: 35px; }
+  font-size: 35px;
+  margin: 0 0 0 0; }
 
 .article-container h1 {
   font-size: 35px; }
+
+.li-cite-author {
+  font-size: 18px; }
+
+.container {
+  font-size: 18px; }
