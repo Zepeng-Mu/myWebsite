@@ -243,13 +243,5 @@ p + geom_point(alpha = 0.8, color = rainbow(points), shape = 16) +
 </description>
     </item>
     
-    <item>
-      <title></title>
-      <link>https://zepengmu.netlify.app/google6b3ce40aa47a7f94/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://zepengmu.netlify.app/google6b3ce40aa47a7f94/</guid>
-      <description>google-site-verification: google6b3ce40aa47a7f94.html</description>
-    </item>
-    
   </channel>
 </rss>
