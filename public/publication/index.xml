@@ -5,7 +5,7 @@
     <link>https://zepengmu.netlify.app/publication/</link>
       <atom:link href="https://zepengmu.netlify.app/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zepengmu.netlify.app/img/headers/publication_header.jpg</url>
       <title>Publications</title>
@@ -38,6 +38,16 @@
       <guid>https://zepengmu.netlify.app/publication/chen-2020-alignment/</guid>
       <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
 &lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;medium-donut&#39; data-badge-details=&#39;right&#39; data-doi=&#39;10.1101/2020.01.05.895136&#39;&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Single-cell RNA-sequencing reveals pervasive but highly cell type-specific genetic ancestry effects on the response to viral infection</title>
+      <link>https://zepengmu.netlify.app/publication/randolph-2020-12-21-423830/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://zepengmu.netlify.app/publication/randolph-2020-12-21-423830/</guid>
+      <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+&lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;medium-donut&#39; data-badge-details=&#39;right&#39; data-doi=&#39;10.1101/2020.12.21.423830&#39;&gt;&lt;/div&gt;
 </description>
     </item>
     

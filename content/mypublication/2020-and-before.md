@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
-title = "2020"
+title = "2020 and before"
 subtitle = ""
 
 [design]
@@ -45,3 +45,5 @@ subtitle = ""
 +++
 
 {{< cite page="/publication/apaqtl" view="4" >}}
+{{< cite page="/publication/trendowski-2019-clinical" view="4" >}}
+{{< cite page="/publication/igem-2016" view="4" >}}

@@ -44,10 +44,6 @@ subtitle = ""
  css_class = ""
 +++
 
-<!-- <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> -->
-
 {{< cite page="/publication/mu-2020-impact" view="4" >}}
-<!-- <element id="rcornerbox">DOI</element> -->
-<!-- <span class='altmetric-embed' data-doi='10.1101/2020.07.20.212753'></span> -->
-
 {{< cite page="/publication/chen-2020-alignment" view="4" >}}
+{{< cite page="/publication/randolph-2020-12-21-423830" view="4" >}}

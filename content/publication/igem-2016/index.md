@@ -23,10 +23,29 @@ authors:
 - Chunbo Lou
 - Yang Yu
 - Jiangyun Wang
-# author_notes:
-# - "Equal contribution"
-# - "Equal contribution"
-# - "Equal contribution"
+author_notes:
+- "Equal Contribution"
+- "Equal Contribution"
+- "Equal Contribution"
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- "Corresponding"
+- "Corresponding"
 date: "2018-09-01"
 doi: "10.1016/j.synbio.2018.05.001"
 

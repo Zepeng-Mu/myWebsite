@@ -11,13 +11,13 @@ authors:
 - Jinlin Miao
 - Ping Zhu
 - Yang I Li
-authors_notes:
+author_notes:
 - "Equal contribution"
 - "Equal contribution"
-- ""
-- ""
-- ""
-- "Corresponding author"
+- 
+- 
+- 
+- "Corresponding"
 tags: []
 categories: []
 date: '2020-08-01'
