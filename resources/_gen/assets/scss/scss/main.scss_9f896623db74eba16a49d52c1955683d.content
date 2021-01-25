@@ -9286,14 +9286,6 @@ div.chart {
 html[dir="rtl"] body {
   text-align: right; }
 
-#rcornerbox {
-  border-radius: 7px;
-  border: 1.5px solid #800000;
-  padding: 5px;
-  width: 20px;
-  height: 5px;
-  font-size: 12px; }
-
 .section-heading h1 {
   text-align: left;
   font-size: 35px;

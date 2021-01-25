@@ -17,7 +17,7 @@ authors:
 - Ryan A Langlois
 - Luis B Barreiro
 author_notes:
-- "First Author"
+- First
 - 
 - 
 - 
@@ -26,7 +26,7 @@ author_notes:
 - 
 - 
 - 
-- "Corresponding"
+- Corresponding
 tags: []
 categories: []
 date: '2020-01-01'

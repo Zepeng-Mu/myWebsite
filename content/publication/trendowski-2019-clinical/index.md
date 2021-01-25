@@ -27,6 +27,28 @@ authors:
 - Sophie D. Fossa
 - Lois B. Travis
 - Eileen M. Dolan
+author_notes:
+- Equal Contribution
+- Equal Contribution
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- Corresponding
+- Corresponding
 tags: []
 categories: []
 date: '2019-01-01'
