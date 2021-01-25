@@ -3,7 +3,7 @@ title = "boringR: drawing with R"
 
 date = 2018-08-10
 lastmod = 2018-08-10
-draft = false
+draft = true
 
 summary = "Using R to plot amazing artistic graphs."
 

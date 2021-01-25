@@ -3,7 +3,6 @@ title = "CV"
 date = "2018-08-18"
 math = true
 highlight = true
-
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "headers/cv_header_unsplash.jpg"

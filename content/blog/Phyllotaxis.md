@@ -3,7 +3,7 @@ title = "Phyllotaxis with R"
 
 date = 2018-08-10
 lastmod = 2018-09-04
-draft = false
+draft = true
 
 summary = "Using R to plot phyllotaxis patterns inspired by Datacamp."
 
