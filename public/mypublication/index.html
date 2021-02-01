@@ -8,7 +8,7 @@
   
   
   
-  <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
+  <meta name="generator" content="Wowchemy 5.0.0-beta.2 for Hugo">
   
 
   
@@ -76,7 +76,7 @@
     
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="print" onload="this.media='all'">
 
     
     
@@ -87,14 +87,14 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
         
       
     
 
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
     
 
     
@@ -234,6 +234,7 @@
       
       
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+      
     
   
 
@@ -241,7 +242,8 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.min.56340b3fd464a716c87b9716623e1c32.css">
+  
+  <link rel="stylesheet" href="/css/wowchemy.9ec5cbb2af38510e1a359e03fb35b900.css">
 
   
 
@@ -249,7 +251,7 @@
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=256915180"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X7R9582NTJ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
 
@@ -279,7 +281,7 @@
   }
 
   gtag('js', new Date());
-  gtag('config', '256915180', {});
+  gtag('config', 'G-X7R9582NTJ', {});
 
   
   document.addEventListener('click', onClickCallback, false);
@@ -296,7 +298,10 @@
 
   
 
+  
   <link rel="manifest" href="/index.webmanifest">
+  
+
   <link rel="icon" type="image/png" href="/images/icon_hude38de91a1485bdac948e809c4e8e825_60537_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hude38de91a1485bdac948e809c4e8e825_60537_192x192_fill_lanczos_center_2.png">
 
@@ -358,9 +363,14 @@
   
   
   
-  <script src="/js/wowchemy-init.js"></script>
+  
+  
+  
+  <script src="/js/wowchemy-init.min.0475bc389b7599ef6b1889ad17c11742.js"></script>
 
-  <aside class="search-results" id="search">
+  
+
+<aside class="search-modal" id="search">
   <div class="container">
     <section class="search-header">
 
@@ -369,16 +379,22 @@
           <h1>Search</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
         </div>
       </div>
 
       <div id="search-box">
         
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
         
       </div>
+
+      
+      
+
+      
 
     </section>
     <section class="section-search-results">
@@ -390,6 +406,7 @@
     </section>
   </div>
 </aside>
+
 
 
   <div class="page-header">
@@ -407,7 +424,7 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-  <div class="container">
+  <div class="container-xl">
 
     
     <div class="d-none d-lg-inline-flex">
@@ -531,6 +548,12 @@
     </div>
 
     <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
       
       
       <li class="nav-item">
@@ -581,12 +604,12 @@
     
     
     
-    
-    
       
       
     
     
+  
+
   
 
   
@@ -622,7 +645,7 @@
 
   
   <section id="header" class="home-section wg-hero  "  >
-   <div class="home-section-bg  bg-image parallax" style="background-image:  url(&#39;https://zepengmu.netlify.app/img/headers/publication_header.jpg&#39;);background-size: cover;"></div>
+   <div class="home-section-bg  bg-image parallax" style="background-image: url(&#39;https://zepengmu.netlify.app/img/headers/publication_header.jpg&#39;);background-size: cover;"></div>
     <div class="container">
 
     
@@ -659,6 +682,8 @@
   
   
   
+  
+
   
 
   
@@ -731,7 +756,9 @@
 
 
   
-    <div class="pub-list-item" style="margin-bottom: 1rem">
+    
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
@@ -767,10 +794,10 @@
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/mu-2020-impact/cite.bib">
   Cite
-</button>
+</a>
 
 
 
@@ -784,7 +811,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.1101/2020.07.20.212753" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/https://doi.org/10.1101/2020.07.20.212753" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -806,7 +833,9 @@
 
 
   
-    <div class="pub-list-item" style="margin-bottom: 1rem">
+    
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
@@ -844,10 +873,10 @@
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/chen-2020-alignment/cite.bib">
   Cite
-</button>
+</a>
 
 
 
@@ -861,7 +890,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1101/2020.01.05.895136" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1101/2020.01.05.895136" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -883,7 +912,9 @@
 
 
   
-    <div class="pub-list-item" style="margin-bottom: 1rem">
+    
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
@@ -923,10 +954,10 @@
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/randolph-2020-12-21-423830/cite.bib">
   Cite
-</button>
+</a>
 
 
 
@@ -940,7 +971,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1101/2020.12.21.423830" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1101/2020.12.21.423830" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -969,6 +1000,8 @@
   
   
   
+  
+
   
 
   
@@ -1041,7 +1074,9 @@
 
 
   
-    <div class="pub-list-item" style="margin-bottom: 1rem">
+    
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
@@ -1079,10 +1114,10 @@
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/apaqtl/cite.bib">
   Cite
-</button>
+</a>
 
 
 
@@ -1096,7 +1131,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.7554/eLife.57492" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.7554/eLife.57492" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -1118,7 +1153,9 @@
 
 
   
-    <div class="pub-list-item" style="margin-bottom: 1rem">
+    
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
@@ -1169,10 +1206,10 @@
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/trendowski-2019-clinical/cite.bib">
   Cite
-</button>
+</a>
 
 
 
@@ -1186,7 +1223,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1158/1078-0432.CCR-19-0113" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1158/1078-0432.CCR-19-0113" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -1208,7 +1245,9 @@
 
 
   
-    <div class="pub-list-item" style="margin-bottom: 1rem">
+    
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
@@ -1260,10 +1299,10 @@
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/igem-2016/cite.bib">
   Cite
-</button>
+</a>
 
 
 
@@ -1277,7 +1316,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1016/j.synbio.2018.05.001" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.synbio.2018.05.001" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -1402,42 +1441,18 @@
 
     
     
-    <script>const code_highlighting = true;</script>
-    
-
-    
-    
-    
-    
-    
-    
-    <script>
-      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
-      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
-      const content_type = {
-        'post': "Posts",
-        'project': "Projects",
-        'publication' : "Publications",
-        'talk' : "Talks",
-        'slides' : "Slides"
-        };
-    </script>
-    
-
-    
-    
 
     
     
     <script id="search-hit-fuse-template" type="text/x-template">
       <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-        <div class="search-hit-name">
-          <a href="{{relpermalink}}">{{title}}</a>
-          <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{snippet}}</p>
+        <div class="search-hit-content">
+          <div class="search-hit-name">
+            <a href="{{relpermalink}}">{{title}}</a>
+            <div class="article-metadata search-hit-type">{{type}}</div>
+            <p class="search-hit-description">{{snippet}}</p>
+          </div>
         </div>
-      </div>
       </div>
     </script>
     
@@ -1450,17 +1465,30 @@
 
     
     
-
-    
-    
     
 
     
     
+    
 
     
     
 
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
     
     
     
@@ -1471,11 +1499,10 @@
     
     
       
+      
     
     
-    
-    
-    <script src="/js/wowchemy.min.ffabb05383f1b16d83e7181a605e644c.js"></script>
+    <script src="/en/js/wowchemy.min.91106a671e9004095635f8a608f0f914.js"></script>
 
     
 
