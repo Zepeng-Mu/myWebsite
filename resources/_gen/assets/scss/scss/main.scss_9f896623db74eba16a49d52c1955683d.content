@@ -9406,23 +9406,23 @@ div.chart {
 
 .section-heading h1 {
   text-align: left;
-  font-size: 35px;
+  font-size: 24pt;
   margin: 0 0 0 0; }
 
 .article-container h1 {
-  font-size: 35px; }
+  font-size: 24pt; }
 
 .article-container p {
-  font-size: 18px; }
+  font-size: 13pt; }
 
 .li-cite-author {
-  font-size: 18px; }
+  font-size: 13pt; }
 
 .container {
-  font-size: 18px; }
+  font-size: 13pt; }
 
 .article-style p {
-  font-size: 18px; }
+  font-size: 13pt; }
 
 .article-style ul {
-  font-size: 18px; }
+  font-size: 13pt; }

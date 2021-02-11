@@ -3,7 +3,6 @@ title: Drawing chromHMM legend with ggplot2
 author: ''
 date: '2019-02-13'
 summary: 'Using geom_tile to plot chromHMM legend.'
-slug: test
 categories: []
 tags: []
 header:
@@ -21,7 +20,7 @@ chromHMM uses a Hidden Markov Model to integrate a range of epigenetic markers a
 
 The table I use here comes from website: [ROADMAP epigenetics project web portal](https://egg2.wustl.edu/roadmap/web_portal/chr_state_learning.html). I copied the table from the website and saved it in a file called "coreChromHMM.txt". The headers of the table are  "STATE.NO.", "MNEMONIC", "DESCRIPTION" , "COLOR.NAME"  "COLOR.CODE".
 
-```{r eval=FALSE, include=TRUE}
+```r
 library(tidyverse)
 
 core <- read.table("coreChromHMM.txt",
@@ -30,7 +29,7 @@ core <- read.table("coreChromHMM.txt",
 
 Taking a look at the table we see that the colors are coded in RGB format. I use `spread()` function from `tidyverse` package to spread the color column into 3 columns, for red, green, and blue respectively. Then I use `rgb()` function to convert the colors into HEX format.
 
-```{r eval=FALSE, include=TRUE}
+```r
 core <- core %>% 
   separate(COLOR.CODE, c("Red", "Green", "Blue"), sep = ",")
 
@@ -40,7 +39,7 @@ names(hexCol) = core$DESCRIPTION
 
 `geom_tile()` is used to produce the "boxes", and I use `geom_text()` to add texts those boxes, or tiles.
 
-```{r eval=FALSE, include=TRUE}
+```r
 ggplot(core, aes(x = 1, y = max(STATE.NO.) - STATE.NO., fill = DESCRIPTION)) +
   geom_tile() +
   geom_text(aes(label = DESCRIPTION), size = 8) +
