@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://zepengmu.netlify.app/blog/sashimi-pygenometracks/</loc>
+    <lastmod>2021-02-11T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zepengmu.netlify.app/</loc>
+    <lastmod>2021-02-11T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc></loc>
     <lastmod>2020-12-22T16:29:19-05:00</lastmod>
   </url>
@@ -15,11 +25,6 @@
   <url>
     <loc></loc>
     <lastmod>2020-09-24T13:53:35-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zepengmu.netlify.app/</loc>
-    <lastmod>2020-12-22T16:29:19-05:00</lastmod>
   </url>
   
   <url>

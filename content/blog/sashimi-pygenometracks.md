@@ -4,6 +4,7 @@ title = "Generate Sashimi plot using pyGenomeTracks"
 date = 2021-01-25
 lastmod = 2021-02-11
 draft = false
+reading_time = true
 
 summary = "Using the custom sashimiBigwig track class to generate Sashimi plots in the framework of pyGenomeTracks."
 +++
