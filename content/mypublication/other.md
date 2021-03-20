@@ -5,16 +5,16 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 20  # Order that this section will appear.
+weight = 40  # Order that this section will appear.
 
-title = "Preprints"
+title = "Others"
 subtitle = ""
 
 [design]
   columns = "1"
 
 [design.spacing]
-  padding = ["20px", "0", "10px", "0"]
+  padding = ["20px", "0", "20px", "0"]
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -23,7 +23,7 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
     
   # Background color.
-  # color = "navy"
+  # color = "grey"
   
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
@@ -44,5 +44,4 @@ subtitle = ""
  css_class = ""
 +++
 
-{{< cite page="/publication/mu-2020-impact" view="4" >}}
-<!-- {{< cite page="/publication/randolph-2020-12-21-423830" view="4" >}} -->
+{{< cite page="/publication/ebert-2021-haplotype" view="4" >}}
