@@ -13,24 +13,28 @@ caption = "Image credit: **Unsplash**"
 
 ## EDUCATION
 ---
-* **Bachelar of Science**  
+* **Bachelar of Science**
 	*Sept., 2014 - Jul., 2018*, University of Chinese Academy of Sciences
 
 ## PUBLICATIONS
 ---
-Briana E. Mittleman, Sebastian Pott, Shane Warland, Tony Zeng, **Zepeng Mu**, Mayher Kaur, Yoav Gilad, and Yang Li. "Alternative polyadenylation mediates genetic regulation of gene expression." *Elife* 9 (2020): e57492.
+**Zepeng Mu**, Wei Wei, Benjamin J. Fair, Jinlin Miao, Ping Zhu, and Yang I. Li. "The Impact of cell-type and context-dependent regulatory variants on human immune traits." <u>*Genome Biology (Accepted)*</u> (2021).
 
-Matthew R. Trendowski, Omar El-Charif, Mark J. Ratain, Patrick Monahan, **Zepeng Mu** et al. Clinical and Genome-Wide Analysis of Serum Platinum Levels after Cisplatin-Based Chemotherapy. *Clinical Cancer Research* July 11 (2019).
+Mengjie Chen, Qi Zhan, **Zepeng Mu**, Lili Wang, Zhaohui Zheng, Jinlin Miao, Ping Zhu, and Yang I. Li. "Alignment of single-cell RNA-seq samples without overcorrection using kernel density matching." <u>*Genome Research*</u> (2021).
 
-**Zepeng Mu**, Zhuoning Zou, Ye Yang et al. "A genetically engineered Escherichia coli that senses and degrades tetracycline antibiotic residue." *Synthetic and Systems Biotechnology* (2018).
+Briana E. Mittleman, Sebastian Pott, Shane Warland, Tony Zeng, **Zepeng Mu**, Mayher Kaur, Yoav Gilad, and Yang Li. "Alternative polyadenylation mediates genetic regulation of gene expression." <u>*Elife*</u> (2020).
 
-Omar El-Charif, **Zepeng Mu**, Eric R. Gamazon et al. "Pharmacokinetic (PK) modeling of serum platinum to reveal extent of long-term exposure and associated comorbidities after cisplatin treatment." (2018): 10058-10058.
+Matthew R. Trendowski, Omar El-Charif, Mark J. Ratain, Patrick Monahan, **Zepeng Mu** et al. Clinical and Genome-Wide Analysis of Serum Platinum Levels after Cisplatin-Based Chemotherapy. <u>*Clinical Cancer Research*</u> (2019).
 
-Matthew R Trendowski, Omar El-Charif, **Zepeng Mu** et al. Pharmacokinetic modeling of serum platinum reveals extent of long-term exposure and associated comorbidities after cisplatin treatment. Cancer Research 79 (13 Supplement), 3904-3904.
+**Zepeng Mu**, Zhuoning Zou, Ye Yang et al. "A genetically engineered Escherichia coli that senses and degrades tetracycline antibiotic residue." <u>*Synthetic and Systems Biotechnology*</u> (2018).
+
+<!-- Omar El-Charif, **Zepeng Mu**, Eric R. Gamazon et al. "Pharmacokinetic (PK) modeling of serum platinum to reveal extent of long-term exposure and associated comorbidities after cisplatin treatment." (2018): 10058-10058. -->
+
+<!-- Matthew R Trendowski, Omar El-Charif, **Zepeng Mu** et al. Pharmacokinetic modeling of serum platinum reveals extent of long-term exposure and associated comorbidities after cisplatin treatment. Cancer Research 79 (13 Supplement), 3904-3904. -->
 
 ## RESEARCH SKILLS
 ---
-* **Dry Lab**: R, UNIX, Python, LaTex
+* **Dry Lab**: R, Python, LaTex
 
 * **Wet Lab**: CUT&Tag, Molecular cloning, Luciferase reporter assay, Cell culturing, qRT-PCR
 
@@ -63,7 +67,7 @@ Mentor: Dr. Chunbo Lou, Institute of Microbiology, Chinese Academy of Sciences.\
 
 ## AWARDS
 ---
-**Jul. 2018**, Beijing Outstanding Graduate Thesis  
-**Jul. 2018**, Beijing Honored College Graduates  
-**Nov. 2016**, Silver Medal, international Genetically Engineered Machine (iGEM) Competition First-Class Scholarship, University of Chinese Academy of Sciences  
-**Nov. 2016**, First-Class Scholarship, University of Chinese Academy of Sciences   
+**Jul. 2018**, Beijing Outstanding College Thesis\
+**Jul. 2018**, Beijing Honored College Graduates\
+**Nov. 2016**, Silver Medal, international Genetically Engineered Machine (iGEM) Competition\
+**Nov. 2016**, First-Class Scholarship, University of Chinese Academy of Sciences
