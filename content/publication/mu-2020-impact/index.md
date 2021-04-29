@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: Impact of cell-type and context-dependent regulatory variants on human immune traits
+title: The impact of cell-type and context-dependent regulatory variants on human immune traits
 subtitle: ''
 summary: ''
 authors:
@@ -14,17 +14,17 @@ authors:
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
-- 
-- 
-- 
+-
+-
+- "Corresponding"
 - "Corresponding"
 tags: []
 categories: []
-date: '2020-08-01'
+date: '2021-04-29'
 lastmod: 2020-09-24T13:53:35-05:00
 featured: false
 draft: false
-doi: 'https://doi.org/10.1101/2020.07.20.212753'
+doi: 'https://doi.org/10.1186/s13059-021-02334-x'
 
 # links:
 # - name: ""
@@ -32,7 +32,7 @@ doi: 'https://doi.org/10.1101/2020.07.20.212753'
 
 url_pdf:
 url_code: ''
-url_dataset: ''
+url_dataset: 'https://doi.org/10.5281/zenodo.4480206'
 url_poster: ''
 url_project: ''
 url_slides: ''
@@ -55,10 +55,17 @@ image:
 projects: []
 publishDate: '2020-09-24T18:53:32.261929Z'
 publication_types: ["2"]
-abstract: 'The effects of trait-associated variants are often studied in a single relevant cell-type or context. However, for many complex traits, multiple cell-types are involved. This applies particularly to immune-related traits, for which many immune cell-types and contexts play a role. Here, we studied the impact of immune gene regulatory variants on complex traits to better understand genetic risk mediated through immune cell-types. We identified 26,271 expression quantitative trait loci (QTLs) and 23,121 splicing QTLs in 18 immune cell-types, and analyzed their overlap with trait-associated loci from 72 genome-wide association studies (GWAS). We showed that effects on RNA expression and splicing in immune cells colocalize with an average of 40.4% and 27.7% GWAS loci for immune-related and non-immune traits, respectively. Notably, we found that a large number of loci (mean: 14%) colocalize with splicing QTLs but not expression QTLs. The 60% GWAS loci without colocalization harbor genes that have lower expression levels, are less tolerant to loss-of-function mutations, and more enhancerrich than genes at colocalized loci. To further investigate the 60% GWAS loci not explained by our regulatory QTLs, we collected H3K27ac CUT&Tag data from rheumatoid arthritis (RA) and healthy controls. We found several unexplained GWAS hits lying within regions with higher H3K27ac activity in RA patients. We also observed that enrichment of RA GWAS heritability is greater in H3K27ac regions in immune cell-types from RA patients compared to healthy controls. Our study paves the way for future QTL studies to elucidate the mechanisms of as yet unexplained GWAS loci.'
-publication: '*bioRxiv*'
+abstract: '**Background**: The vast majority of trait-associated variants identified using genome-wide association studies (GWAS) are noncoding, and therefore assumed to impact gene regulation. However, the majority of trait-associated loci are unexplained by regulatory quantitative trait loci (QTLs).
+
+
+**Results**: We perform a comprehensive characterization of the putative mechanisms by which GWAS loci impact human immune traits. By harmonizing four major immune QTL studies, we identify 26,271 expression QTLs (eQTLs) and 23,121 splicing QTLs (sQTLs) spanning 18 immune cell types. Our colocalization analyses between QTLs and trait-associated loci from 72 GWAS reveals that genetic effects on RNA expression and splicing in immune cells colocalize with 40.4% of GWAS loci for immune-related traits, in many cases increasing the fraction of colocalized loci by two fold compared to previous studies. Notably, we find that the largest contributors of this increase are splicing QTLs, which colocalize on average with 14% of all GWAS loci that do not colocalize with eQTLs. By contrast, we find that cell type-specific eQTLs, and eQTLs with small effect sizes contribute very few new colocalizations. To investigate the 60% of GWAS loci that remain unexplained, we collect H3K27ac CUT&Tag data from rheumatoid arthritis and healthy controls, and find large-scale differences between immune cells from the different disease contexts, including at regions overlapping unexplained GWAS loci.
+
+
+**Conclusion**: Altogether, our work supports RNA splicing as an important mediator of genetic effects on immune traits, and suggests that we must expand our study of regulatory processes in disease contexts to improve functional interpretation of as yet unexplained GWAS loci.
+'
+publication: '*Genome Biology*'
 ---
 
 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-<div class='altmetric-embed' data-badge-type='medium-donut' data-badge-details='right' data-doi='10.1101/2020.07.20.212753'></div>
+<div class='altmetric-embed' data-badge-type='medium-donut' data-badge-details='right' data-doi='10.1186/s13059-021-02334-x'></div>

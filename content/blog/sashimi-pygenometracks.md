@@ -78,8 +78,8 @@ cp pygenometracks/tracks/SashimiBigwig.py <PyGenomeTracks installation path>/tra
 
 ### Prepare input files
 In order to generate Sashimi plot, two types of files are needed.
-1. Bigwig files for RNA-seq coverage. These are just bigwig files that you would normally for the bigwig track class.
-2. Link files for junctions to plot and labels. This looks like the file for the original links track class, with an **additional** column at the end: the number on the label (could be the number of split reads supporting the junction or PSI calculated from a certain tool.) An example file looks like this:
+- Bigwig files for RNA-seq coverage. These are just bigwig files that you would normally for the bigwig track class.
+- Link files for junctions to plot and labels. This looks like the file for the original links track class, with an **additional** column at the end: the number on the label (could be the number of split reads supporting the junction or PSI calculated from a certain tool.) An example file looks like this:
 
 ```txt
 chr2    231109786       231109786       chr2    231110578       231110578       0.0372936854616429
@@ -98,20 +98,20 @@ The column names are: chr_intron_start, pos_start, pos_start, chr_intron_end, po
 An example section in the `.ini` file:
 
 ```
-title = 
+title =
 # Path to bigwig file
-bw_file = 
+bw_file =
 # Path to links file
-link_file = 
+link_file =
 height = 0.8
-bw_color = 
-number_of_bins = 
-max_value = 
+bw_color =
+number_of_bins =
+max_value =
 nans_to_zeros = true
 summary_method = mean
 show_data_range = true
-link_color = 
-line_style = 
+link_color =
+line_style =
 fontsize = 2
 # The link in Sashimi plot is a Bezier curve.
 # The height of the curve is calculated from the length of the intron.
@@ -130,11 +130,10 @@ If you want to try the example provided, go to the cloned repo, then:
 
 ```sh
 cd example_sashimi
-pyGenomeTracks --tracks chr2-231091223_231109786_231113600.ini --region chr2:231107879-231115507 -t 'chr2:231109786-231113600 (sQTL = 2:231091223, ALT=G)' --width 9 --trackLabelFraction 0.01 -out example.pdf --fontSize 4
+pyGenomeTracks --tracks chr2-231091223_231109786_231113600.ini --region chr2:231107879-231115507 -t 'chr2:231109786-231113600 (sQTL = 2:231091223, ALT=G)' --width 9 --trackLabelFraction 0.01 -out example.png --fontSize 4
 ```
 
 The resulting plot `example.png` looks like this:
-
 ![](/img/sashimi.png)
 
 This example shows a splicing QTL (sQTL) for gene *SP140*. The three tracks 0, 1, and 2 represents average RNA-seq coverage for individuals with 0, 1, and 2 alternative allele (G) for SNP chr2:231091223. To generate similar plots on your data, you will need a custom script that calculate average coverage from a group of samples with the same genotype at a given position. Of course, you can also group samples by any other criteria that fits your needs, for instance combining by treatment and control.
