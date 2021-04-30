@@ -30,7 +30,7 @@ doi: 'https://doi.org/10.1186/s13059-021-02334-x'
 # - name: ""
 #   url: ""
 
-url_pdf:
+url_pdf: 'https://rdcu.be/cjLFi'
 url_code: ''
 url_dataset: 'https://doi.org/10.5281/zenodo.4480206'
 url_poster: ''
