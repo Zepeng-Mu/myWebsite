@@ -18,7 +18,7 @@ caption = "Image credit: **Unsplash**"
 
 ## PUBLICATIONS
 ---
-**Zepeng Mu**, Wei Wei, Benjamin J. Fair, Jinlin Miao, Ping Zhu, and Yang I. Li. "The Impact of cell-type and context-dependent regulatory variants on human immune traits." <u>*Genome Biology (Accepted)*</u> (2021).
+**Zepeng Mu**, Wei Wei, Benjamin J. Fair, Jinlin Miao, Ping Zhu, and Yang I. Li. "The Impact of cell-type and context-dependent regulatory variants on human immune traits." <u>*Genome Biology*</u> (2021).
 
 Mengjie Chen, Qi Zhan, **Zepeng Mu**, Lili Wang, Zhaohui Zheng, Jinlin Miao, Ping Zhu, and Yang I. Li. "Alignment of single-cell RNA-seq samples without overcorrection using kernel density matching." <u>*Genome Research*</u> (2021).
 
