@@ -1,6 +1,6 @@
 +++
 # Display name
-title = "Zepeng Mu"
+title = "Zepeng Mu (牟泽鹏)"
 
 # Username (this should match the folder name)
 authors = ["admin"]
