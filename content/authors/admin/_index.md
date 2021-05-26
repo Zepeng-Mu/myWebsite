@@ -72,4 +72,4 @@ interests = [
 
 +++
 
-I am a Ph.D. candidate in [Committee on Genetics, Genomcis and Systems Biology (GGSB)](https://ggsb.uchicago.edu/) at [The University of Chicago](https://www.uchicago.edu/). I took my undergraduate education at [University of Chinese Academy of Sciences (UCAS)](http://english.ucas.ac.cn/), majoring in Biological Sciences.  My main research interests are to use genomics technologies with proper statistical methods to understand how genetic variants affect human complex traits, with a focus on autoimmune diseases.
+I am a Ph.D. candidate in [Committee on Genetics, Genomcis and Systems Biology (GGSB)](https://ggsb.uchicago.edu/) at [The University of Chicago](https://www.uchicago.edu/). I received my BS from [University of Chinese Academy of Sciences (UCAS)](http://english.ucas.ac.cn/), majoring in Biological Sciences.  My main research interests are to use genomics technologies with proper statistical methods to understand how genetic variants affect human complex traits, with a focus on autoimmune diseases.

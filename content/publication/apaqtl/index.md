@@ -5,18 +5,18 @@ authors:
 - Sebastian Pott
 - Shane Warland
 - Tony Zeng
-- admin
+- in_paper
 - Mayher Kaur
 - Yoav Gilad
 - Yang I Li
 author_notes:
 - "First"
-- 
-- 
-- 
-- 
-- 
--  
+-
+-
+-
+-
+-
+-
 - "Corresponding"
 date: "2020-06-25"
 doi: "10.7554/eLife.57492"
@@ -53,7 +53,7 @@ url_source: ''
 url_video: ''
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
   caption: ""
   focal_point: ""

@@ -7,7 +7,7 @@ subtitle: ''
 summary: ''
 authors:
 - Haley E Randolph
-- admin
+- in_paper
 - Jessica K Fiege
 - Beth K Thielen
 - Jean-Christophe Grenier
@@ -18,14 +18,14 @@ authors:
 - Luis B Barreiro
 author_notes:
 - First
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+-
+-
+-
+-
+-
+-
+-
+-
 - Corresponding
 tags: []
 categories: []
@@ -67,7 +67,7 @@ abstract: Humans vary in their susceptibility to infectious disease, partly due 
   of the antiviral immune response.Competing Interest StatementThe authors have declared
   no competing interest.
 publication: '*bioRxiv*'
-url_pdf: 
+url_pdf:
 doi: 10.1101/2020.12.21.423830
 ---
 

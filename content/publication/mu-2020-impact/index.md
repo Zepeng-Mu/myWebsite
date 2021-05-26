@@ -5,7 +5,7 @@ title: The impact of cell-type and context-dependent regulatory variants on huma
 subtitle: ''
 summary: ''
 authors:
-- admin
+- in_paper
 - Wei Wei
 - Benjamin Jung Fair
 - Jinlin Miao
