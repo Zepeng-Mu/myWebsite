@@ -26,9 +26,9 @@ featured: false
 draft: false
 doi: 'https://doi.org/10.1186/s13059-021-02334-x'
 
-# links:
-# - name: ""
-#   url: ""
+links:
+- name: "EGA Archive"
+  url: "https://ega-archive.org/datasets/EGAD00001007003"
 
 url_pdf: 'https://rdcu.be/cjLFi'
 url_code: ''
