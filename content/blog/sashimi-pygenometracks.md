@@ -9,7 +9,7 @@ reading_time = true
 summary = "Using the custom sashimiBigwig track class to generate Sashimi plots in the framework of pyGenomeTracks."
 +++
 
-Sashimi plot is a powerful and popular way to visualize mRNA alternative splicing. However, there are not many tools that are designed to generate this type of plots, except for few ones like MISO, ggSashimi and splicePlot. Moreoever, existing tools tend to have at least one of the following shortcomings: (1) tools dedicated to mRNA splicing like MISO do not allow for plotting Sashimi together with other types of genomic data, such as bigwig and bed files; (2) tools may require an annotation for extracting junctions, making them unsuitable for annotation-free methods like Leafcutter.
+Sashimi plot is a powerful and popular way to visualize mRNA alternative splicing. However, there are not many tools that are designed to generate this type of plots, except for a few ones like MISO, ggSashimi and splicePlot. Moreoever, existing tools tend to have at least one of the following shortcomings: (1) tools dedicated to mRNA splicing like MISO do not allow for plotting Sashimi together with other types of genomic data, such as bigwig and bed files; (2) tools may require an annotation for extracting junctions, making them unsuitable for annotation-free methods like Leafcutter.
 
 Motivated by these limitations, I developed a script based on the infrastructure of the Python package **PyGenomeTracks**. This script is not a stand-alone tool, instead it is a custom track class that is adapted from existing track classes (such as bigwig and links tracks) from PyGenomeTracks.
 
@@ -78,7 +78,7 @@ cp pygenometracks/tracks/SashimiBigwig.py <PyGenomeTracks installation path>/tra
 
 ### Prepare input files
 In order to generate Sashimi plot, two types of files are needed.
-- Bigwig files for RNA-seq coverage. These are just bigwig files that you would normally for the bigwig track class.
+- Bigwig files for RNA-seq coverage. These are just bigwig files that you would normally use for the bigwig track class.
 - Link files for junctions to plot and labels. This looks like the file for the original links track class, with an **additional** column at the end: the number on the label (could be the number of split reads supporting the junction or PSI calculated from a certain tool.) An example file looks like this:
 
 ```txt
