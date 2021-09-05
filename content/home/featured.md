@@ -7,7 +7,7 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 30
+weight: 3
 
 title: Recent Blogs
 subtitle:
@@ -38,8 +38,10 @@ design:
   #   3 = Card
   #   4 = Citation (publication only)
   view: 2
-
-background:
-  color: 'black'
-  text_color_light: false
+  spacing:
+    # Customize the section spacing. Order is top, right, bottom, left.
+    padding: ["10px", "0", "10px", "0"]
+  # background:
+  #   color: 'black'
+  #   text_color_light: false
 ---
