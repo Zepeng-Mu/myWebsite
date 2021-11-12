@@ -63,6 +63,7 @@ Mentor: Dr. Deliang Chen, College of Life Sciences, University of Chinese Academ
 #### Characterization of bacteria Toxin-Antitoxin (TA) systems for a kill-switch in engineered *E. coli*
 Role: Undergraduate Volunteer\
 Mentor: Dr. Chunbo Lou, Institute of Microbiology, Chinese Academy of Sciences.\
+Website: [UCAS iGEM 2016](http://2016.igem.org/Team:UCAS)\
 *Aug. 2016 - Nov. 2016*
 
 ## AWARDS
