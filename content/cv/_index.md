@@ -22,9 +22,11 @@ caption = "Image credit: **Unsplash**"
 
 Mengjie Chen, Qi Zhan, **Zepeng Mu**, Lili Wang, Zhaohui Zheng, Jinlin Miao, Ping Zhu, and Yang I. Li. "Alignment of single-cell RNA-seq samples without overcorrection using kernel density matching." <u>*Genome Research*</u> (2021).
 
+Peter Ebert, Peter A Audano, Qihui Zhu, Bernardo Rodriguez-Martin, *[...46 others...]*, **Zepeng Mu** ... Evan E Eichler. "Haplotype-resolved diverse human genomes and integrated analysis of structural variation." <u>*Science*</u> (2021).
+
 Briana E. Mittleman, Sebastian Pott, Shane Warland, Tony Zeng, **Zepeng Mu**, Mayher Kaur, Yoav Gilad, and Yang Li. "Alternative polyadenylation mediates genetic regulation of gene expression." <u>*Elife*</u> (2020).
 
-Matthew R. Trendowski, Omar El-Charif, Mark J. Ratain, Patrick Monahan, **Zepeng Mu** et al. Clinical and Genome-Wide Analysis of Serum Platinum Levels after Cisplatin-Based Chemotherapy. <u>*Clinical Cancer Research*</u> (2019).
+Matthew R. Trendowski, Omar El-Charif, Mark J. Ratain, Patrick Monahan, **Zepeng Mu** et al. "Clinical and Genome-Wide Analysis of Serum Platinum Levels after Cisplatin-Based Chemotherapy." <u>*Clinical Cancer Research*</u> (2019).
 
 **Zepeng Mu**, Zhuoning Zou, Ye Yang et al. "A genetically engineered Escherichia coli that senses and degrades tetracycline antibiotic residue." <u>*Synthetic and Systems Biotechnology*</u> (2018).
 
@@ -34,7 +36,7 @@ Matthew R. Trendowski, Omar El-Charif, Mark J. Ratain, Patrick Monahan, **Zepeng
 
 ## RESEARCH SKILLS
 ---
-* **Dry Lab**: R, Python, LaTex
+* **Dry Lab**: QTL mapping, scRNA-seq/scATAC-seq analysis, LaTex
 
 * **Wet Lab**: CUT&Tag, Molecular cloning, Luciferase reporter assay, Cell culturing, qRT-PCR
 
@@ -45,22 +47,22 @@ Role: Ph.D. Candidate\
 Mentor: Dr. Yang I. Li, Section of Genetic Medicine, Department of Medicine, The University of Chicago.\
 *Dec. 2018 -*
 
-#### Genome-wide Association Study of cytotoxicity due to cisplatin-related chemotherapy agents
+#### Genome-wide Association Study of Cytotoxicity due to Cisplatin-related Chemotherapy Agents
 Role: Undergraduate Volunteer\
 Mentor: Dr. M. Eileen Dolan, Department of Medicine, The University of Chicago.\
 *Oct. 2017 - Mar. 2018*
 
-#### Pathogenesis of risk loci associated with type 2 diabetes
+#### Pathogenesis of Risk Loci Associated with type 2 diabetes on Chr9p21.3
 Role: Undergraduate Volunteer\
 Mentor: Dr. Changqing Zeng, Beijing Institute of Genomics, Chinese Academy of Sciences.\
 *Aug. 2017 - Jul. 2018*
 
-#### Biophysics of bacteriorhodopsin NdR2 as a novel sodium ion pump
+#### Biophysics of a Novel Sodium Ion Pump Bacteriorhodopsin NdR2
 Role: Undergraduate Volunteer\
 Mentor: Dr. Deliang Chen, College of Life Sciences, University of Chinese Academy of Sciences.\
 *Nov. 2016 - Jul. 2017*
 
-#### Characterization of bacteria Toxin-Antitoxin (TA) systems for a kill-switch in engineered *E. coli*
+#### Characterization of Bacteria Toxin-Antitoxin (TA) Systems for a Kill-switch in Engineered ***E. coli***
 Role: Undergraduate Volunteer\
 Mentor: Dr. Chunbo Lou, Institute of Microbiology, Chinese Academy of Sciences.\
 Website: [UCAS iGEM 2016](http://2016.igem.org/Team:UCAS)\
