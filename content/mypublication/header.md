@@ -3,7 +3,7 @@
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 10  # Order that this section will appear.
+weight = 1  # Order that this section will appear.
 
 title = ""
 
@@ -18,11 +18,11 @@ hero_media = ""
 
   # Background color.
   # color = "navy"
-  
+
   # Background gradient.
   # gradient_start = ""
   # gradient_end = ""
-  
+
   # Background image.
   image = "headers/publication_header.jpg"  # Name of image in `static/media/`.
   caption = "Credit to: **Zepeng Mu**"
