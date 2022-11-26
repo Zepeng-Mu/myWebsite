@@ -1,13 +1,21 @@
-+++
-title = "Generate Sashimi plot using pyGenomeTracks"
+---
+title: "Generate Sashimi plot using pyGenomeTracks"
+widget: blank
 
-date = 2021-01-25
-lastmod = 2021-02-11
-draft = false
-reading_time = true
+# This file represents a page section.
+headless: true
 
-summary = "Using the custom sashimiBigwig track class to generate Sashimi plots in the framework of pyGenomeTracks."
-+++
+# Order that this section appears on the page.
+weight: 1
+
+# Section subtitle
+subtitle:
+
+# Section design
+design:
+  columns: "2"
+summary: "Using the custom sashimiBigwig track class to generate Sashimi plots in the framework of pyGenomeTracks."
+---
 
 Sashimi plot is a powerful and popular way to visualize mRNA alternative splicing. However, there are not many tools that are designed to generate this type of plots, except for a few ones like MISO, ggSashimi and splicePlot. Moreoever, existing tools tend to have at least one of the following shortcomings: (1) tools dedicated to mRNA splicing like MISO do not allow for plotting Sashimi together with other types of genomic data, such as bigwig and bed files; (2) tools may require an annotation for extracting junctions, making them unsuitable for annotation-free methods like Leafcutter.
 

@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: The impact of cell-type and context-dependent regulatory variants on human immune traits
 subtitle: ''
 summary: ''
