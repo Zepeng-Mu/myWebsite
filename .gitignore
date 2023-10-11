@@ -3,3 +3,11 @@
 .RData
 .Ruserdata
 .DS_Store
+.DS_Store
+.DS_Store
+.gitignore
+public/.DS_Store
+layouts/.DS_Store
+data/.DS_Store
+assets/.DS_Store
+config/.DS_Store

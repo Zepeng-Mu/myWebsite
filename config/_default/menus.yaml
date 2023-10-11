@@ -11,5 +11,5 @@ main:
     url: 'cv/'
     weight: 30
   - name: Blogs
-    url: 'blog/'
+    url: 'myblog/'
     weight: 40

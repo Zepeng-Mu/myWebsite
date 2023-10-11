@@ -8,9 +8,4 @@ profile: false  # Show author profile?
 comments: false  # Show comments?
 header_less: true
 type: "widget_page"
-# Optional header image (relative to `assets/media/` folder).
-# banner:
-#   image: "headers/cv_header_unsplash.jpg"
-#   caption: "Credit to: **Unsplash**"
 ---
-
