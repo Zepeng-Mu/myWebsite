@@ -6,7 +6,7 @@
 theme_day = "bwh"
 theme_night = "bwh"
 # Enable users to switch between day and night mode?
-day_night = true
+day_night = false
 
 # Font style.
 #   Choose from `default`, `classic`, or `playfair`.
