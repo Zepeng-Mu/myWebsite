@@ -6,7 +6,7 @@
 theme_day = "default"
 theme_night = "default"
 # Enable users to switch between day and night mode?
-day_night = false
+day_night = true
 
 # Font style.
 #   Choose from `default`, `classic`, or `playfair`.
