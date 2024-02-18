@@ -1,423 +1,95 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://zepengmu.netlify.app/blog/sashimi-pygenometracks/</loc>
-    <lastmod>2021-02-11T00:00:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zepengmu.netlify.app/</loc>
-    <lastmod>2021-02-11T00:00:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-22T16:29:19-05:00</lastmod>
-  </url>
-  
-  <url>
+    <loc>https://zepengmu.netlify.app/post/sashimi-pygenometracks/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://zepengmu.netlify.app/publication-type/2/</loc>
-    <lastmod>2020-12-22T16:29:19-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-24T13:53:35-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-04-15T10:23:50-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zepengmu.netlify.app/tag/environment-genetics-human-immune-response-variation-natural-selection-quantitative-trait-locimy-publications/</loc>
+    <lastmod>2024-04-15T10:23:50-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zepengmu.netlify.app/publication_types/</loc>
+    <lastmod>2024-04-15T10:23:50-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zepengmu.netlify.app/publication/</loc>
+    <lastmod>2024-04-15T10:23:50-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zepengmu.netlify.app/publication/randolph-2024/</loc>
+    <lastmod>2024-04-15T10:23:50-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zepengmu.netlify.app/tags/</loc>
+    <lastmod>2024-04-15T10:23:50-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zepengmu.netlify.app/cv/</loc>
+    <lastmod>2024-03-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zepengmu.netlify.app/publication/aracena-2024/</loc>
+    <lastmod>2024-03-03T18:52:19-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zepengmu.netlify.app/post/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zepengmu.netlify.app/</loc>
+    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zepengmu.netlify.app/mypublication/</loc>
+    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zepengmu.netlify.app/publication-type/article/</loc>
+    <lastmod>2021-03-07T19:53:50-06:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://zepengmu.netlify.app/publication/mu-2020-impact/</loc>
     <lastmod>2020-09-24T13:53:35-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-24T13:53:35-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-24T13:53:35-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zepengmu.netlify.app/publication_types/</loc>
-    <lastmod>2020-12-22T16:29:19-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zepengmu.netlify.app/publication/</loc>
-    <lastmod>2020-12-22T16:29:19-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-24T13:53:35-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-22T16:29:19-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-22T16:29:19-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zepengmu.netlify.app/publication/apaqtl/</loc>
-    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://zepengmu.netlify.app/publication/chen-2020-alignment/</loc>
     <lastmod>2020-09-16T09:59:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-22T16:29:19-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-22T16:29:19-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-22T16:29:19-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-22T16:29:19-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-22T16:29:19-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:59:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-22T16:29:19-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-22T16:29:19-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:59:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:59:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-22T16:29:19-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zepengmu.netlify.app/publication/randolph-2020-12-21-423830/</loc>
-    <lastmod>2020-12-22T16:29:19-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:59:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zepengmu.netlify.app/mypublication/</loc>
-    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zepengmu.netlify.app/blog/test/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zepengmu.netlify.app/publication/ebert-2021-haplotype/</loc>
+    <lastmod>2021-03-07T19:53:50-06:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zepengmu.netlify.app/publication/apaqtl/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zepengmu.netlify.app/post/test/</loc>
     <lastmod>2019-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://zepengmu.netlify.app/publication/trendowski-2019-clinical/</loc>
     <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-09-16T09:44:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zepengmu.netlify.app/blog/</loc>
-    <lastmod>2018-09-21T00:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://zepengmu.netlify.app/publication/igem-2016/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zepengmu.netlify.app/cv/</loc>
-    <lastmod>2018-08-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://zepengmu.netlify.app/projects/</loc>
-    <lastmod>2017-01-01T00:00:00-06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://zepengmu.netlify.app/categories/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zepengmu.netlify.app/myblog/</loc>
+    <changefreq>weekly</changefreq>
   </url>
-  
-  <url>
-    <loc>https://zepengmu.netlify.app/tags/</loc>
-  </url>
-  
 </urlset>

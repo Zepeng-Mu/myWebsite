@@ -72,6 +72,8 @@ banner:
 
 
 ### PUBLICATIONS
+Haley E. Randolph, Katherine A. Aracena, Yen‐Lung Lin, **Zepeng Mu**, and Luis B. Barreiro. "Shaping immunity: The influence of natural selection on population immune diversity." <u>*Immunological Reviews*</u> (2024).
+
 Katherine A Aracena, Yen-Lung Lin, Kaixuan Luo, Alain Pacis, Saideep Gona, **Zepeng Mu**, Vania Yotova, Renata Sindeaux, Albena Pramatarova, Marie-Michelle Simon, Xun Chen, Cristian Groza, David Lougheed, Romain Gregoire, David Brownlee, Carly Boye, Roger Pique-Regi, Yang I. Li, Xin He, David Bujold, Tomi Pastinen, Guillaume Bourque, Luis B Barreiro. "Epigenetic variation impacts ancestry-associated differences in the transcriptional response to influenza infection." <u>*Nature Genetics*</u> (2024).
 
 **Zepeng Mu**, Wei Wei, Benjamin J. Fair, Jinlin Miao, Ping Zhu, and Yang I. Li. "The Impact of cell-type and context-dependent regulatory variants on human immune traits." <u>*Genome Biology*</u> (2021).
@@ -98,10 +100,14 @@ Matthew R. Trendowski, Omar El-Charif, Mark J. Ratain, Patrick Monahan, **Zepeng
 
 
 ### RESEARCH EXPERIENCE
+Role: Postdoctoral Fellow\
+Mentor: Dr. Soumya Raychaudhuri, Division of Geneics, Brigham and Women's Hospital and Harvard Medical School.\
+*Dec. 2018 - Mar. 2024*
+
 ##### Dissecting the Genetics of Human Autoimmune Diseases
 Role: Ph.D. Candidate\
 Mentor: Dr. Yang I. Li, Section of Genetic Medicine, Department of Medicine, The University of Chicago.\
-*Dec. 2018 -*
+*Dec. 2018 - Mar. 2024*
 
 ##### Genome-wide Association Study of Cytotoxicity due to Cisplatin-related Chemotherapy Agents
 Role: Undergraduate Volunteer\
