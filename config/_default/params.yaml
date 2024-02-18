@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: uchicago
-  theme_night: uchicago
+  theme_day: bwh
+  theme_night: bwh
   font: ptsans
   font_size: L
 
@@ -61,18 +61,16 @@ locale:
 
 features:
   syntax_highlighter:
-    enable: true
-    extra_languages:
-      - r
-      - latex
+    theme_light: github-light
+    theme_dark: dracula
   math:
-    enable: true
+    enable: false
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/Zepeng-Mu/myWebsite'
+    url: 'https://github.com/<username>/<repository>'
     content_dir: content
-    branch: master
+    branch: main
   avatar:
     gravatar: false
     shape: circle
@@ -83,6 +81,11 @@ features:
       show_count: true
     commento:
       url: ''
+    giscus:
+      repo: ''
+      repo_id: ''
+      category: ''
+      category_id: ''
   search:
     provider: wowchemy
     algolia:
@@ -91,7 +94,7 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: ''
+    provider: 'mapnik'
     api_key: ''
     zoom: 15
 

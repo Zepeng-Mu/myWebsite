@@ -1,10 +1,9 @@
-module my-website
+module github.com/HugoBlox/theme-academic-cv
 
 go 1.15
 
 require (
-	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.1-0.20221029143146-ff4b7b1193fa
-	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms v1.0.1-0.20221029143146-ff4b7b1193fa
-	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal v0.0.0-20221029143146-ff4b7b1193fa
-	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.1-0.20221029143146-ff4b7b1193fa
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 v5.9.6
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20231108141515-0478cf6921f9
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal v1.1.2
 )

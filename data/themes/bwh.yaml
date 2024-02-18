@@ -1,0 +1,25 @@
+---
+name: 'bwh'
+light:
+  primary: '#0D2D57'
+  primary_light: '#fff'
+  primary_dark: '#fff'
+  menu_primary: '#0D2D57'
+  menu_text: 'rgba(255,255,255,0.3)'
+  menu_text_active: 'rgba(67,154,164,1)'
+  menu_title: '#fff'
+  background: '#fff'
+  home_section_odd: '#fff'
+  home_section_even: '#fff'
+dark:
+  primary: '#0D2D57'
+  primary_light: '#fff'
+  primary_dark: '#fff'
+  menu_primary: '#0D2D57'
+  menu_text: 'rgba(255,255,255,0.3)'
+  menu_text_active: 'rgba(67,154,164,1)'
+  menu_title: '#fff'
+  background: '#fff'
+  home_section_odd: '#fff'
+  home_section_even: '#fff'
+---

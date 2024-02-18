@@ -20,7 +20,7 @@ tags: []
 categories: []
 date: '2021-04-29'
 lastmod: 2020-09-24T13:53:35-05:00
-featured: false
+featured: true
 draft: false
 doi: 'https://doi.org/10.1186/s13059-021-02334-x'
 
@@ -52,7 +52,8 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 publishDate: '2020-09-24T18:53:32.261929Z'
-publication_types: ["2"]
+publication_types: "article"
+
 abstract: '**Background**: The vast majority of trait-associated variants identified using genome-wide association studies (GWAS) are noncoding, and therefore assumed to impact gene regulation. However, the majority of trait-associated loci are unexplained by regulatory quantitative trait loci (QTLs).
 
 
@@ -62,6 +63,8 @@ abstract: '**Background**: The vast majority of trait-associated variants identi
 **Conclusion**: Altogether, our work supports RNA splicing as an important mediator of genetic effects on immune traits, and suggests that we must expand our study of regulatory processes in disease contexts to improve functional interpretation of as yet unexplained GWAS loci.
 '
 publication: '*Genome Biology*'
+
+profile: false
 ---
 
 

@@ -71,8 +71,8 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 publishDate: '2020-09-16T14:43:59.921814Z'
-publication_types:
-- 2
+publication_types: "article"
+
 abstract: '**Purpose**: Serum platinum is measurable for years after completion of cisplatin-based chemotherapy (CBC). We report the largest investigation of serum platinum levels to date of 1,010 testicular cancer survivors (TCS) assessed 1–35 years after CBC and evaluate genetic contributions to these levels.
 
 
