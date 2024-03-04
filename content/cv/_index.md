@@ -72,6 +72,8 @@ banner:
 
 
 ### PUBLICATIONS
+Guimin Gao, Julian McClellan, Alvaro N. Barbeira, Peter N. Fiorica, James L. Li, **Zepeng Mu**, Olufunmilayo I. Olopade, Dezheng Huo, Hae Kyung Im. "A multi-tissue, splicing-based joint transcriptome-wide association study identifies susceptibility genes for breast cancer". <u>American Journal of Human Genetics</u> (2024).
+
 Haley E. Randolph, Katherine A. Aracena, Yen‐Lung Lin, **Zepeng Mu**, and Luis B. Barreiro. "Shaping immunity: The influence of natural selection on population immune diversity." <u>*Immunological Reviews*</u> (2024).
 
 Katherine A Aracena, Yen-Lung Lin, Kaixuan Luo, Alain Pacis, Saideep Gona, **Zepeng Mu**, Vania Yotova, Renata Sindeaux, Albena Pramatarova, Marie-Michelle Simon, Xun Chen, Cristian Groza, David Lougheed, Romain Gregoire, David Brownlee, Carly Boye, Roger Pique-Regi, Yang I. Li, Xin He, David Bujold, Tomi Pastinen, Guillaume Bourque, Luis B Barreiro. "Epigenetic variation impacts ancestry-associated differences in the transcriptional response to influenza infection." <u>*Nature Genetics*</u> (2024).
