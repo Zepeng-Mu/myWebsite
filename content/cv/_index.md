@@ -1,6 +1,6 @@
 ---
 title: CV
-date: 2024-01-14
+date: 2024-03-03
 type: page
 featured: false
 draft: false
@@ -72,7 +72,7 @@ banner:
 
 
 ### PUBLICATIONS
-Katherine A Aracena, Yen-Lung Lin, Kaixuan Luo, Alain Pacis, Saideep Gona, **Zepeng Mu**, Vania Yotova, Renata Sindeaux, Albena Pramatarova, Marie-Michelle Simon, Xun Chen, Cristian Groza, David Lougheed, Romain Gregoire, David Brownlee, Yang Li, Xin He, David Bujold, Tomi Pastinen, Guillaume Bourque, Luis B Barreiro. "Epigenetic variation impacts ancestry-associated differences in the transcriptional response to influenza infection." <u>*bioRxiv*</u> (2022).
+Katherine A Aracena, Yen-Lung Lin, Kaixuan Luo, Alain Pacis, Saideep Gona, **Zepeng Mu**, Vania Yotova, Renata Sindeaux, Albena Pramatarova, Marie-Michelle Simon, Xun Chen, Cristian Groza, David Lougheed, Romain Gregoire, David Brownlee, Carly Boye, Roger Pique-Regi, Yang I. Li, Xin He, David Bujold, Tomi Pastinen, Guillaume Bourque, Luis B Barreiro. "Epigenetic variation impacts ancestry-associated differences in the transcriptional response to influenza infection." <u>*Nature Genetics*</u> (2024).
 
 **Zepeng Mu**, Wei Wei, Benjamin J. Fair, Jinlin Miao, Ping Zhu, and Yang I. Li. "The Impact of cell-type and context-dependent regulatory variants on human immune traits." <u>*Genome Biology*</u> (2021).
 
@@ -80,7 +80,7 @@ Mengjie Chen, Qi Zhan, **Zepeng Mu**, Lili Wang, Zhaohui Zheng, Jinlin Miao, Pin
 
 Peter Ebert, Peter A Audano, Qihui Zhu, Bernardo Rodriguez-Martin, *[...46 others...]*, **Zepeng Mu** ... Evan E Eichler. "Haplotype-resolved diverse human genomes and integrated analysis of structural variation." <u>*Science*</u> (2021).
 
-Briana E. Mittleman, Sebastian Pott, Shane Warland, Tony Zeng, **Zepeng Mu**, Mayher Kaur, Yoav Gilad, and Yang Li. "Alternative polyadenylation mediates genetic regulation of gene expression." <u>*Elife*</u> (2020).
+Briana E. Mittleman, Sebastian Pott, Shane Warland, Tony Zeng, **Zepeng Mu**, Mayher Kaur, Yoav Gilad, and Yang I. Li. "Alternative polyadenylation mediates genetic regulation of gene expression." <u>*eLife*</u> (2020).
 
 Matthew R. Trendowski, Omar El-Charif, Mark J. Ratain, Patrick Monahan, **Zepeng Mu** et al. "Clinical and Genome-Wide Analysis of Serum Platinum Levels after Cisplatin-Based Chemotherapy." <u>*Clinical Cancer Research*</u> (2019).
 

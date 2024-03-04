@@ -30,7 +30,7 @@ bio:
 # Interests to show in About widget
 interests:
   - Genetics and Genomics
-  - GWAS & molecular QTL
+  - Molecular QTL & GWAS
   - Immunogenomics
 
 # Education to show in About widget
@@ -87,12 +87,12 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: uploads/resume.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-I am currently a Postdoc in the lab of Dr. Soumya Raychaudhuri at Brigham and Women's Hospital. I obtained my Ph.D. at [The University of Chicago](https://www.uchicago.edu/) with Dr. Yang I. Li. I received my BS from [University of Chinese Academy of Sciences (UCAS)](http://english.ucas.ac.cn/), majoring in Biological Sciences. My main research interests are using genomics technologies with proper statistical methods to understand how genetic variants affect human complex traits, with a focus on autoimmune diseases.
+I am a Postdoctoral Fellow with [Dr. Soumya Raychaudhuri](https://immunogenomics.hms.harvard.edu) at Brigham and Women's Hospital, and the Broad Institute. I'm passionate about combining the latest genomics technologies with state-of-the-art statistical methods to understand how non-coding genetic variants affect gene regulation and human complex traits, in particular autoimmune diseases. Before moving to Boston, I obtained my Ph.D. at [The University of Chicago](https://www.uchicago.edu) with [Dr. Yang I. Li](https://thelilab.com). I received my BS from [University of Chinese Academy of Sciences (UCAS)](http://english.ucas.ac.cn), majoring in Biological Sciences.
