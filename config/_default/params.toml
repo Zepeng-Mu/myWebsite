@@ -3,10 +3,10 @@
 
 # Color theme.
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-theme_day = "uchicago"
-theme_night = "uchicago"
+theme_day = "bwh"
+theme_night = "bwh"
 # Enable users to switch between day and night mode?
-day_night = false
+day_night = true
 
 # Font style.
 #   Choose from `default`, `classic`, or `playfair`.
