@@ -1,0 +1,37 @@
+---
+title: Drawing chromHMM legend with ggplot2
+author: ''
+date: '2019-02-13'
+summary: 'Using geom_tile to plot chromHMM legend.'
+slug: test
+categories: []
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+
+
+<p>In this blog post, I use <code>ggplot()</code> to plot a legend for chromHMM annotation.</p>
+<p>chromHMM uses a Hidden Markov Model to integrate a range of epigenetic markers and predicts the chromatin states, like Transcription Start Sites or enhancers.</p>
+<p>The table I use here comes from website: <a href="https://egg2.wustl.edu/roadmap/web_portal/chr_state_learning.html">ROADMAP epigenetics project web portal</a>. I copied the table from the website and saved it in a file called “coreChromHMM.txt”. The headers of the table are “STATE.NO.”, “MNEMONIC”, “DESCRIPTION” , “COLOR.NAME” “COLOR.CODE”.</p>
+<pre class="r"><code>library(tidyverse)
+
+core &lt;- read.table(&quot;coreChromHMM.txt&quot;,
+                   header = T, stringsAsFactors = F, sep = &quot;\t&quot;)</code></pre>
+<p>Taking a look at the table we see that the colors are coded in RGB format. I use <code>spread()</code> function from <code>tidyverse</code> package to spread the color column into 3 columns, for red, green, and blue respectively. Then I use <code>rgb()</code> function to convert the colors into HEX format.</p>
+<pre class="r"><code>core &lt;- core %&gt;% 
+  separate(COLOR.CODE, c(&quot;Red&quot;, &quot;Green&quot;, &quot;Blue&quot;), sep = &quot;,&quot;)
+
+hexCol = rgb(core$Red, core$Green, core$Blue, maxColorValue = 255)
+names(hexCol) = core$DESCRIPTION</code></pre>
+<p><code>geom_tile()</code> is used to produce the “boxes”, and I use <code>geom_text()</code> to add texts those boxes, or tiles.</p>
+<pre class="r"><code>ggplot(core, aes(x = 1, y = max(STATE.NO.) - STATE.NO., fill = DESCRIPTION)) +
+  geom_tile() +
+  geom_text(aes(label = DESCRIPTION), size = 8) +
+  scale_fill_manual(values = hexCol) +
+  theme_void() +
+  theme(legend.position = &quot;none&quot;)</code></pre>
+<p>The resulting graph looks like this and is readily available to use in a paper manuscript!</p>
+<p><img src="/img/chromHMMLegend.png" /></p>
