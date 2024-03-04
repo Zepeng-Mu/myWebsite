@@ -137,6 +137,22 @@ sections:
 #           url: ''
 #     design:
 #       columns: '2'
+- block: collection
+    id: featured
+    content:
+      title: Featured Publications
+      count: 2
+      text: |-
+        {{% callout note %}}
+        See all publications [here](./publication/).
+        {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: citation
   - block: collection
     id: posts
     content:
@@ -204,22 +220,6 @@ sections:
 # #         {{< gallery album="demo" >}}
 #     design:
 #       columns: '1'
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      count: 2
-      text: |-
-        {{% callout note %}}
-        See all publications [here](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: citation
   # - block: collection
   #   content:
   #     title: Recent Publications
