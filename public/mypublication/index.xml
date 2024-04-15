@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Home</title>
+    <link>https://zepengmu.netlify.app/mypublication/</link>
+      <atom:link href="https://zepengmu.netlify.app/mypublication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zepengmu.netlify.app/mypublication/featured.jpg</url>
+      <title>Publications</title>
+      <link>https://zepengmu.netlify.app/mypublication/</link>
+    </image>
+    
+  </channel>
+</rss>

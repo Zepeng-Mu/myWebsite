@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: April 15, 2024 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Hugo Blox Builder 5.9.6" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.693371ce8eff13617e315880f43f8587.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X7R9582NTJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-X7R9582NTJ', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Zepeng Mu (牟泽鹏)" />
+
+
+
+
+
+  
+
+<meta name="description" content="Using the custom sashimiBigwig track class to generate Sashimi plots in the framework of pyGenomeTracks." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://zepengmu.netlify.app/post/sashimi-pygenometracks/" />
+<link rel="canonical" href="https://zepengmu.netlify.app/post/sashimi-pygenometracks/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hude38de91a1485bdac948e809c4e8e825_60537_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hude38de91a1485bdac948e809c4e8e825_60537_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#0D2D57" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@MZepeng" />
+  <meta property="twitter:creator" content="@MZepeng" />
+<meta property="twitter:image" content="https://zepengmu.netlify.app/media/icon_hude38de91a1485bdac948e809c4e8e825_60537_512x512_fill_lanczos_center_3.png" />
+
+
+
+  
+
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Home" />
+<meta property="og:url" content="https://zepengmu.netlify.app/post/sashimi-pygenometracks/" />
+<meta property="og:title" content="Generate Sashimi plot using pyGenomeTracks | Home" />
+<meta property="og:description" content="Using the custom sashimiBigwig track class to generate Sashimi plots in the framework of pyGenomeTracks." /><meta property="og:image" content="https://zepengmu.netlify.app/media/icon_hude38de91a1485bdac948e809c4e8e825_60537_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2024-02-01T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2024-02-01T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://zepengmu.netlify.app/post/sashimi-pygenometracks/"
+  },
+  "headline": "Generate Sashimi plot using pyGenomeTracks",
+  
+  "datePublished": "2024-02-01T00:00:00Z",
+  "dateModified": "2024-02-01T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Zepeng Mu (牟泽鹏)"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Home",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://zepengmu.netlify.app/media/icon_hude38de91a1485bdac948e809c4e8e825_60537_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Using the custom sashimiBigwig track class to generate Sashimi plots in the framework of pyGenomeTracks."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Generate Sashimi plot using pyGenomeTracks | Home</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="0eb6458aba8a34ea17703daa8c22abb9" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.08eff2d2f2f8d569a3fbe060a108c97a.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Home</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Home</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/cv/"><span>CV</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link  active" href="/post/"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/MZepeng" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Generate Sashimi plot using pyGenomeTracks</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Feb 1, 2024
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Sashimi plot is a powerful and popular way to visualize mRNA alternative splicing. However, there are not many tools that are designed to generate this type of plots, except for a few ones like MISO, ggSashimi and splicePlot. Moreoever, existing tools tend to have at least one of the following shortcomings: (1) tools dedicated to mRNA splicing like MISO do not allow for plotting Sashimi together with other types of genomic data, such as bigwig and bed files; (2) tools may require an annotation for extracting junctions, making them unsuitable for annotation-free methods like Leafcutter.</p>
+<p>Motivated by these limitations, I developed a script based on the infrastructure of the Python package <strong>PyGenomeTracks</strong>. This script is not a stand-alone tool, instead it is a custom track class that is adapted from existing track classes (such as bigwig and links tracks) from PyGenomeTracks.</p>
+<p>The scripts can be found on <a href="https://github.com/Zepeng-Mu/pyGenomeTracks" target="_blank" rel="noopener">GitHub</a>. <strong>To use this tool, follow the steps below:</strong></p>
+<h3 id="install-pygenometracks">Install PyGenomeTracks</h3>
+<p>Installation guides can be found in the original <a href="https://github.com/deeptools/pyGenomeTracks" target="_blank" rel="noopener">PyGenomeTracks repository</a> or <a href="https://pygenometracks.readthedocs.io/en/latest/index.html" target="_blank" rel="noopener">documentation</a>.</p>
+<h3 id="clone-this-repo-to-your-local-computer">Clone this repo to your local computer.</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">$ git clone https://github.com/Zepeng-Mu/pyGenomeTracks.git
+</span></span></code></pre></div><h3 id="figure-out-where-your-pygenometracks-package-is-installed">Figure out where your PyGenomeTracks package is installed.</h3>
+<p>Python packages are installed in a specific folder, depending whether you used <code>pip</code> or <code>conda</code> to install the package. For example, on the high-performance computing system I&rsquo;m using, the package is installed here: <code>~/.local/lib/python3.7/site-packages/pygenometracks/</code>. The structure of this folder looks like:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">.
+</span></span><span class="line"><span class="cl">├── getAllDefaultsAndPossible.py
+</span></span><span class="line"><span class="cl">├── __init__.py
+</span></span><span class="line"><span class="cl">├── makeTracksFile.py
+</span></span><span class="line"><span class="cl">├── plotTracks.py
+</span></span><span class="line"><span class="cl">├── __pycache__
+</span></span><span class="line"><span class="cl">│   ├── getAllDefaultsAndPossible.cpython-37.pyc
+</span></span><span class="line"><span class="cl">│   ├── __init__.cpython-37.pyc
+</span></span><span class="line"><span class="cl">│   ├── makeTracksFile.cpython-37.pyc
+</span></span><span class="line"><span class="cl">│   ├── plotTracks.cpython-37.pyc
+</span></span><span class="line"><span class="cl">│   ├── readBed.cpython-37.pyc
+</span></span><span class="line"><span class="cl">│   ├── readGtf.cpython-37.pyc
+</span></span><span class="line"><span class="cl">│   ├── tracksClass.cpython-37.pyc
+</span></span><span class="line"><span class="cl">│   ├── utilities.cpython-37.pyc
+</span></span><span class="line"><span class="cl">│   └── _version.cpython-37.pyc
+</span></span><span class="line"><span class="cl">├── readBed.py
+</span></span><span class="line"><span class="cl">├── readGtf.py
+</span></span><span class="line"><span class="cl">├── tracks
+</span></span><span class="line"><span class="cl">│   ├── BedGraphMatrixTrack.py
+</span></span><span class="line"><span class="cl">│   ├── BedGraphTrack.py
+</span></span><span class="line"><span class="cl">│   ├── BedTrack.py
+</span></span><span class="line"><span class="cl">│   ├── BigWigTrack.py
+</span></span><span class="line"><span class="cl">│   ├── EpilogosTrack.py
+</span></span><span class="line"><span class="cl">│   ├── GenomeTrack.py
+</span></span><span class="line"><span class="cl">│   ├── GtfTrack.py
+</span></span><span class="line"><span class="cl">│   ├── HiCMatrixTrack.py
+</span></span><span class="line"><span class="cl">│   ├── HLinesTrack.py
+</span></span><span class="line"><span class="cl">│   ├── __init__.py
+</span></span><span class="line"><span class="cl">│   ├── LinksTrack.py
+</span></span><span class="line"><span class="cl">│   ├── NarrowPeakTrack.py
+</span></span><span class="line"><span class="cl">│   ├── __pycache__
+</span></span><span class="line"><span class="cl">│   ├── ScaleBarTrack.py
+</span></span><span class="line"><span class="cl">│   └── TADsTrack.py
+</span></span><span class="line"><span class="cl">├── tracksClass.py
+</span></span><span class="line"><span class="cl">├── utilities.py
+</span></span><span class="line"><span class="cl">└── _version.py
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="m">3</span> directories, <span class="m">35</span> files
+</span></span></code></pre></div><p>The <code>tracks</code> directory is the key folder here. This is where all the track classes in PyGenomeTracks files are located. Track classes can only be recognized in the <code>.ini</code> file if the corresponding track class is located in this folder. This is also the place where we can put customized track classes. For more details see <a href="https://pygenometracks.readthedocs.io/en/latest/content/adding-new-tracks.html" target="_blank" rel="noopener">here</a>.</p>
+<h3 id="copy-sashimibigwig-track-class-to-tracks-folder">Copy SashimiBigwig track class to <code>tracks</code> folder</h3>
+<p>Suppose you are in the folder for this cloned repo (NOT the installed PyGenomeTracks package):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">cp pygenometracks/tracks/SashimiBigwig.py &lt;PyGenomeTracks installation path&gt;/tracks/
+</span></span></code></pre></div><h3 id="prepare-input-files">Prepare input files</h3>
+<p>In order to generate Sashimi plot, two types of files are needed.</p>
+<ul>
+<li>Bigwig files for RNA-seq coverage. These are just bigwig files that you would normally use for the bigwig track class.</li>
+<li>Link files for junctions to plot and labels. This looks like the file for the original links track class, with an <strong>additional</strong> column at the end: the number on the label (could be the number of split reads supporting the junction or PSI calculated from a certain tool.) An example file looks like this:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">chr2    231109786       231109786       chr2    231110578       231110578       0.0372936854616429
+</span></span><span class="line"><span class="cl">chr2    231109786       231109786       chr2    231112631       231112631       0.0597340361211572
+</span></span><span class="line"><span class="cl">chr2    231109795       231109795       chr2    231110578       231110578       0.178226805210714
+</span></span><span class="line"><span class="cl">chr2    231109795       231109795       chr2    231112631       231112631       0.126256827523686
+</span></span><span class="line"><span class="cl">chr2    231110655       231110655       chr2    231111964       231111964       0.0149937309749814
+</span></span><span class="line"><span class="cl">chr2    231110655       231110655       chr2    231112631       231112631       0.195029646753571
+</span></span><span class="line"><span class="cl">chr2    231110655       231110655       chr2    231113600       231113600       0.0239748059030143
+</span></span><span class="line"><span class="cl">chr2    231112780       231112780       chr2    231113600       231113600       0.390030949667857
+</span></span></code></pre></div><p>The column names are: chr_intron_start, pos_start, pos_start, chr_intron_end, pos_end, pos_end, psi (this is just for you to understand the file, column names should not be included in the link file).</p>
+<h3 id="make-a-ini-file">Make a <code>.ini</code> file:</h3>
+<p>An example section in the <code>.ini</code> file:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">title =
+</span></span><span class="line"><span class="cl"># Path to bigwig file
+</span></span><span class="line"><span class="cl">bw_file =
+</span></span><span class="line"><span class="cl"># Path to links file
+</span></span><span class="line"><span class="cl">link_file =
+</span></span><span class="line"><span class="cl">height = 0.8
+</span></span><span class="line"><span class="cl">bw_color =
+</span></span><span class="line"><span class="cl">number_of_bins =
+</span></span><span class="line"><span class="cl">max_value =
+</span></span><span class="line"><span class="cl">nans_to_zeros = true
+</span></span><span class="line"><span class="cl">summary_method = mean
+</span></span><span class="line"><span class="cl">show_data_range = true
+</span></span><span class="line"><span class="cl">link_color =
+</span></span><span class="line"><span class="cl">line_style =
+</span></span><span class="line"><span class="cl">fontsize = 2
+</span></span><span class="line"><span class="cl"># The link in Sashimi plot is a Bezier curve.
+</span></span><span class="line"><span class="cl"># The height of the curve is calculated from the length of the intron.
+</span></span><span class="line"><span class="cl"># When the y-axis in bigwig track is different, the height of curve needs to be scaled.
+</span></span><span class="line"><span class="cl">scale_link_height = 1
+</span></span><span class="line"><span class="cl"># The line width for links is proportion to the numbers at the last column in links file (PSI).
+</span></span><span class="line"><span class="cl"># But the absolute width is calculated from the supplied numbers, which can look too thin or too wide sometimes.
+</span></span><span class="line"><span class="cl"># Use scale_line_width to scale the absolute line widths.
+</span></span><span class="line"><span class="cl"># You may need to try several values to get a satisfying result.
+</span></span><span class="line"><span class="cl">scale_line_width = 3
+</span></span><span class="line"><span class="cl">file_type = sashimiBigWig
+</span></span></code></pre></div><h3 id="run-pygenometracks-as-you-normally-do-to-generate-the-figure">Run <code>pygenometracks</code> as you normally do to generate the figure</h3>
+<p>If you want to try the example provided, go to the cloned repo, then:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">cd</span> example_sashimi
+</span></span><span class="line"><span class="cl">pyGenomeTracks --tracks chr2-231091223_231109786_231113600.ini --region chr2:231107879-231115507 -t <span class="s1">&#39;chr2:231109786-231113600 (sQTL = 2:231091223, ALT=G)&#39;</span> --width <span class="m">9</span> --trackLabelFraction 0.01 -out example.png --fontSize <span class="m">4</span>
+</span></span></code></pre></div><p>The resulting plot <code>example.png</code> looks like this:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="/img/sashimi.png" alt="" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>This example shows a splicing QTL (sQTL) for gene <em>SP140</em>. The three tracks 0, 1, and 2 represents average RNA-seq coverage for individuals with 0, 1, and 2 alternative allele (G) for SNP chr2:231091223. To generate similar plots on your data, you will need a custom script that calculate average coverage from a group of samples with the same genotype at a given position. Of course, you can also group samples by any other criteria that fits your needs, for instance combining by treatment and control.</p>
+<h2 id="citation">Citation</h2>
+<p>Please refer to the original pyGenomeTracks paper:</p>
+<p>Fidel Ramírez, Vivek Bhardwaj, Laura Arrigoni, Kin Chung Lam, Björn A. Grüning, José Villaveces, Bianca Habermann, Asifa Akhtar &amp; Thomas Manke. High-resolution TADs reveal DNA sequences underlying genome organization in flies. Nature Communications (2018) <a href="https://www.nature.com/articles/s41467-017-02525-w" target="_blank" rel="noopener">doi:10.1038/s41467-017-02525-w</a></p>
+<!-- ## Showcase
+This tool has been used to generate Sashimi plots in published articles: -->
+
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fzepengmu.netlify.app%2Fpost%2Fsashimi-pygenometracks%2F&amp;text=Generate&#43;Sashimi&#43;plot&#43;using&#43;pyGenomeTracks" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fzepengmu.netlify.app%2Fpost%2Fsashimi-pygenometracks%2F&amp;t=Generate&#43;Sashimi&#43;plot&#43;using&#43;pyGenomeTracks" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Generate%20Sashimi%20plot%20using%20pyGenomeTracks&amp;body=https%3A%2F%2Fzepengmu.netlify.app%2Fpost%2Fsashimi-pygenometracks%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fzepengmu.netlify.app%2Fpost%2Fsashimi-pygenometracks%2F&amp;title=Generate&#43;Sashimi&#43;plot&#43;using&#43;pyGenomeTracks" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Generate&#43;Sashimi&#43;plot&#43;using&#43;pyGenomeTracks%20https%3A%2F%2Fzepengmu.netlify.app%2Fpost%2Fsashimi-pygenometracks%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fzepengmu.netlify.app%2Fpost%2Fsashimi-pygenometracks%2F&amp;title=Generate&#43;Sashimi&#43;plot&#43;using&#43;pyGenomeTracks" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://zepengmu.netlify.app"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hubcb239c6cf9a5e956fd5895ed37f52c0_222166_270x270_fill_q75_lanczos_center.jpeg" alt="Zepeng Mu (牟泽鹏)"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://zepengmu.netlify.app">Zepeng Mu (牟泽鹏)</a></h5>
+      <h6 class="card-subtitle">Research Fellow</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/MZepeng" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=WOb07yAAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/Zepeng-Mu" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2024 Zepeng Mu
+  </p>
+  
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.938a3a7554cd9f6602290411f64d2617.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.62586ca65ca61821fe707eb9fa6268b7.js"></script>
+
+
+
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

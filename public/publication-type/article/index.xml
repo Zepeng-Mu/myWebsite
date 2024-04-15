@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>article | Home</title>
+    <link>https://zepengmu.netlify.app/publication-type/article/</link>
+      <atom:link href="https://zepengmu.netlify.app/publication-type/article/index.xml" rel="self" type="application/rss+xml" />
+    <description>article</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 29 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zepengmu.netlify.app/media/icon_hude38de91a1485bdac948e809c4e8e825_60537_512x512_fill_lanczos_center_3.png</url>
+      <title>article</title>
+      <link>https://zepengmu.netlify.app/publication-type/article/</link>
+    </image>
+    
+    <item>
+      <title>The impact of cell-type and context-dependent regulatory variants on human immune traits</title>
+      <link>https://zepengmu.netlify.app/publication/mu-2020-impact/</link>
+      <pubDate>Thu, 29 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://zepengmu.netlify.app/publication/mu-2020-impact/</guid>
+      <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+&lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;medium-donut&#39; data-badge-details=&#39;right&#39; data-doi=&#39;10.1186/s13059-021-02334-x&#39;&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alignment of single-cell RNA-seq samples without over-correction using kernel density matching</title>
+      <link>https://zepengmu.netlify.app/publication/chen-2020-alignment/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://zepengmu.netlify.app/publication/chen-2020-alignment/</guid>
+      <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+&lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;medium-donut&#39; data-badge-details=&#39;right&#39; data-doi=&#39;10.1101/gr.261115.120&#39;&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Haplotype-resolved diverse human genomes and integrated analysis of structural variation</title>
+      <link>https://zepengmu.netlify.app/publication/ebert-2021-haplotype/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://zepengmu.netlify.app/publication/ebert-2021-haplotype/</guid>
+      <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+&lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;medium-donut&#39; data-badge-details=&#39;right&#39; data-doi=&#39;10.1126/science.abf7117&#39;&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Alternative polyadenylation mediates genetic regulation of gene expression</title>
+      <link>https://zepengmu.netlify.app/publication/apaqtl/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://zepengmu.netlify.app/publication/apaqtl/</guid>
+      <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+&lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;medium-donut&#39; data-badge-details=&#39;right&#39; data-doi=&#39;10.7554/eLife.57492&#39;&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Clinical and genome-wide analysis of serum platinum levels after cisplatin-based chemotherapy</title>
+      <link>https://zepengmu.netlify.app/publication/trendowski-2019-clinical/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://zepengmu.netlify.app/publication/trendowski-2019-clinical/</guid>
+      <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+&lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;medium-donut&#39; data-badge-details=&#39;right&#39; data-doi=&#39;10.1158/1078-0432.CCR-19-0113&#39;&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A genetically engineered Escherichia coli that senses and degrades tetracycline antibiotic residue</title>
+      <link>https://zepengmu.netlify.app/publication/igem-2016/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://zepengmu.netlify.app/publication/igem-2016/</guid>
+      <description>&lt;!-- &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+&lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;medium-donut&#39; data-badge-details=&#39;right&#39; data-doi=&#39;10.1016/j.synbio.2018.05.001&#39;&gt;&lt;/div&gt; --&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
