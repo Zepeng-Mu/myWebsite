@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Home</title>
-    <link>https://zepengmu.netlify.app/categories/</link>
-      <atom:link href="https://zepengmu.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/categories/</link>
+      <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>https://zepengmu.netlify.app/media/icon_hude38de91a1485bdac948e809c4e8e825_60537_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hu4845897644054598005.png</url>
       <title>Categories</title>
-      <link>https://zepengmu.netlify.app/categories/</link>
+      <link>http://localhost:1313/categories/</link>
     </image>
     
   </channel>
