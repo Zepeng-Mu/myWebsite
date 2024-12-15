@@ -72,7 +72,11 @@ banner:
 
 
 ### PUBLICATIONS
-Guimin Gao, Julian McClellan, Alvaro N. Barbeira, Peter N. Fiorica, James L. Li, **Zepeng Mu**, Olufunmilayo I. Olopade, Dezheng Huo, Hae Kyung Im. "A multi-tissue, splicing-based joint transcriptome-wide association study identifies susceptibility genes for breast cancer". <u>American Journal of Human Genetics</u> (2024).
+**Zepeng Mu**, Haley E. Randolph, Raúl Aguirre-Gamboa, Ellen Ketter, Anne Dumaine, Veronica Locher, Cary Brandolino, Xuanyao Liu, Daniel E. Kaufmann, Luis B. Barreiro, Yang I. Li. Impact of disease-associated chromatin accessibility QTLs across immune cell types and contexts. <u>*medRxiv*</u> (2024).
+
+Yu Zhao, Ran Zhou, **Zepeng Mu**, Peter Carbonetto, Xiaoyuan Zhong, Bingqing Xie, Kaixuan Luo, Candace M Cham, Jason Koval, Xin He, Andrew W. Dahl, Xuanyao Liu, Eugene B Chang, Anindita Basu, Sebastian Pott. Cell-type-resolved chromatin accessibility in the human intestine identifies complex regulatory programs and clarifies genetic associations in Crohn’s disease. <u>*medRxiv*</u> (2024).
+
+Guimin Gao, Julian McClellan, Alvaro N. Barbeira, Peter N. Fiorica, James L. Li, **Zepeng Mu**, Olufunmilayo I. Olopade, Dezheng Huo, Hae Kyung Im. "A multi-tissue, splicing-based joint transcriptome-wide association study identifies susceptibility genes for breast cancer". <u>*American Journal of Human Genetics*</u> (2024).
 
 Haley E. Randolph, Katherine A. Aracena, Yen‐Lung Lin, **Zepeng Mu**, and Luis B. Barreiro. "Shaping immunity: The influence of natural selection on population immune diversity." <u>*Immunological Reviews*</u> (2024).
 
@@ -98,12 +102,12 @@ Matthew R. Trendowski, Omar El-Charif, Mark J. Ratain, Patrick Monahan, **Zepeng
 ### RESEARCH SKILLS
 * **Dry Lab**: Molecular QTL mapping, bulk/single-cell RNA-seq/ATAC-seq analysis
 
-* **Wet Lab**: Treg suppression assay, CUT&Tag, Molecular cloning, Luciferase reporter assay
+* **Wet Lab**: CRISPR, Treg suppression assay, CUT&Tag, Molecular cloning
 
 
 ### RESEARCH EXPERIENCE
 Role: Postdoctoral Fellow\
-Mentor: Dr. Soumya Raychaudhuri, Division of Geneics, Brigham and Women's Hospital and Harvard Medical School.\
+Mentor: Dr. Soumya Raychaudhuri, Brigham and Women's Hospital and Harvard Medical School, Broad Institute .\
 *Dec. 2018 - Mar. 2024*
 
 ##### Dissecting the Genetics of Human Autoimmune Diseases
