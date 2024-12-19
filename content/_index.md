@@ -52,6 +52,53 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+  - block: collection
+    id: featured
+    content:
+      title: Featured Publications
+      count: 2
+      text: |-
+        {{% callout note %}}
+        See all publications [here](./publication/).
+        {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: citation
+  - block: collection
+    id: posts
+    content:
+      title: Recent Posts
+      text: |-
+        {{% callout note %}}
+        See all posts [here](./post/).
+        {{% /callout %}}
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 2
+      # Filter on criteria
+      filters:
+        folders:
+          - post
+        author: ""
+        category: ""
+        tag: ""
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: asc
+    design:
+      # Choose a layout view
+      view: compact
+      columns: '2'
+      # background:
+      #   color: 'rgb(248,248,248)'
 #   - block: skills
 #     content:
 #       title: Skills
@@ -137,54 +184,6 @@ sections:
 #           url: ''
 #     design:
 #       columns: '2'
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      count: 2
-      text: |-
-        {{% callout note %}}
-        See all publications [here](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: citation
-  - block: collection
-    id: posts
-    content:
-      title: Recent Posts
-      subtitle: ''
-      text: |-
-        {{% callout note %}}
-        See all blogs [here](./post/).
-        {{% /callout %}}
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 2
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: asc
-    design:
-      # Choose a layout view
-      view: compact
-      columns: '2'
-      background:
-        color: 'rgb(248,248,248)'
 #   - block: portfolio
 #     id: projects
 #     content:

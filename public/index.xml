@@ -2,170 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home</title>
-    <link>https://zepengmu.netlify.app/</link>
-      <atom:link href="https://zepengmu.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>Home</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://zepengmu.netlify.app/media/icon_hude38de91a1485bdac948e809c4e8e825_60537_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hu4845897644054598005.png</url>
       <title>Home</title>
-      <link>https://zepengmu.netlify.app/</link>
+      <link>http://localhost:1313/</link>
     </image>
     
     <item>
-      <title>Generate Sashimi plot using pyGenomeTracks</title>
-      <link>https://zepengmu.netlify.app/post/sashimi-pygenometracks/</link>
-      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://zepengmu.netlify.app/post/sashimi-pygenometracks/</guid>
-      <description>&lt;p&gt;Sashimi plot is a powerful and popular way to visualize mRNA alternative splicing. However, there are not many tools that are designed to generate this type of plots, except for a few ones like MISO, ggSashimi and splicePlot. Moreoever, existing tools tend to have at least one of the following shortcomings: (1) tools dedicated to mRNA splicing like MISO do not allow for plotting Sashimi together with other types of genomic data, such as bigwig and bed files; (2) tools may require an annotation for extracting junctions, making them unsuitable for annotation-free methods like Leafcutter.&lt;/p&gt;
-&lt;p&gt;Motivated by these limitations, I developed a script based on the infrastructure of the Python package &lt;strong&gt;PyGenomeTracks&lt;/strong&gt;. This script is not a stand-alone tool, instead it is a custom track class that is adapted from existing track classes (such as bigwig and links tracks) from PyGenomeTracks.&lt;/p&gt;
-&lt;p&gt;The scripts can be found on &lt;a href=&#34;https://github.com/Zepeng-Mu/pyGenomeTracks&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;. &lt;strong&gt;To use this tool, follow the steps below:&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&#34;install-pygenometracks&#34;&gt;Install PyGenomeTracks&lt;/h3&gt;
-&lt;p&gt;Installation guides can be found in the original &lt;a href=&#34;https://github.com/deeptools/pyGenomeTracks&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PyGenomeTracks repository&lt;/a&gt; or &lt;a href=&#34;https://pygenometracks.readthedocs.io/en/latest/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;clone-this-repo-to-your-local-computer&#34;&gt;Clone this repo to your local computer.&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git clone https://github.com/Zepeng-Mu/pyGenomeTracks.git
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;figure-out-where-your-pygenometracks-package-is-installed&#34;&gt;Figure out where your PyGenomeTracks package is installed.&lt;/h3&gt;
-&lt;p&gt;Python packages are installed in a specific folder, depending whether you used &lt;code&gt;pip&lt;/code&gt; or &lt;code&gt;conda&lt;/code&gt; to install the package. For example, on the high-performance computing system I&amp;rsquo;m using, the package is installed here: &lt;code&gt;~/.local/lib/python3.7/site-packages/pygenometracks/&lt;/code&gt;. The structure of this folder looks like:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── getAllDefaultsAndPossible.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── __init__.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── makeTracksFile.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── plotTracks.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── __pycache__
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── getAllDefaultsAndPossible.cpython-37.pyc
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── __init__.cpython-37.pyc
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── makeTracksFile.cpython-37.pyc
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── plotTracks.cpython-37.pyc
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── readBed.cpython-37.pyc
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── readGtf.cpython-37.pyc
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── tracksClass.cpython-37.pyc
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── utilities.cpython-37.pyc
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── _version.cpython-37.pyc
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── readBed.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── readGtf.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── tracks
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── BedGraphMatrixTrack.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── BedGraphTrack.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── BedTrack.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── BigWigTrack.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── EpilogosTrack.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── GenomeTrack.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── GtfTrack.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── HiCMatrixTrack.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── HLinesTrack.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── __init__.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── LinksTrack.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── NarrowPeakTrack.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── __pycache__
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── ScaleBarTrack.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── TADsTrack.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── tracksClass.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── utilities.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└── _version.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt; directories, &lt;span class=&#34;m&#34;&gt;35&lt;/span&gt; files
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;tracks&lt;/code&gt; directory is the key folder here. This is where all the track classes in PyGenomeTracks files are located. Track classes can only be recognized in the &lt;code&gt;.ini&lt;/code&gt; file if the corresponding track class is located in this folder. This is also the place where we can put customized track classes. For more details see &lt;a href=&#34;https://pygenometracks.readthedocs.io/en/latest/content/adding-new-tracks.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;copy-sashimibigwig-track-class-to-tracks-folder&#34;&gt;Copy SashimiBigwig track class to &lt;code&gt;tracks&lt;/code&gt; folder&lt;/h3&gt;
-&lt;p&gt;Suppose you are in the folder for this cloned repo (NOT the installed PyGenomeTracks package):&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cp pygenometracks/tracks/SashimiBigwig.py &amp;lt;PyGenomeTracks installation path&amp;gt;/tracks/
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;prepare-input-files&#34;&gt;Prepare input files&lt;/h3&gt;
-&lt;p&gt;In order to generate Sashimi plot, two types of files are needed.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Bigwig files for RNA-seq coverage. These are just bigwig files that you would normally use for the bigwig track class.&lt;/li&gt;
-&lt;li&gt;Link files for junctions to plot and labels. This looks like the file for the original links track class, with an &lt;strong&gt;additional&lt;/strong&gt; column at the end: the number on the label (could be the number of split reads supporting the junction or PSI calculated from a certain tool.) An example file looks like this:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;chr2    231109786       231109786       chr2    231110578       231110578       0.0372936854616429
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;chr2    231109786       231109786       chr2    231112631       231112631       0.0597340361211572
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;chr2    231109795       231109795       chr2    231110578       231110578       0.178226805210714
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;chr2    231109795       231109795       chr2    231112631       231112631       0.126256827523686
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;chr2    231110655       231110655       chr2    231111964       231111964       0.0149937309749814
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;chr2    231110655       231110655       chr2    231112631       231112631       0.195029646753571
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;chr2    231110655       231110655       chr2    231113600       231113600       0.0239748059030143
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;chr2    231112780       231112780       chr2    231113600       231113600       0.390030949667857
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The column names are: chr_intron_start, pos_start, pos_start, chr_intron_end, pos_end, pos_end, psi (this is just for you to understand the file, column names should not be included in the link file).&lt;/p&gt;
-&lt;h3 id=&#34;make-a-ini-file&#34;&gt;Make a &lt;code&gt;.ini&lt;/code&gt; file:&lt;/h3&gt;
-&lt;p&gt;An example section in the &lt;code&gt;.ini&lt;/code&gt; file:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title =
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Path to bigwig file
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bw_file =
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Path to links file
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;link_file =
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;height = 0.8
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bw_color =
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;number_of_bins =
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;max_value =
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nans_to_zeros = true
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;summary_method = mean
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;show_data_range = true
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;link_color =
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;line_style =
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;fontsize = 2
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# The link in Sashimi plot is a Bezier curve.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# The height of the curve is calculated from the length of the intron.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# When the y-axis in bigwig track is different, the height of curve needs to be scaled.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scale_link_height = 1
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# The line width for links is proportion to the numbers at the last column in links file (PSI).
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# But the absolute width is calculated from the supplied numbers, which can look too thin or too wide sometimes.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Use scale_line_width to scale the absolute line widths.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# You may need to try several values to get a satisfying result.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scale_line_width = 3
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;file_type = sashimiBigWig
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;run-pygenometracks-as-you-normally-do-to-generate-the-figure&#34;&gt;Run &lt;code&gt;pygenometracks&lt;/code&gt; as you normally do to generate the figure&lt;/h3&gt;
-&lt;p&gt;If you want to try the example provided, go to the cloned repo, then:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; example_sashimi
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pyGenomeTracks --tracks chr2-231091223_231109786_231113600.ini --region chr2:231107879-231115507 -t &lt;span class=&#34;s1&#34;&gt;&amp;#39;chr2:231109786-231113600 (sQTL = 2:231091223, ALT=G)&amp;#39;&lt;/span&gt; --width &lt;span class=&#34;m&#34;&gt;9&lt;/span&gt; --trackLabelFraction 0.01 -out example.png --fontSize &lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The resulting plot &lt;code&gt;example.png&lt;/code&gt; looks like this:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://zepengmu.netlify.app/img/sashimi.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;This example shows a splicing QTL (sQTL) for gene &lt;em&gt;SP140&lt;/em&gt;. The three tracks 0, 1, and 2 represents average RNA-seq coverage for individuals with 0, 1, and 2 alternative allele (G) for SNP chr2:231091223. To generate similar plots on your data, you will need a custom script that calculate average coverage from a group of samples with the same genotype at a given position. Of course, you can also group samples by any other criteria that fits your needs, for instance combining by treatment and control.&lt;/p&gt;
-&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
-&lt;p&gt;Please refer to the original pyGenomeTracks paper:&lt;/p&gt;
-&lt;p&gt;Fidel Ramírez, Vivek Bhardwaj, Laura Arrigoni, Kin Chung Lam, Björn A. Grüning, José Villaveces, Bianca Habermann, Asifa Akhtar &amp;amp; Thomas Manke. High-resolution TADs reveal DNA sequences underlying genome organization in flies. Nature Communications (2018) &lt;a href=&#34;https://www.nature.com/articles/s41467-017-02525-w&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;doi:10.1038/s41467-017-02525-w&lt;/a&gt;&lt;/p&gt;
-&lt;!-- ## Showcase
-This tool has been used to generate Sashimi plots in published articles: --&gt;
-</description>
+      <title>A multi-tissue, splicing-based joint transcriptome-wide association study identifies susceptibility genes for breast cancer</title>
+      <link>http://localhost:1313/publication/gao-2024-multi/</link>
+      <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gao-2024-multi/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Shaping immunity: The influence of natural selection on population immune diversity</title>
-      <link>https://zepengmu.netlify.app/publication/randolph-2024/</link>
+      <link>http://localhost:1313/publication/randolph-2024/</link>
       <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://zepengmu.netlify.app/publication/randolph-2024/</guid>
+      <guid>http://localhost:1313/publication/randolph-2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Epigenetic variation impacts individual differences in the transcriptional response to influenza infection</title>
-      <link>https://zepengmu.netlify.app/publication/aracena-2024/</link>
+      <link>http://localhost:1313/publication/aracena-2024/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://zepengmu.netlify.app/publication/aracena-2024/</guid>
+      <guid>http://localhost:1313/publication/aracena-2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The impact of cell-type and context-dependent regulatory variants on human immune traits</title>
-      <link>https://zepengmu.netlify.app/publication/mu-2020-impact/</link>
+      <link>http://localhost:1313/publication/mu-2020-impact/</link>
       <pubDate>Thu, 29 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://zepengmu.netlify.app/publication/mu-2020-impact/</guid>
+      <guid>http://localhost:1313/publication/mu-2020-impact/</guid>
       <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
 &lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;medium-donut&#39; data-badge-details=&#39;right&#39; data-doi=&#39;10.1186/s13059-021-02334-x&#39;&gt;&lt;/div&gt;
 </description>
@@ -173,9 +48,9 @@ This tool has been used to generate Sashimi plots in published articles: --&gt;
     
     <item>
       <title>Alignment of single-cell RNA-seq samples without over-correction using kernel density matching</title>
-      <link>https://zepengmu.netlify.app/publication/chen-2020-alignment/</link>
+      <link>http://localhost:1313/publication/chen-2020-alignment/</link>
       <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://zepengmu.netlify.app/publication/chen-2020-alignment/</guid>
+      <guid>http://localhost:1313/publication/chen-2020-alignment/</guid>
       <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
 &lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;medium-donut&#39; data-badge-details=&#39;right&#39; data-doi=&#39;10.1101/gr.261115.120&#39;&gt;&lt;/div&gt;
 </description>
@@ -183,27 +58,27 @@ This tool has been used to generate Sashimi plots in published articles: --&gt;
     
     <item>
       <title>Haplotype-resolved diverse human genomes and integrated analysis of structural variation</title>
-      <link>https://zepengmu.netlify.app/publication/ebert-2021-haplotype/</link>
+      <link>http://localhost:1313/publication/ebert-2021-haplotype/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://zepengmu.netlify.app/publication/ebert-2021-haplotype/</guid>
+      <guid>http://localhost:1313/publication/ebert-2021-haplotype/</guid>
       <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
 &lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;medium-donut&#39; data-badge-details=&#39;right&#39; data-doi=&#39;10.1126/science.abf7117&#39;&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Alternative polyadenylation mediates genetic regulation of gene expression</title>
-      <link>https://zepengmu.netlify.app/publication/apaqtl/</link>
+      <link>http://localhost:1313/publication/apaqtl/</link>
       <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://zepengmu.netlify.app/publication/apaqtl/</guid>
+      <guid>http://localhost:1313/publication/apaqtl/</guid>
       <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
 &lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;medium-donut&#39; data-badge-details=&#39;right&#39; data-doi=&#39;10.7554/eLife.57492&#39;&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Drawing chromHMM legend with ggplot2</title>
-      <link>https://zepengmu.netlify.app/post/test/</link>
+      <link>http://localhost:1313/post/test/</link>
       <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://zepengmu.netlify.app/post/test/</guid>
+      <guid>http://localhost:1313/post/test/</guid>
       <description>
 
 
@@ -228,15 +103,15 @@ names(hexCol) = core$DESCRIPTION&lt;/code&gt;&lt;/pre&gt;
   theme_void() +
   theme(legend.position = &amp;quot;none&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The resulting graph looks like this and is readily available to use in a paper manuscript!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://zepengmu.netlify.app/img/chromHMMLegend.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/chromHMMLegend.png&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Clinical and genome-wide analysis of serum platinum levels after cisplatin-based chemotherapy</title>
-      <link>https://zepengmu.netlify.app/publication/trendowski-2019-clinical/</link>
+      <link>http://localhost:1313/publication/trendowski-2019-clinical/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://zepengmu.netlify.app/publication/trendowski-2019-clinical/</guid>
+      <guid>http://localhost:1313/publication/trendowski-2019-clinical/</guid>
       <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
 &lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;medium-donut&#39; data-badge-details=&#39;right&#39; data-doi=&#39;10.1158/1078-0432.CCR-19-0113&#39;&gt;&lt;/div&gt;
 </description>
@@ -244,18 +119,18 @@ names(hexCol) = core$DESCRIPTION&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>A genetically engineered Escherichia coli that senses and degrades tetracycline antibiotic residue</title>
-      <link>https://zepengmu.netlify.app/publication/igem-2016/</link>
+      <link>http://localhost:1313/publication/igem-2016/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>https://zepengmu.netlify.app/publication/igem-2016/</guid>
+      <guid>http://localhost:1313/publication/igem-2016/</guid>
       <description>&lt;!-- &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
 &lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;medium-donut&#39; data-badge-details=&#39;right&#39; data-doi=&#39;10.1016/j.synbio.2018.05.001&#39;&gt;&lt;/div&gt; --&gt;</description>
     </item>
     
     <item>
       <title>Curriculum Vitae</title>
-      <link>https://zepengmu.netlify.app/myblog/</link>
+      <link>http://localhost:1313/myblog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://zepengmu.netlify.app/myblog/</guid>
+      <guid>http://localhost:1313/myblog/</guid>
       <description></description>
     </item>
     

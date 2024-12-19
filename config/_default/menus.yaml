@@ -9,7 +9,7 @@ main:
   #   weight: 10
   - name: Publications
     url: 'publication/'
-    weight: 15
+    weight: 20
   - name: CV
     url: 'cv/'
     weight: 20
