@@ -49,14 +49,17 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Biography
+      title: About me.
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+    design:
+      background:
+        color: '#F2F2F2'
   - block: collection
     id: featured
     content:
       title: Featured Publications
-      count: 2
+      count: 4
       text: |-
         {{% callout note %}}
         See all publications [here](./publication/).
@@ -69,7 +72,7 @@ sections:
       columns: '2'
       view: citation
   - block: collection
-    id: posts
+    id: featured
     content:
       title: Recent Posts
       text: |-
@@ -97,8 +100,8 @@ sections:
       # Choose a layout view
       view: compact
       columns: '2'
-      # background:
-      #   color: 'rgb(248,248,248)'
+      background:
+        color: '#F2F2F2'
 #   - block: skills
 #     content:
 #       title: Skills

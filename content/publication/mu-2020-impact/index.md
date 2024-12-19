@@ -52,7 +52,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 publishDate: '2020-09-24T18:53:32.261929Z'
-publication_types: "article"
+publication_types: 'Article'
 
 abstract: '**Background**: The vast majority of trait-associated variants identified using genome-wide association studies (GWAS) are noncoding, and therefore assumed to impact gene regulation. However, the majority of trait-associated loci are unexplained by regulatory quantitative trait loci (QTLs).
 

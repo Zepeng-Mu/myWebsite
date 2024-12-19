@@ -43,7 +43,7 @@ image:
 projects: []
 publishDate: '2024-04-15T14:23:48.255393Z'
 publication_types:
-- '2'
+- 'Review'
 abstract: Humans exhibit considerable variability in their immune responses to the
   same immune challenges. Such variation is widespread and affects individual and
   population-level susceptibility to infectious diseases and immune disorders. Although

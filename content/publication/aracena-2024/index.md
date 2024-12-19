@@ -76,7 +76,7 @@ image:
 projects: []
 publishDate: '2024-03-03T23:52:18.872513Z'
 publication_types:
-- '2'
+- 'Article'
 abstract: 'Humans display remarkable interindividual variation in their immune response to identical challenges.
 Yet, our understanding of the genetic and epigenetic factors contributing to such variation remains limited.
 Here we performed in-depth genetic, epigenetic and transcriptional profiling on primary macrophages derived from individuals of European and African ancestry before and after infection with influenza A virus.

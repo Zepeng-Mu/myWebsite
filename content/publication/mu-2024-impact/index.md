@@ -6,7 +6,7 @@ title: Impact of disease-associated chromatin accessibility QTLs across immune c
 subtitle: ''
 summary: ''
 authors:
-- Zepeng Mu
+- in_paper
 - Haley E Randolph
 - Raul Aguirre-Gamboa
 - Ellen Ketter
@@ -16,12 +16,24 @@ authors:
 - Xuanyao Liu
 - Daniel E Kaufmann
 - Luis B Barreiro
-- ' others'
+- Yang I. Li
+author_notes:
+- "First"
+-
+-
+-
+-
+-
+-
+-
+-
+- "Corresponding"
+- "Corresponding"
 tags: []
 categories: []
 date: '2024-01-01'
 lastmod: 2024-12-18T19:42:13-05:00
-featured: false
+featured: true
 draft: false
 
 # Featured image
@@ -40,7 +52,15 @@ image:
 projects: []
 publishDate: '2024-12-19T00:42:11.756675Z'
 publication_types:
-- '2'
-abstract: ''
+- 'Article'
+abstract: 'Only a third of immune-associated loci from genome-wide association studies (GWAS) colocalize with expression quantitative trait loci (eQTLs).
+To learn about causal genes and mechanisms at the remaining loci, we created a unified single-cell chromatin accessibility (scATAC-seq) map in peripheral blood comprising a total of 282,424 cells from 48 individuals.
+Clustering and topic modeling of scATAC data identified discrete cell-types and continuous cell states, which helped reveal disease-relevant cellular contexts, and allowed mapping of genetic effects on chromatin accessibility across these contexts.
+We identified 37,390 chromatin accessibility QTLs (caQTL) at 10% FDR across eight cell groups and observed extensive sharing of caQTLs across immune cell contexts, finding that fewer than 20% of caQTLs are specific to a single cell type.
+Notably, caQTLs colocalized with ∼50% more GWAS loci compared to eQTLs, helping to nominate putative causal genes for many unexplained loci.
+However, most GWAS-caQTL colocalizations had no detectable downstream regulatory effects on gene expression levels in the same cell type.
+We find evidence that the higher rates of colocalization between caQTLs and GWAS signals reflect missing disease-relevant cellular contexts among existing eQTL studies.
+Thus, there remains a pressing need for identifying disease-causing cellular contexts and for mapping gene regulatory variation in these cells.
+'
 publication: '*medRxiv*'
 ---
