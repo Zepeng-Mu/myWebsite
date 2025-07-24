@@ -1,6 +1,6 @@
 ---
 title: CV
-date: 2024-03-03
+date: 2025-07-13
 type: page
 featured: false
 draft: false
@@ -70,8 +70,16 @@ banner:
 - **Bachelar of Science**
   University of Chinese Academy of Sciences, *Sept., 2014 - Jul., 2018*
 
+### CURRENT EXPERIENCE
+**Postdoctoral Fellow**\
+Mentor: Dr. Soumya Raychaudhuri, Brigham and Women's Hospital and Harvard Medical School, Broad Institute.\
+*Jan. 2024 - present*
+
 
 ### PUBLICATIONS
+Yuriy Baglaenko, **Zepeng Mu**, Michelle Curtis, Hafsa M. Mire, Vidyashree Jayanthi, Majd Al Suqri, Cassidy Liu, Ryan Agnew, Aparna Nathan, Annelise Yoo Mah-Som, David R. Liu, Gregory A. Newby, Soumya Raychaudhuri. Precisely defining disease variant effects in CRISPR-edited single cells. <u>*Nature</u>* (2025).
+
+
 **Zepeng Mu**, Haley E. Randolph, Raúl Aguirre-Gamboa, Ellen Ketter, Anne Dumaine, Veronica Locher, Cary Brandolino, Xuanyao Liu, Daniel E. Kaufmann, Luis B. Barreiro, Yang I. Li. Impact of disease-associated chromatin accessibility QTLs across immune cell types and contexts. <u>*medRxiv*</u> (2024).
 
 Yu Zhao, Ran Zhou, **Zepeng Mu**, Peter Carbonetto, Xiaoyuan Zhong, Bingqing Xie, Kaixuan Luo, Candace M Cham, Jason Koval, Xin He, Andrew W. Dahl, Xuanyao Liu, Eugene B Chang, Anindita Basu, Sebastian Pott. Cell-type-resolved chromatin accessibility in the human intestine identifies complex regulatory programs and clarifies genetic associations in Crohn’s disease. <u>*medRxiv*</u> (2024).
@@ -102,40 +110,36 @@ Matthew R. Trendowski, Omar El-Charif, Mark J. Ratain, Patrick Monahan, **Zepeng
 ### RESEARCH SKILLS
 * **Dry Lab**: Molecular QTL mapping, bulk/single-cell RNA-seq/ATAC-seq analysis
 
-* **Wet Lab**: CRISPR, Treg suppression assay, CUT&Tag, Molecular cloning
+* **Wet Lab**: CRISPR editing, Treg suppression assay, CUT&Tag, Molecular cloning
 
 
-### RESEARCH EXPERIENCE
-Role: Postdoctoral Fellow\
-Mentor: Dr. Soumya Raychaudhuri, Brigham and Women's Hospital and Harvard Medical School, Broad Institute .\
-*Dec. 2018 - Mar. 2024*
+### PAST EXPERIENCE
 
-##### Dissecting the Genetics of Human Autoimmune Diseases
-Role: Ph.D. Candidate\
+**Ph.D. Candidate**\
 Mentor: Dr. Yang I. Li, Section of Genetic Medicine, Department of Medicine, The University of Chicago.\
+Thesis: "Dissecting the Genetics of Human Autoimmune Diseases"\
 *Dec. 2018 - Mar. 2024*
 
-##### Genome-wide Association Study of Cytotoxicity due to Cisplatin-related Chemotherapy Agents
-Role: Undergraduate Volunteer\
+**Undergraduate Volunteer**\
 Mentor: Dr. Eileen M. Dolan, Department of Medicine, The University of Chicago.\
+Project: "Genome-wide Association Study of Cytotoxicity due to Cisplatin-related Chemotherapy Agents"\
 *Oct. 2017 - Mar. 2018*
 
-##### Pathogenesis of Risk Loci Associated with type 2 diabetes on Chr9p21.3
-Role: Undergraduate Volunteer\
+**Undergraduate Volunteer**\
 Mentor: Dr. Changqing Zeng, Beijing Institute of Genomics, Chinese Academy of Sciences.\
+Project: "Pathogenesis of Risk Loci Associated with type 2 diabetes on Chr9p21.3"\
 *Aug. 2017 - Jul. 2018*
 
-##### Biophysics of a Novel Sodium Ion Pump Bacteriorhodopsin NdR2
-Role: Undergraduate Volunteer\
+**Undergraduate Volunteer**\
 Mentor: Dr. Deliang Chen, College of Life Sciences, University of Chinese Academy of Sciences.\
+Project: "Biophysics of a Novel Sodium Ion Pump Bacteriorhodopsin NdR2"\
 *Nov. 2016 - Jul. 2017*
 
-##### Characterization of Bacteria Toxin-Antitoxin (TA) Systems for a Kill-switch in Engineered ***E. coli***
-Role: Undergraduate Volunteer\
+**Undergraduate Volunteer**\
 Mentor: Dr. Chunbo Lou, Institute of Microbiology, Chinese Academy of Sciences.\
+Project: "Characterization of Bacteria Toxin-Antitoxin (TA) Systems for a Kill-switch in Engineered ***E. coli***"\
 Website: [UCAS iGEM 2016](http://2016.igem.org/Team:UCAS)\
 *Aug. 2016 - Nov. 2016*
-
 
 
 ### AWARDS

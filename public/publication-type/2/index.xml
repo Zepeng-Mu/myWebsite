@@ -5,7 +5,7 @@
     <link>http://localhost:1313/publication-type/2/</link>
       <atom:link href="http://localhost:1313/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 06 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 23 Jul 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu4845897644054598005.png</url>
       <title>2</title>
@@ -13,43 +13,20 @@
     </image>
     
     <item>
-      <title>A multi-tissue, splicing-based joint transcriptome-wide association study identifies susceptibility genes for breast cancer</title>
-      <link>http://localhost:1313/publication/gao-2024-multi/</link>
-      <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/gao-2024-multi/</guid>
+      <title>Precisely defining disease variant effects in CRISPR-edited single cells</title>
+      <link>http://localhost:1313/publication/baglaenko-2025/</link>
+      <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/baglaenko-2025/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Shaping immunity: The influence of natural selection on population immune diversity</title>
-      <link>http://localhost:1313/publication/randolph-2024/</link>
-      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/randolph-2024/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Epigenetic variation impacts individual differences in the transcriptional response to influenza infection</title>
-      <link>http://localhost:1313/publication/aracena-2024/</link>
-      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/aracena-2024/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cell-type-resolved chromatin accessibility in the human intestine identifies complex regulatory programs and clarifies genetic associations in Crohn&#39;s disease</title>
-      <link>http://localhost:1313/publication/zhao-2024-cell/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/zhao-2024-cell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Impact of disease-associated chromatin accessibility QTLs across immune cell types and contexts</title>
-      <link>http://localhost:1313/publication/mu-2024-impact/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/mu-2024-impact/</guid>
-      <description></description>
+      <title>Alternative polyadenylation mediates genetic regulation of gene expression</title>
+      <link>http://localhost:1313/publication/apaqtl/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/apaqtl/</guid>
+      <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+&lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;medium-donut&#39; data-badge-details=&#39;right&#39; data-doi=&#39;10.7554/eLife.57492&#39;&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>

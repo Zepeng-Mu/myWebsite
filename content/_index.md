@@ -59,7 +59,7 @@ sections:
     id: featured
     content:
       title: Featured Publications
-      count: 4
+      count: 5
       text: |-
         {{% callout note %}}
         See all publications [here](./publication/).
