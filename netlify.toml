@@ -1,14 +1,16 @@
+# Use Ubuntu 22.04 image (has newer GLIBC)
+[build.processing]
+  skip_processing = false
+
 [build]
-  image = "ubuntu-22.04"
   command = "hugo --gc --minify -b $URL"
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.150.0"
-  HUGO_ENABLEGITINFO = "true"
+  HUGO_VERSION = "0.139.3"
 
 [context.production.environment]
-  HUGO_ENV = "production"
+  NODE_VERSION = "18"  # if needed
 
 [context.deploy-preview]
   command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
