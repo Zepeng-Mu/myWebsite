@@ -56,7 +56,6 @@ publication_types: 'Article'
 
 abstract: '**Background**: The vast majority of trait-associated variants identified using genome-wide association studies (GWAS) are noncoding, and therefore assumed to impact gene regulation. However, the majority of trait-associated loci are unexplained by regulatory quantitative trait loci (QTLs).
 
-
 **Results**: We perform a comprehensive characterization of the putative mechanisms by which GWAS loci impact human immune traits. By harmonizing four major immune QTL studies, we identify 26,271 expression QTLs (eQTLs) and 23,121 splicing QTLs (sQTLs) spanning 18 immune cell types. Our colocalization analyses between QTLs and trait-associated loci from 72 GWAS reveals that genetic effects on RNA expression and splicing in immune cells colocalize with 40.4% of GWAS loci for immune-related traits, in many cases increasing the fraction of colocalized loci by two fold compared to previous studies. Notably, we find that the largest contributors of this increase are splicing QTLs, which colocalize on average with 14% of all GWAS loci that do not colocalize with eQTLs. By contrast, we find that cell type-specific eQTLs, and eQTLs with small effect sizes contribute very few new colocalizations. To investigate the 60% of GWAS loci that remain unexplained, we collect H3K27ac CUT&Tag data from rheumatoid arthritis and healthy controls, and find large-scale differences between immune cells from the different disease contexts, including at regions overlapping unexplained GWAS loci.
 
 

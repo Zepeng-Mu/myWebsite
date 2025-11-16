@@ -56,9 +56,9 @@ abstract: ''
 publication: '*Cell Genomics*'
 doi: 10.1016/j.xgen.2025.101061
 links:
-  - name: Zenodo
+  - name: 'Zenodo'
     url: https://zenodo.org/records/14652966
-  - name: SRA
+  - name: 'SRA'
     url: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRP618690&o=acc_s%3Aa
 abstract: Human genetics has emerged as one of the most dynamic areas of biology, with a broadening societal impact. In this review, we discuss recent achievements, ongoing efforts, and future challenges in the field. Advances in technology, statistical methods, and the growing scale of research efforts have all provided many insights into the processes that have given rise to the current patterns of genetic variation. Vast maps of genetic associations with human traits and diseases have allowed characterization of their genetic architecture. Finally, studies of molecular and cellular effects of genetic variants have provided insights into biological processes underlying disease. Many outstanding questions remain, but the field is well poised for groundbreaking discoveries as it increases the use of genetic data to understand both the history of our species and its applications to improve human health.
 ---
