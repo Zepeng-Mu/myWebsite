@@ -5,20 +5,12 @@
     <link>http://localhost:1313/publication-type/2/</link>
       <atom:link href="http://localhost:1313/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 23 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu4845897644054598005.png</url>
       <title>2</title>
       <link>http://localhost:1313/publication-type/2/</link>
     </image>
-    
-    <item>
-      <title>Precisely defining disease variant effects in CRISPR-edited single cells</title>
-      <link>http://localhost:1313/publication/baglaenko-2025/</link>
-      <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/baglaenko-2025/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Alternative polyadenylation mediates genetic regulation of gene expression</title>

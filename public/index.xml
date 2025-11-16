@@ -146,6 +146,14 @@ This tool has been used to generate Sashimi plots in published articles: --&gt;
     </item>
     
     <item>
+      <title>Impact of disease-associated chromatin accessibility QTLs across immune cell types and contexts</title>
+      <link>http://localhost:1313/publication/mu-2025-2/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/mu-2025-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Precisely defining disease variant effects in CRISPR-edited single cells</title>
       <link>http://localhost:1313/publication/baglaenko-2025/</link>
       <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
@@ -182,14 +190,6 @@ This tool has been used to generate Sashimi plots in published articles: --&gt;
       <link>http://localhost:1313/publication/zhao-2024-cell/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publication/zhao-2024-cell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Impact of disease-associated chromatin accessibility QTLs across immune cell types and contexts</title>
-      <link>http://localhost:1313/publication/mu-2024-impact/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/mu-2024-impact/</guid>
       <description></description>
     </item>
     

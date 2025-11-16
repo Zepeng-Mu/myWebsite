@@ -79,8 +79,7 @@ Mentor: Dr. Soumya Raychaudhuri, Brigham and Women's Hospital and Harvard Medica
 ### PUBLICATIONS
 Yuriy Baglaenko, **Zepeng Mu**, Michelle Curtis, Hafsa M. Mire, Vidyashree Jayanthi, Majd Al Suqri, Cassidy Liu, Ryan Agnew, Aparna Nathan, Annelise Yoo Mah-Som, David R. Liu, Gregory A. Newby, Soumya Raychaudhuri. Precisely defining disease variant effects in CRISPR-edited single cells. <u>*Nature</u>* (2025).
 
-
-**Zepeng Mu**, Haley E. Randolph, Raúl Aguirre-Gamboa, Ellen Ketter, Anne Dumaine, Veronica Locher, Cary Brandolino, Xuanyao Liu, Daniel E. Kaufmann, Luis B. Barreiro, Yang I. Li. Impact of disease-associated chromatin accessibility QTLs across immune cell types and contexts. <u>*medRxiv*</u> (2024).
+**Zepeng Mu**, Haley E. Randolph, Raúl Aguirre-Gamboa, Ellen Ketter, Anne Dumaine, Veronica Locher, Cary Brandolino, Xuanyao Liu, Daniel E. Kaufmann, Luis B. Barreiro, Yang I. Li. Impact of disease-associated chromatin accessibility QTLs across immune cell types and contexts. <u>*Cell Genomics*</u> (2025).
 
 Yu Zhao, Ran Zhou, **Zepeng Mu**, Peter Carbonetto, Xiaoyuan Zhong, Bingqing Xie, Kaixuan Luo, Candace M Cham, Jason Koval, Xin He, Andrew W. Dahl, Xuanyao Liu, Eugene B Chang, Anindita Basu, Sebastian Pott. Cell-type-resolved chromatin accessibility in the human intestine identifies complex regulatory programs and clarifies genetic associations in Crohn’s disease. <u>*medRxiv*</u> (2024).
 
@@ -107,7 +106,7 @@ Matthew R. Trendowski, Omar El-Charif, Mark J. Ratain, Patrick Monahan, **Zepeng
 <!-- Matthew R Trendowski, Omar El-Charif, **Zepeng Mu** et al. Pharmacokinetic modeling of serum platinum reveals extent of long-term exposure and associated comorbidities after cisplatin treatment. Cancer Research 79 (13 Supplement), 3904-3904. -->
 
 
-### RESEARCH SKILLS
+### SKILLS
 * **Dry Lab**: Molecular QTL mapping, bulk/single-cell RNA-seq/ATAC-seq analysis
 
 * **Wet Lab**: CRISPR editing, Treg suppression assay, CUT&Tag, Molecular cloning
