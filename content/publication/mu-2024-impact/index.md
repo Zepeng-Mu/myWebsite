@@ -34,7 +34,7 @@ categories: []
 date: '2024-01-01'
 lastmod: 2024-12-18T19:42:13-05:00
 featured: true
-draft: false
+draft: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

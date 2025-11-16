@@ -14,6 +14,8 @@ github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20231
 github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20231209203044-d31adfedd40b/go.mod h1:C7jfxMLv1bEUqbM9XDSmEpfOpS8w06OgqNDEcbuRgL4=
 github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20241016214324-2eaf5f6849fc h1:bv7NVkDrQlNQcYQ6LirA7r0IMIUGfh8z/Ltydnd60GY=
 github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20241016214324-2eaf5f6849fc/go.mod h1:C7jfxMLv1bEUqbM9XDSmEpfOpS8w06OgqNDEcbuRgL4=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.3-0.20251115161846-89ab4d1a3452 h1:lVrhsgvbOF9hM2cekt3rSdyG0nkWpjDRU1U2rR5KSwQ=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.3-0.20251115161846-89ab4d1a3452/go.mod h1:C7jfxMLv1bEUqbM9XDSmEpfOpS8w06OgqNDEcbuRgL4=
 github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal v1.1.2 h1:AyH1pungA2xQDHOrXiIssKOVMY1/qoJUgwrGiK7TzJM=
 github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal v1.1.2/go.mod h1:F7quX1aEkV2pToTpmDBXOSTkytAnCKkqv/JFLclqa2g=
 github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal v1.1.3-0.20241016214324-2eaf5f6849fc h1:0yMOxZgmrGqHKpUjLLxH3thJctZuFyGrYGbnuSdYbfQ=
@@ -24,6 +26,8 @@ github.com/HugoBlox/hugo-blox-builder/modules/blox-seo v0.2.3 h1:pg2uBp1kvNmhy+O
 github.com/HugoBlox/hugo-blox-builder/modules/blox-seo v0.2.3/go.mod h1:NsESu6cEms1DgH84icCyylElg2Zu8A0f7Fma5JR0LZE=
 github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.2.1-0.20241012174104-661cadc17327 h1:5P+3GBud67lEhxVevV2UbAZccMBMZnmsmSpP1amosXM=
 github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.2.1-0.20241012174104-661cadc17327/go.mod h1:bUQKSt1XQhk60nSpI6D+MibQi6v8s7HghF5qoAtlhws=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.10.1-0.20251115161846-89ab4d1a3452 h1:BmArAhfk4G1XIFs0+YMZH37mhBaBVI+rZCQR5S4FQeY=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.10.1-0.20251115161846-89ab4d1a3452/go.mod h1:iiKLoehg9IqQd0R4jUfhl+wvJCiXPNgV88A/V8iKSLY=
 github.com/wowchemy/wowchemy-hugo-modules v0.29.1-0.20210324194200-fda9f39d872e h1:10oss2aodK5Z5ePqgQMFKY/Gvuj2sJ7eRR3+5XTD9bY=
 github.com/wowchemy/wowchemy-hugo-modules/netlify-cms-academic v0.0.0-20210120025205-e0ae7c979cda h1:pOETHk90q0NVqcpi1UcTCZsO0UuchtcyJUuluP+Ae7o=
 github.com/wowchemy/wowchemy-hugo-modules/netlify-cms-academic v0.0.0-20210120025205-e0ae7c979cda/go.mod h1:TU3QDPUdBSQnvDP5QVCwjAkBIdVMS/bKFA8jr3eI5AY=
