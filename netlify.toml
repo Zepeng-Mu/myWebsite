@@ -1,4 +1,5 @@
 [build]
+  image = "ubuntu-22.04"
   command = "hugo --gc --minify -b $URL"
   publish = "public"
 
